@@ -1,0 +1,45 @@
+name: Vogel-Lexikon
+
+on:
+  schedule:
+    # UTC; ergibt im Winter ca. 6, 11, 15, 19 Uhr in Bremen (GitHub startet oft etwas später)
+    - cron: "40 4,9,13,17 * * *"
+  workflow_dispatch:
+    inputs:
+      art:
+        description: "Lateinischer Name erzwingen (optional, zum Testen)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vogel
+  cancel-in-progress: false
+
+jobs:
+  vogel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow==11.3.0
+      - name: Vogel wählen und Bild setzen
+        env:
+          ART: ${{ github.event.inputs.art }}
+        run: |
+          if [ -n "$ART" ]; then python vogel/vogel.py --art "$ART"; else python vogel/vogel.py; fi
+      - name: Committen und pushen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add vogel/vogel.png vogel/vogel_quer.png vogel/vogel.json vogel/tafeln.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Vogel $(TZ=Europe/Berlin date '+%d.%m. %H:%M')"
+          for i in 1 2 3 4; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
