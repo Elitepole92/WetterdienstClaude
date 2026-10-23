@@ -259,10 +259,10 @@ def textblock(art, tafel, tage, stand):
                     f"in den letzten {tage} Tagen"
                     + (f", zuletzt am {datum_text(art['zuletzt'])}" if art.get("zuletzt") else ""),
     }
-    quelle = tafel.get("kuenstler") or tafel.get("werk") or "Wikimedia Commons"
+    quelle = tafel.get("werk") or (tafel.get("kuenstler") or "Wikimedia Commons").split(";")[0]
     if tafel.get("jahr") and str(tafel["jahr"]) not in quelle:
         quelle += f", {tafel['jahr']}"
-    zeilen["fuss"] = f"Tafel: {quelle[:90]} · Daten: iNaturalist · Stand {stand}"
+    zeilen["fuss"] = f"Tafel: {quelle[:50]} · Daten: iNaturalist · Stand {stand}"
     return zeilen
 
 
