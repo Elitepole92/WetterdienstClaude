@@ -24,7 +24,7 @@ def main():
         "gefuehlt": f"{a['gefuehlt']} °C",
         "wetter": a["wetter"],
         "wind": f"{a['wind_kmh']} km/h, Böen {a['boeen_kmh']} km/h",
-        "heute": f"{h['min']}–{h['max']} °C, {h['wetter']}, Regenrisiko {h['regen_prozent']} %",
+        "heute": f"{h['min']}–{h['max']} °C, {h['wetter']}, Regenrisiko {h['regen_prozent'] if h['regen_prozent'] is not None else '?'} %",
         "stand": w["jetzt"][8:10] + "." + w["jetzt"][5:7] + ". " + w["jetzt"][11:16] + " Uhr",
     }
     ZIEL.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

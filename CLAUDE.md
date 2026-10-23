@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/Elitepole92/WetterdienstClaude/main/spruch.jso
 
 ## Ablauf eines Laufs
 
-1. `python3 scripts/wetter.py > /tmp/wetter.json` – Wetterdaten holen.
+1. `python3 scripts/wetter.py > /tmp/wetter.json` – Wetterdaten holen (Bright Sky / DWD).
    Schlägt das fehl: abbrechen, nichts committen, kein Spruch ausdenken.
 2. Wetterdaten lesen und **einen** Spruch schreiben (Regeln unten).
 3. `python3 scripts/schreibe_spruch.py "<Spruch>" < /tmp/wetter.json`
