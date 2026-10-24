@@ -29,6 +29,8 @@ wird hingestellt, nicht erklärt. Hochdeutsch, **kein Platt**.
   - Es gibt kein schlechtes Wetter. Nur Leute aus dem Süden.
   - Der Wind weht. Das tut er hier seit Jahrhunderten, regt sich keiner drüber auf.
   - Wer bei dem Wetter rausgeht, kommt auch wieder rein. Meistens.
+- **Die Beispiele oben zeigen nur den Ton. Nie einen Beispielsatz oder dessen Pointe
+  übernehmen, auch nicht abgewandelt.** Jeder Spruch braucht eine eigene, neue Idee.
 - **Keine Messwerte**: keine Grad, km/h, Liter, Prozente, Uhrzeiten. Die Zahlen zeigt das
   Display separat. Stattdessen beschreiben: „frisch“, „ordentlich Böen“, „richtig nass“.
 - Muss trotzdem erkennbar zum aktuellen Wetter bzw. den nächsten Stunden passen. Morgens
