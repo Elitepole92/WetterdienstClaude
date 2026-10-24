@@ -16,18 +16,27 @@ https://raw.githubusercontent.com/Elitepole92/WetterdienstClaude/main/spruch.jso
 
 ## Regeln für den Spruch
 
-- Norddeutscher Schnack auf Hochdeutsch: trocken, knapp, etwas derb. **Kein Platt.**
-  Höchstens ein, zwei Färbungen wie „Moin“, „nich“, „büschen“, „Schietwetter“, „Schnack“,
-  „klönen“, „Buddel“, „dröge“, „Jung“, „Deern“, „Digger“ – nicht alles auf einmal.
-- Darf den Leser ruhig dissen und frech sein (Faulheit, falsche Jacke, Radfahren gegen den
-  Wind, Weser, Viertel, Werder, Hamburger …). Keine Beleidigungen von Gruppen, nichts
-  Sexistisches/Rassistisches, keine Gewalt.
-- Muss sich konkret aufs aktuelle Wetter bzw. die nächsten Stunden beziehen (Temperatur,
-  Regen, Wind/Böen, Sonne). Morgens eher auf den Tag, um 19 Uhr auf Abend/Nacht und morgen.
-- Max. ca. 160 Zeichen, ein bis zwei Sätze, keine Emojis, keine Anführungszeichen.
-- Nicht wiederholen: vorher `git log -p -5 -- spruch.json` anschauen und andere Pointe wählen.
+Ton: **trockenes Norddeutsch** – Untertreibung, Gelassenheit, null Aufregung. Die Pointe
+wird hingestellt, nicht erklärt. Hochdeutsch, **kein Platt**.
 
-Beispiele für den Ton:
-- Elf Grad und Nieselregen. Wer heute in Sneakern losgeht, hat's echt nich anders verdient.
-- Böen bis 60 km/h – also ganz normaler Bremer Gegenwind. Stell dich nich so an und tritt in die Pedale.
-- Sonne satt im Viertel. Genieß es, Jung, das war's dann für dieses Jahr.
+- **Hauptstil (meistens): trocken mit kleinem Seitenhieb.** Das Wetter lakonisch
+  kommentieren und dann ein Stich gegen Hamburger, Süddeutsche, Werder, Touristen,
+  Schönwetter-Optimisten, Leute mit falscher Jacke … – Beispiele:
+  - Ordentlich Böen heute. Für Hamburger ist das Sturm, für uns ist das Lüften.
+  - Grau und frisch. Wer jetzt noch auf goldenen Oktober wartet, wartet auch auf Werders Meisterschaft.
+  - Heute Wind, morgen Regen. Der Herbst macht's wenigstens gründlich.
+- **Ab und zu (etwa jeder vierte Spruch): gelassene Lebensweisheit.** – Beispiele:
+  - Es gibt kein schlechtes Wetter. Nur Leute aus dem Süden.
+  - Der Wind weht. Das tut er hier seit Jahrhunderten, regt sich keiner drüber auf.
+  - Wer bei dem Wetter rausgeht, kommt auch wieder rein. Meistens.
+- **Keine Messwerte**: keine Grad, km/h, Liter, Prozente, Uhrzeiten. Die Zahlen zeigt das
+  Display separat. Stattdessen beschreiben: „frisch“, „ordentlich Böen“, „richtig nass“.
+- Muss trotzdem erkennbar zum aktuellen Wetter bzw. den nächsten Stunden passen. Morgens
+  eher auf den Tag, um 19 Uhr auf Abend/Nacht und morgen.
+- Mundart-Färbung höchstens sparsam („nich“, „büschen“, „Schietwetter“) und nur, wenn sie
+  natürlich klingt – nicht reinstreuen, damit es norddeutsch wirkt. Kein „Digger“.
+- Ein bis drei kurze Sätze, ca. 80–180 Zeichen. Keine Emojis, keine Anführungszeichen.
+- Frech ist erlaubt, aber keine Beleidigungen von Gruppen, nichts Sexistisches/
+  Rassistisches, keine Gewalt.
+- Nicht wiederholen: vorher `git log -p -8 -- spruch.json` anschauen und andere Pointe und
+  anderes Ziel für den Seitenhieb wählen.
