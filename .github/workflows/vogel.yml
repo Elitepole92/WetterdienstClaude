@@ -35,7 +35,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add vogel/vogel.png vogel/vogel_quer.png vogel/vogel.json vogel/tafeln.json
+          git add vogel/vogel.png vogel/vogel.json vogel/tafeln.json
           git diff --cached --quiet && exit 0
           git commit -m "Vogel $(TZ=Europe/Berlin date '+%d.%m. %H:%M')"
           for i in 1 2 3 4; do

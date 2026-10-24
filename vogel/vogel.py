@@ -5,8 +5,8 @@
    Bremen gemeldet wurden, und wählt eine davon (Abwechslung über den Verlauf).
 2. Sucht auf Wikimedia Commons eine handkolorierte Tafel aus einem Vogelwerk
    des 19. Jahrhunderts (Naumann, Gould, Keulemans, Susemihl …; gemeinfrei).
-3. Setzt daraus eine Lexikonseite mit deutschem und lateinischem Namen und
-   schreibt vogel/vogel.png (Hochformat), vogel/vogel_quer.png (Querformat)
+3. Setzt daraus ein quadratisches Bild mit deutschem und lateinischem Namen
+   und dem Datum der letzten Sichtung; schreibt vogel/vogel.png (1200×1200)
    und vogel/vogel.json.
 
 Aufruf: python3 vogel/vogel.py [--art "Turdus merula"]
@@ -86,13 +86,7 @@ def gesichtete_arten(tage):
     } for r in d["results"] if r["taxon"].get("rank") == "species"]
 
 
-def details(art, tage):
-    """Familie und letzte Sichtung nachladen."""
-    taxon = hole_json(f"{INAT}/taxa/{art['id']}", {"locale": "de"})["results"][0]
-    fam = next((a for a in taxon.get("ancestors", []) if a.get("rank") == "family"), None)
-    if fam:
-        art["familie_latein"] = fam["name"]
-        art["familie"] = fam.get("preferred_common_name") or fam["name"]
+def letzte_sichtung(art, tage):
     obs = hole_json(f"{INAT}/observations", {
         "taxon_id": art["id"], "lat": LAT, "lng": LNG, "radius": RADIUS_KM,
         "d1": (date.today() - timedelta(days=tage)).isoformat(),
@@ -235,99 +229,30 @@ def rahmen(draw, b, h, m):
     draw.rectangle((m + 12, m + 12, b - m - 12, h - m - 12), outline=TINTE, width=2)
 
 
-def zierlinie(draw, y, x0, x1):
-    xm = (x0 + x1) / 2
-    draw.line((x0, y, xm - 18, y), fill=TINTE, width=2)
-    draw.line((xm + 18, y, x1, y), fill=TINTE, width=2)
-    draw.polygon([(xm - 10, y), (xm, y - 7), (xm + 10, y), (xm, y + 7)], fill=TINTE)
-
-
 def datum_text(iso):
     d = date.fromisoformat(iso)
     return f"{d.day}. {MONATE[d.month - 1]}"
 
 
-def textblock(art, tafel, tage, stand):
-    zeilen = {
-        "kopf": "Vögel in Bremen",
-        "deutsch": art["deutsch"],
-        "latein": art["latein"],
-        "familie": (f"Familie der {art['familie']} · {art['familie_latein']}"
-                    if art.get("familie") and art["familie"] != art.get("familie_latein")
-                    else f"Familie {art.get('familie_latein', '')}").strip(),
-        "sichtung": f"{art['meldungen']} Meldung{'en' if art['meldungen'] != 1 else ''} "
-                    f"in den letzten {tage} Tagen"
-                    + (f", zuletzt am {datum_text(art['zuletzt'])}" if art.get("zuletzt") else ""),
-    }
-    quelle = tafel.get("werk") or (tafel.get("kuenstler") or "Wikimedia Commons").split(";")[0]
-    if tafel.get("jahr") and str(tafel["jahr"]) not in quelle:
-        quelle += f", {tafel['jahr']}"
-    zeilen["fuss"] = f"Tafel: {quelle[:50]} · Daten: iNaturalist · Stand {stand}"
-    return zeilen
-
-
-def seite_hoch(platte, z, b=1200, h=1600):
-    img = Image.new("RGB", (b, h), PAPIER)
+def seite(platte, art, groesse=1200):
+    """Quadratische Seite: Tafel, darunter deutscher und lateinischer Name,
+    klein die letzte Sichtung."""
+    img = Image.new("RGB", (groesse, groesse), PAPIER)
     d = ImageDraw.Draw(img)
     m = 28
-    rahmen(d, b, h, m)
-    innen0, innen1 = m + 50, b - m - 50
-    mittig(d, z["kopf"], schrift("kapitaelchen", 40), m + 42, 0, b)
-    zierlinie(d, m + 104, innen0 + 120, innen1 - 120)
+    rahmen(d, groesse, groesse, m)
+    x0, x1 = m + 50, groesse - m - 50
+    _setze_platte(img, platte, (x0, m + 45, x1, groesse - 300))
 
-    feld = (innen0, m + 130, innen1, h - 435)
-    _setze_platte(img, platte, feld)
-
-    y = h - 410
-    zierlinie(d, y, innen0 + 160, innen1 - 160)
-    f = passe_an(d, z["deutsch"], "normal", 92, innen1 - innen0)
-    mittig(d, z["deutsch"], f, y + 18, 0, b)
-    f = passe_an(d, z["latein"], "kursiv", 64, innen1 - innen0)
-    mittig(d, z["latein"], f, y + 125, 0, b, SEPIA)
-    mittig(d, z["familie"], passe_an(d, z["familie"], "kapitaelchen", 34, innen1 - innen0),
-           y + 208, 0, b)
-    mittig(d, z["sichtung"], passe_an(d, z["sichtung"], "kursiv", 32, innen1 - innen0),
-           y + 255, 0, b)
-    mittig(d, z["fuss"], passe_an(d, z["fuss"], "normal", 22, innen1 - innen0),
-           h - m - 52, 0, b, SEPIA)
+    y = groesse - 285
+    f = passe_an(d, art["deutsch"], "normal", 84, x1 - x0)
+    mittig(d, art["deutsch"], f, y, x0, x1)
+    f = passe_an(d, art["latein"], "kursiv", 58, x1 - x0)
+    mittig(d, art["latein"], f, y + 100, x0, x1, SEPIA)
+    if art.get("zuletzt"):
+        mittig(d, f"Zuletzt gesichtet am {datum_text(art['zuletzt'])}",
+               schrift("kursiv", 28), y + 168, x0, x1, SEPIA)
     return img
-
-
-def seite_quer(platte, z, b=1600, h=1200):
-    img = Image.new("RGB", (b, h), PAPIER)
-    d = ImageDraw.Draw(img)
-    m = 28
-    rahmen(d, b, h, m)
-    feld = (m + 45, m + 45, int(b * 0.6), h - m - 45)
-    _setze_platte(img, platte, feld)
-
-    x0, x1 = int(b * 0.6) + 40, b - m - 50
-    mittig(d, z["kopf"], schrift("kapitaelchen", 38), m + 80, x0, x1)
-    zierlinie(d, m + 145, x0 + 40, x1 - 40)
-    y = h // 2 - 190
-    f = passe_an(d, z["deutsch"], "normal", 84, x1 - x0)
-    mittig(d, z["deutsch"], f, y, x0, x1)
-    f = passe_an(d, z["latein"], "kursiv", 58, x1 - x0)
-    mittig(d, z["latein"], f, y + 115, x0, x1, SEPIA)
-    zierlinie(d, y + 215, x0 + 80, x1 - 80)
-    _umbrechen(d, z["familie"], schrift("kapitaelchen", 32), y + 245, x0, x1, 44)
-    _umbrechen(d, z["sichtung"], schrift("kursiv", 32), y + 345, x0, x1, 44)
-    _umbrechen(d, z["fuss"], schrift("normal", 22), h - m - 130, x0, x1, 30, SEPIA)
-    return img
-
-
-def _umbrechen(d, text, font, y, x0, x1, zeilenhoehe, farbe=TINTE):
-    zeile = ""
-    for wort in text.split():
-        probe = f"{zeile} {wort}".strip()
-        if d.textlength(probe, font=font) > x1 - x0 and zeile:
-            mittig(d, zeile, font, y, x0, x1, farbe)
-            y += zeilenhoehe
-            zeile = wort
-        else:
-            zeile = probe
-    if zeile:
-        mittig(d, zeile, font, y, x0, x1, farbe)
 
 
 def _setze_platte(img, platte, feld):
@@ -388,17 +313,14 @@ def main():
 
     art, tafel = gewaehlt
     print(f"Gewählt: {art['deutsch']} ({art['latein']}) – {tafel['datei']}")
-    art = details(art, tage)
+    art = letzte_sichtung(art, tage)
     platte = bereite_tafel_auf(hole_bild(tafel["url"]))
-    z = textblock(art, tafel, tage, stand)
-    seite_hoch(platte, z).save(HIER / "vogel.png", optimize=True)
-    seite_quer(platte, z).save(HIER / "vogel_quer.png", optimize=True)
+    seite(platte, art).save(HIER / "vogel.png", optimize=True)
 
     info = {
         "deutsch": art["deutsch"],
         "latein": art["latein"],
-        "familie": z["familie"],
-        "sichtung": z["sichtung"],
+        "zuletzt": art.get("zuletzt"),
         "tafel": tafel["datei"],
         "tafel_seite": tafel.get("seite"),
         "stand": stand,
