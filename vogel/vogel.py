@@ -25,7 +25,7 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
+from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
 
 HIER = Path(__file__).resolve().parent
 FONTS = HIER / "fonts"
@@ -237,12 +237,13 @@ def datum_text(iso):
 def seite(platte, art, groesse=1200):
     """Quadratische Seite: Tafel, darunter deutscher und lateinischer Name,
     klein die letzte Sichtung."""
-    img = Image.new("RGB", (groesse, groesse), PAPIER)
+    platte = stelle_frei(platte)
+    img = Image.new("RGB", (groesse, groesse), papierton(platte))
     d = ImageDraw.Draw(img)
     m = 28
-    rahmen(d, groesse, groesse, m)
     x0, x1 = m + 50, groesse - m - 50
-    _setze_platte(img, platte, (x0, m + 45, x1, groesse - 300))
+    _setze_platte(img, platte, (x0, m + 40, x1, groesse - 300))
+    rahmen(d, groesse, groesse, m)
 
     y = groesse - 285
     f = passe_an(d, art["deutsch"], "normal", 84, x1 - x0)
@@ -255,14 +256,45 @@ def seite(platte, art, groesse=1200):
     return img
 
 
+def stelle_frei(platte):
+    """Nur den Bildteil mit den Vögeln behalten: Tafelnummer, Beschriftung und
+    leeres Papier fallen weg. Dünne Linien (Schrift) werden über ein Opening
+    der Maske ignoriert, flächige Zeichnung bleibt stehen."""
+    f = 400 / platte.width
+    klein = platte.resize((400, max(1, int(platte.height * f))))
+    abstand = ImageChops.difference(klein, Image.new("RGB", klein.size, PAPIER)).convert("L")
+    maske = abstand.point(lambda v: 255 if v > 40 else 0)
+    maske = maske.filter(ImageFilter.MinFilter(5)).filter(ImageFilter.MaxFilter(15))
+    box = maske.getbbox()
+    if not box:
+        return platte
+    rand = 8
+    x0, y0, x1, y1 = (max(0, box[0] - rand), max(0, box[1] - rand),
+                      min(klein.width, box[2] + rand), min(klein.height, box[3] + rand))
+    return platte.crop(tuple(int(v / f) for v in (x0, y0, x1, y1)))
+
+
+def papierton(platte):
+    """Median der Randpixel, damit die Seite denselben Papierton hat wie die Tafel."""
+    k = platte.resize((100, 100))
+    rand = [k.getpixel((x, y)) for x in range(100) for y in range(100)
+            if min(x, y) < 3 or max(x, y) > 96]
+    return tuple(sorted(p[i] for p in rand)[len(rand) // 2] for i in range(3))
+
+
 def _setze_platte(img, platte, feld):
     x0, y0, x1, y1 = feld
-    p = platte.copy()
-    p.thumbnail((x1 - x0, y1 - y0), Image.LANCZOS)
+    p = platte
+    faktor = min((x1 - x0) / p.width, (y1 - y0) / p.height)
+    p = p.resize((int(p.width * faktor), int(p.height * faktor)), Image.LANCZOS)
+    # Ränder weich ins Seitenpapier auslaufen lassen, damit keine Kante sichtbar ist
+    weich = 30
+    maske = Image.new("L", p.size, 0)
+    ImageDraw.Draw(maske).rectangle((weich, weich, p.width - weich, p.height - weich), fill=255)
+    maske = maske.filter(ImageFilter.GaussianBlur(weich / 2))
     x = x0 + (x1 - x0 - p.width) // 2
     y = y0 + (y1 - y0 - p.height) // 2
-    img.paste(p, (x, y))
-    ImageDraw.Draw(img).rectangle((x - 1, y - 1, x + p.width, y + p.height), outline=SEPIA, width=1)
+    img.paste(p, (x, y), maske)
 
 
 # ---------------------------------------------------------------- Ablauf
