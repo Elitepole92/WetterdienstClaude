@@ -2,8 +2,10 @@ name: Vogel-Lexikon
 
 on:
   schedule:
-    # UTC; ergibt im Winter ca. 6, 11, 15, 19 Uhr in Bremen (GitHub startet oft etwas später)
-    - cron: "40 4,9,13,17 * * *"
+    # Alle 15 Minuten prüfen; ein neuer Vogel kommt nur um 6, 11, 15 und 19 Uhr
+    # Berliner Zeit (wie der Wetterspruch), einmal pro Stunde. Sommer-/Winterzeit
+    # regelt der Schritt "Zeitfenster prüfen".
+    - cron: "*/15 * * * *"
   workflow_dispatch:
     inputs:
       art:
@@ -22,16 +24,33 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Zeitfenster prüfen
+        id: fenster
+        run: |
+          slot=$(TZ=Europe/Berlin date '+%Y-%m-%d %H')
+          stunde=$(TZ=Europe/Berlin date '+%H')
+          letzter=$(jq -r '.slot // ""' vogel/vogel.json 2>/dev/null || true)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "los=true" >> "$GITHUB_OUTPUT"
+          elif [[ " 06 11 15 19 " == *" $stunde "* ]] && [ "$letzter" != "$slot" ]; then
+            echo "los=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Nichts zu tun (Berlin $slot Uhr, letzter Vogel: $letzter)."
+          fi
       - uses: actions/setup-python@v5
+        if: steps.fenster.outputs.los == 'true'
         with:
           python-version: "3.12"
       - run: pip install pillow==11.3.0
+        if: steps.fenster.outputs.los == 'true'
       - name: Vogel wählen und Bild setzen
+        if: steps.fenster.outputs.los == 'true'
         env:
           ART: ${{ github.event.inputs.art }}
         run: |
           if [ -n "$ART" ]; then python vogel/vogel.py --art "$ART"; else python vogel/vogel.py; fi
       - name: Committen und pushen
+        if: steps.fenster.outputs.los == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

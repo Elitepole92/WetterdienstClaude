@@ -356,6 +356,7 @@ def main():
         "tafel": tafel["datei"],
         "tafel_seite": tafel.get("seite"),
         "stand": stand,
+        "slot": jetzt.strftime("%Y-%m-%d %H"),  # verhindert Doppelläufe pro Stunde
         "verlauf": ([art["latein"]] + [v for v in verlauf if v != art["latein"]])[:VERLAUF_LAENGE],
     }
     INFO.write_text(json.dumps(info, ensure_ascii=False, indent=2) + "\n", "utf-8")
