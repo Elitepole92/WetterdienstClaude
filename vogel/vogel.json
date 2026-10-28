@@ -1,12 +1,13 @@
 {
-  "deutsch": "Höckerschwan",
-  "latein": "Cygnus olor",
-  "zuletzt": "2026-10-22",
-  "tafel": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 295) (6059471092).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Johann_Andreas_Naumann%27s_..._Naturgeschichte_der_V%C3%B6gel_Deutschlands,_nach_einigen_Erfahrungen_entworfen_(Taf._295)_(6059471092).jpg",
-  "stand": "28.10. 11:10 Uhr",
-  "slot": "2026-10-28 11",
+  "deutsch": "Mäusebussard",
+  "latein": "Buteo buteo",
+  "zuletzt": "2026-10-27",
+  "tafel": "File:Archibuteo Lagopus.tif",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Archibuteo_Lagopus.tif",
+  "stand": "28.10. 15:23 Uhr",
+  "slot": "2026-10-28 15",
   "verlauf": [
+    "Buteo buteo",
     "Cygnus olor",
     "Anas platyrhynchos",
     "Larus argentatus",
@@ -25,7 +26,6 @@
     "Anser anser",
     "Anas crecca",
     "Cyanistes caeruleus",
-    "Anser albifrons",
-    "Prunella modularis"
+    "Anser albifrons"
   ]
 }
