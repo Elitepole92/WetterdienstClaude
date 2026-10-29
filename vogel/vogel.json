@@ -1,12 +1,13 @@
 {
-  "deutsch": "Silberreiher",
-  "latein": "Ardea alba",
-  "zuletzt": "2026-10-22",
-  "tafel": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 222) (6059446046).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Johann_Andreas_Naumann%27s_..._Naturgeschichte_der_V%C3%B6gel_Deutschlands,_nach_einigen_Erfahrungen_entworfen_(Taf._222)_(6059446046).jpg",
-  "stand": "29.10. 06:08 Uhr",
-  "slot": "2026-10-29 06",
+  "deutsch": "Blaumeise",
+  "latein": "Cyanistes caeruleus",
+  "zuletzt": "2026-10-23",
+  "tafel": "File:Aegithalus and Parus Species by Naumann.jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Aegithalus_and_Parus_Species_by_Naumann.jpg",
+  "stand": "29.10. 11:11 Uhr",
+  "slot": "2026-10-29 11",
   "verlauf": [
+    "Cyanistes caeruleus",
     "Ardea alba",
     "Alopochen aegyptiaca",
     "Buteo buteo",
@@ -25,7 +26,6 @@
     "Parus major",
     "Columba palumbus",
     "Erithacus rubecula",
-    "Anser anser",
-    "Anas crecca"
+    "Anser anser"
   ]
 }
