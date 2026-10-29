@@ -1,12 +1,13 @@
 {
-  "deutsch": "Krickente",
-  "latein": "Anas crecca",
+  "deutsch": "Blässgans",
+  "latein": "Anser albifrons",
   "zuletzt": "2026-10-22",
-  "tafel": "File:Anas crecca 1873.jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Anas_crecca_1873.jpg",
-  "stand": "29.10. 15:06 Uhr",
+  "tafel": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 289) (6058921689).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Johann_Andreas_Naumann%27s_..._Naturgeschichte_der_V%C3%B6gel_Deutschlands,_nach_einigen_Erfahrungen_entworfen_(Taf._289)_(6058921689).jpg",
+  "stand": "29.10. 15:34 Uhr",
   "slot": "2026-10-29 15",
   "verlauf": [
+    "Anser albifrons",
     "Anas crecca",
     "Cyanistes caeruleus",
     "Ardea alba",
@@ -25,7 +26,6 @@
     "Gallinula chloropus",
     "Picus viridis",
     "Parus major",
-    "Columba palumbus",
-    "Erithacus rubecula"
+    "Columba palumbus"
   ]
 }
