@@ -1,12 +1,13 @@
 {
-  "deutsch": "Blaumeise",
-  "latein": "Cyanistes caeruleus",
-  "zuletzt": "2026-10-23",
-  "tafel": "File:Aegithalus and Parus Species by Naumann.jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Aegithalus_and_Parus_Species_by_Naumann.jpg",
-  "stand": "29.10. 11:11 Uhr",
-  "slot": "2026-10-29 11",
+  "deutsch": "Krickente",
+  "latein": "Anas crecca",
+  "zuletzt": "2026-10-22",
+  "tafel": "File:Anas crecca 1873.jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Anas_crecca_1873.jpg",
+  "stand": "29.10. 15:06 Uhr",
+  "slot": "2026-10-29 15",
   "verlauf": [
+    "Anas crecca",
     "Cyanistes caeruleus",
     "Ardea alba",
     "Alopochen aegyptiaca",
@@ -25,7 +26,6 @@
     "Picus viridis",
     "Parus major",
     "Columba palumbus",
-    "Erithacus rubecula",
-    "Anser anser"
+    "Erithacus rubecula"
   ]
 }
