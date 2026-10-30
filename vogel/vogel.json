@@ -1,12 +1,13 @@
 {
-  "deutsch": "Kormoran",
-  "latein": "Phalacrocorax carbo",
+  "deutsch": "Schnatterente",
+  "latein": "Mareca strepera",
   "zuletzt": "2026-10-29",
-  "tafel": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 279) (6059465798).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Johann_Andreas_Naumann%27s_..._Naturgeschichte_der_V%C3%B6gel_Deutschlands,_nach_einigen_Erfahrungen_entworfen_(Taf._279)_(6059465798).jpg",
-  "stand": "30.10. 11:09 Uhr",
-  "slot": "2026-10-30 11",
+  "tafel": "File:The birds of Europe (1837) (14747488391).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:The_birds_of_Europe_(1837)_(14747488391).jpg",
+  "stand": "30.10. 15:14 Uhr",
+  "slot": "2026-10-30 15",
   "verlauf": [
+    "Mareca strepera",
     "Phalacrocorax carbo",
     "Mergus serrator",
     "Anser anser",
@@ -25,7 +26,6 @@
     "Coloeus monedula",
     "Dendrocopos major",
     "Spatula clypeata",
-    "Chroicocephalus ridibundus",
-    "Gallinula chloropus"
+    "Chroicocephalus ridibundus"
   ]
 }
