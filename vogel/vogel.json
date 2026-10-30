@@ -1,12 +1,13 @@
 {
-  "deutsch": "Schnatterente",
-  "latein": "Mareca strepera",
-  "zuletzt": "2026-10-29",
-  "tafel": "File:The birds of Europe (1837) (14747488391).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:The_birds_of_Europe_(1837)_(14747488391).jpg",
-  "stand": "30.10. 15:14 Uhr",
-  "slot": "2026-10-30 15",
+  "deutsch": "Teichhuhn",
+  "latein": "Gallinula chloropus",
+  "zuletzt": "2026-10-30",
+  "tafel": "File:Gallinula chloropus by Naumann.jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Gallinula_chloropus_by_Naumann.jpg",
+  "stand": "30.10. 19:09 Uhr",
+  "slot": "2026-10-30 19",
   "verlauf": [
+    "Gallinula chloropus",
     "Mareca strepera",
     "Phalacrocorax carbo",
     "Mergus serrator",
@@ -25,7 +26,6 @@
     "Larus canus",
     "Coloeus monedula",
     "Dendrocopos major",
-    "Spatula clypeata",
-    "Chroicocephalus ridibundus"
+    "Spatula clypeata"
   ]
 }
