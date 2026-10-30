@@ -1,12 +1,13 @@
 {
-  "deutsch": "Graugans",
-  "latein": "Anser anser",
-  "zuletzt": "2026-10-22",
-  "tafel": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 285) (6059467990).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Johann_Andreas_Naumann%27s_..._Naturgeschichte_der_V%C3%B6gel_Deutschlands,_nach_einigen_Erfahrungen_entworfen_(Taf._285)_(6059467990).jpg",
-  "stand": "29.10. 19:09 Uhr",
-  "slot": "2026-10-29 19",
+  "deutsch": "Mittelsäger",
+  "latein": "Mergus serrator",
+  "zuletzt": "2026-10-29",
+  "tafel": "File:Mergus serrator 1921.jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Mergus_serrator_1921.jpg",
+  "stand": "30.10. 06:08 Uhr",
+  "slot": "2026-10-30 06",
   "verlauf": [
+    "Mergus serrator",
     "Anser anser",
     "Anser albifrons",
     "Anas crecca",
@@ -25,7 +26,6 @@
     "Spatula clypeata",
     "Chroicocephalus ridibundus",
     "Gallinula chloropus",
-    "Picus viridis",
-    "Parus major"
+    "Picus viridis"
   ]
 }
