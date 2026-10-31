@@ -1,12 +1,13 @@
 {
-  "deutsch": "Eichelhäher",
-  "latein": "Garrulus glandarius",
-  "zuletzt": "2026-10-30",
-  "tafel": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 58) (6059391616).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Johann_Andreas_Naumann%27s_..._Naturgeschichte_der_V%C3%B6gel_Deutschlands,_nach_einigen_Erfahrungen_entworfen_(Taf._58)_(6059391616).jpg",
-  "stand": "31.10. 12:27 Uhr",
-  "slot": "2026-10-31 12",
+  "deutsch": "Haubentaucher",
+  "latein": "Podiceps cristatus",
+  "zuletzt": "2026-10-29",
+  "tafel": "File:Podiceps cristatus Naumann white background.jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Podiceps_cristatus_Naumann_white_background.jpg",
+  "stand": "31.10. 15:08 Uhr",
+  "slot": "2026-10-31 15",
   "verlauf": [
+    "Podiceps cristatus",
     "Garrulus glandarius",
     "Mergus merganser",
     "Phasianus colchicus",
@@ -25,7 +26,6 @@
     "Anas platyrhynchos",
     "Larus argentatus",
     "Corvus corone",
-    "Turdus merula",
-    "Larus canus"
+    "Turdus merula"
   ]
 }
