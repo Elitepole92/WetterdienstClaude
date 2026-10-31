@@ -1,12 +1,13 @@
 {
-  "deutsch": "Teichhuhn",
-  "latein": "Gallinula chloropus",
+  "deutsch": "Fasan",
+  "latein": "Phasianus colchicus",
   "zuletzt": "2026-10-30",
-  "tafel": "File:Gallinula chloropus by Naumann.jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Gallinula_chloropus_by_Naumann.jpg",
-  "stand": "30.10. 19:09 Uhr",
-  "slot": "2026-10-30 19",
+  "tafel": "File:Birds and nature in natural colors - being a scientific and popular treatise on four hundred birds of the United States and Canada (1913) (14568615109).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Birds_and_nature_in_natural_colors_-_being_a_scientific_and_popular_treatise_on_four_hundred_birds_of_the_United_States_and_Canada_(1913)_(14568615109).jpg",
+  "stand": "31.10. 06:07 Uhr",
+  "slot": "2026-10-31 06",
   "verlauf": [
+    "Phasianus colchicus",
     "Gallinula chloropus",
     "Mareca strepera",
     "Phalacrocorax carbo",
@@ -25,7 +26,6 @@
     "Turdus merula",
     "Larus canus",
     "Coloeus monedula",
-    "Dendrocopos major",
-    "Spatula clypeata"
+    "Dendrocopos major"
   ]
 }
