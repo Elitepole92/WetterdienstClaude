@@ -1,12 +1,13 @@
 {
-  "deutsch": "Fasan",
-  "latein": "Phasianus colchicus",
+  "deutsch": "Gänsesäger",
+  "latein": "Mergus merganser",
   "zuletzt": "2026-10-30",
-  "tafel": "File:Birds and nature in natural colors - being a scientific and popular treatise on four hundred birds of the United States and Canada (1913) (14568615109).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Birds_and_nature_in_natural_colors_-_being_a_scientific_and_popular_treatise_on_four_hundred_birds_of_the_United_States_and_Canada_(1913)_(14568615109).jpg",
-  "stand": "31.10. 06:07 Uhr",
-  "slot": "2026-10-31 06",
+  "tafel": "File:The birds of Europe (1837) (14727672866).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:The_birds_of_Europe_(1837)_(14727672866).jpg",
+  "stand": "31.10. 11:07 Uhr",
+  "slot": "2026-10-31 11",
   "verlauf": [
+    "Mergus merganser",
     "Phasianus colchicus",
     "Gallinula chloropus",
     "Mareca strepera",
@@ -25,7 +26,6 @@
     "Corvus corone",
     "Turdus merula",
     "Larus canus",
-    "Coloeus monedula",
-    "Dendrocopos major"
+    "Coloeus monedula"
   ]
 }

@@ -135,6 +135,7 @@
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%28Plate_XXIII%29_%2820132195059%29.jpg/1920px-Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%28Plate_XXIII%29_%2820132195059%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "werk": "Keulemans"
   },
+  "Larus cachinnans": null,
   "Larus canus": {
     "datei": "File:The genera of birds (19322156592).jpg",
     "jahr": 1849,
@@ -149,6 +150,14 @@
     "kuenstler": "Internet Archive Book Images",
     "seite": "https://commons.wikimedia.org/wiki/File:The_birds_of_Europe_(1837)_(14747488391).jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/The_birds_of_Europe_%281837%29_%2814747488391%29.jpg/1920px-The_birds_of_Europe_%281837%29_%2814747488391%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "werk": "Gould"
+  },
+  "Mergus merganser": {
+    "datei": "File:The birds of Europe (1837) (14727672866).jpg",
+    "jahr": 1837,
+    "kuenstler": "Internet Archive Book Images",
+    "seite": "https://commons.wikimedia.org/wiki/File:The_birds_of_Europe_(1837)_(14727672866).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/The_birds_of_Europe_%281837%29_%2814727672866%29.jpg/1920px-The_birds_of_Europe_%281837%29_%2814727672866%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "werk": "Gould"
   },
   "Mergus serrator": {
