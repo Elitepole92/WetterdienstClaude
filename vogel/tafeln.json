@@ -1,44 +1,10 @@
 {
-  "Alopochen aegyptiaca": {
-    "bewertung": {
-      "detail": 0.256,
-      "farbe": 0.505,
-      "fuellung": 0.629,
-      "gesamt": 13.27,
-      "inseln": 1
-    },
-    "datei": "File:The birds of Europe (1837) (14563957050).jpg",
-    "jahr": 1837,
-    "kuenstler": "Internet Archive Book Images",
-    "punkte": 9,
-    "seite": "https://commons.wikimedia.org/wiki/File:The_birds_of_Europe_(1837)_(14563957050).jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/The_birds_of_Europe_%281837%29_%2814563957050%29.jpg/1280px-The_birds_of_Europe_%281837%29_%2814563957050%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "verglichen": [
-      {
-        "datei": "File:The birds of Europe (1837) (14563957050).jpg",
-        "detail": 0.256,
-        "farbe": 0.505,
-        "fuellung": 0.629,
-        "gesamt": 13.27,
-        "inseln": 1
-      },
-      {
-        "datei": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 294) (6058923225).jpg",
-        "detail": 0.348,
-        "farbe": 0.381,
-        "fuellung": 0.998,
-        "gesamt": 8.9,
-        "inseln": 1
-      }
-    ],
-    "werk": "Gould"
-  },
   "Anas platyrhynchos": {
     "bewertung": {
-      "detail": 0.296,
-      "farbe": 0.682,
-      "fuellung": 0.573,
-      "gesamt": 15.98,
+      "detail": 0.286,
+      "farbe": 0.661,
+      "fuellung": 0.439,
+      "gesamt": 18.69,
       "inseln": 1
     },
     "datei": "File:The Indian ducks and their allies (6254570660).jpg",
@@ -50,253 +16,54 @@
     "verglichen": [
       {
         "datei": "File:Anas platyrhynchos 1869.jpg",
-        "detail": 0.271,
-        "farbe": 0.365,
-        "fuellung": 0.573,
-        "gesamt": 11.03,
+        "detail": 0.259,
+        "farbe": 0.352,
+        "fuellung": 0.497,
+        "gesamt": 14.62,
         "inseln": 1
       },
       {
         "datei": "File:The birds of Europe (1837) (14563996429).jpg",
-        "detail": 0.314,
-        "farbe": 0.426,
-        "fuellung": 0.573,
-        "gesamt": 10.6,
+        "detail": 0.292,
+        "farbe": 0.41,
+        "fuellung": 0.422,
+        "gesamt": 13.38,
         "inseln": 1
       },
       {
         "datei": "File:Keulemans Onze vogels 1 69.jpg",
-        "detail": 0.298,
-        "farbe": 0.321,
-        "fuellung": 0.573,
-        "gesamt": 8.74,
+        "detail": 0.292,
+        "farbe": 0.311,
+        "fuellung": 0.495,
+        "gesamt": 12.28,
         "inseln": 1
       },
       {
         "datei": "File:The Indian ducks and their allies (1908) (14565347917).jpg",
-        "detail": 0.298,
-        "farbe": 0.682,
-        "fuellung": 0.571,
-        "gesamt": 15.95,
+        "detail": 0.287,
+        "farbe": 0.661,
+        "fuellung": 0.439,
+        "gesamt": 18.68,
         "inseln": 1
       },
       {
         "datei": "File:The Indian ducks and their allies (6254570660).jpg",
-        "detail": 0.296,
-        "farbe": 0.682,
-        "fuellung": 0.573,
-        "gesamt": 15.98,
+        "detail": 0.286,
+        "farbe": 0.661,
+        "fuellung": 0.439,
+        "gesamt": 18.69,
         "inseln": 1
       },
       {
         "datei": "File:Archibald Thorburn Winter landscape with mallard.jpg",
-        "detail": 0.316,
-        "farbe": 0.597,
-        "fuellung": 0.573,
-        "gesamt": 13.98,
+        "detail": 0.311,
+        "farbe": 0.593,
+        "fuellung": 0.51,
+        "gesamt": 17.81,
         "inseln": 1
       }
     ],
     "werk": "Keulemans"
   },
-  "Falco tinnunculus": {
-    "bewertung": {
-      "detail": 0.299,
-      "farbe": 0.563,
-      "fuellung": 0.969,
-      "gesamt": 15.15,
-      "inseln": 1
-    },
-    "datei": "File:FalcoKeulemans.jpg",
-    "jahr": 1874,
-    "kuenstler": "J G Keulemans",
-    "punkte": 9,
-    "seite": "https://commons.wikimedia.org/wiki/File:FalcoKeulemans.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/FalcoKeulemans.jpg/1280px-FalcoKeulemans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "verglichen": [
-      {
-        "datei": "File:Falco tinnunculus 1873.jpg",
-        "detail": 0.308,
-        "farbe": 0.33,
-        "fuellung": 0.998,
-        "gesamt": 8.47,
-        "inseln": 2
-      },
-      {
-        "datei": "File:GouldBirdsEuropeIKestrel.jpg",
-        "detail": 0.322,
-        "farbe": 0.356,
-        "fuellung": 0.9,
-        "gesamt": 10.38,
-        "inseln": 1
-      },
-      {
-        "datei": "File:The birds of Europe (9398543909).jpg",
-        "detail": 0.326,
-        "farbe": 0.352,
-        "fuellung": 0.92,
-        "gesamt": 10.33,
-        "inseln": 1
-      },
-      {
-        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (6029168332).jpg",
-        "detail": 0.356,
-        "farbe": 0.445,
-        "fuellung": 0.978,
-        "gesamt": 11.97,
-        "inseln": 1
-      },
-      {
-        "datei": "File:FalcoKeulemans.jpg",
-        "detail": 0.299,
-        "farbe": 0.563,
-        "fuellung": 0.969,
-        "gesamt": 15.15,
-        "inseln": 1
-      },
-      {
-        "datei": "File:Keulemans Onze vogels 2 02.jpg",
-        "detail": 0.323,
-        "farbe": 0.388,
-        "fuellung": 0.941,
-        "gesamt": 8.17,
-        "inseln": 2
-      }
-    ],
-    "werk": "Keulemans"
-  },
-  "Larus cachinnans": null,
-  "Picus viridis": {
-    "bewertung": {
-      "detail": 0.282,
-      "farbe": 0.578,
-      "fuellung": 0.841,
-      "gesamt": 15.19,
-      "inseln": 1
-    },
-    "datei": "File:British birds (1915) (19795674093).jpg",
-    "jahr": 1915,
-    "kuenstler": "Thorburn, Archibald, 1860-1935",
-    "punkte": 9,
-    "seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(19795674093).jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/British_birds_%281915%29_%2819795674093%29.jpg/1280px-British_birds_%281915%29_%2819795674093%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "verglichen": [
-      {
-        "datei": "File:Picus viridis 1876.jpg",
-        "detail": 0.343,
-        "farbe": 0.436,
-        "fuellung": 0.82,
-        "gesamt": 12.36,
-        "inseln": 1
-      },
-      {
-        "datei": "File:The birds of Europe (1837) (14729003216).jpg",
-        "detail": 0.24,
-        "farbe": 0.436,
-        "fuellung": 0.626,
-        "gesamt": 12.13,
-        "inseln": 1
-      },
-      {
-        "datei": "File:A history of the birds of Europe (Pl. 690) (6989244622).jpg",
-        "detail": 0.329,
-        "farbe": 0.372,
-        "fuellung": 0.926,
-        "gesamt": 10.71,
-        "inseln": 1
-      },
-      {
-        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (8290241883).jpg",
-        "detail": 0.303,
-        "farbe": 0.453,
-        "fuellung": 0.659,
-        "gesamt": 11.66,
-        "inseln": 1
-      },
-      {
-        "datei": "File:Keulemans Onze vogels 3 17.jpg",
-        "detail": 0.368,
-        "farbe": 0.492,
-        "fuellung": 0.817,
-        "gesamt": 12.09,
-        "inseln": 1
-      },
-      {
-        "datei": "File:British birds (1915) (19795674093).jpg",
-        "detail": 0.282,
-        "farbe": 0.578,
-        "fuellung": 0.841,
-        "gesamt": 15.19,
-        "inseln": 1
-      }
-    ],
-    "werk": "Thorburn"
-  },
-  "Turdus merula": {
-    "bewertung": {
-      "detail": 0.256,
-      "farbe": 0.371,
-      "fuellung": 0.797,
-      "gesamt": 11.28,
-      "inseln": 1
-    },
-    "datei": "File:GouldBirdsEuropeIIBlackbird.jpg",
-    "jahr": 1837,
-    "kuenstler": "J and E Gould E Lear",
-    "punkte": 9,
-    "seite": "https://commons.wikimedia.org/wiki/File:GouldBirdsEuropeIIBlackbird.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/GouldBirdsEuropeIIBlackbird.jpg/1280px-GouldBirdsEuropeIIBlackbird.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "verglichen": [
-      {
-        "datei": "File:Turdus merula 1869.jpg",
-        "detail": 0.249,
-        "farbe": 0.249,
-        "fuellung": 0.751,
-        "gesamt": 9.75,
-        "inseln": 1
-      },
-      {
-        "datei": "File:GouldBirdsEuropeIIBlackbird.jpg",
-        "detail": 0.256,
-        "farbe": 0.371,
-        "fuellung": 0.797,
-        "gesamt": 11.28,
-        "inseln": 1
-      },
-      {
-        "datei": "File:Keulemans Onze vogels 1 23.jpg",
-        "detail": 0.251,
-        "farbe": 0.266,
-        "fuellung": 0.751,
-        "gesamt": 9.06,
-        "inseln": 1
-      },
-      {
-        "datei": "File:Onze vogels in huis en tuin (12239505706).jpg",
-        "detail": 0.249,
-        "farbe": 0.3,
-        "fuellung": 0.751,
-        "gesamt": 9.78,
-        "inseln": 1
-      },
-      {
-        "datei": "File:A naturalist's sketch book (Plate 22) BHL46157839.jpg",
-        "detail": 0.225,
-        "farbe": 0.398,
-        "fuellung": 0.56,
-        "gesamt": 8.31,
-        "inseln": 2
-      },
-      {
-        "datei": "File:British birds (1915) (20229954889).jpg",
-        "detail": 0.252,
-        "farbe": 0.61,
-        "fuellung": 0.826,
-        "gesamt": 10.22,
-        "inseln": 3
-      }
-    ],
-    "werk": "Gould"
-  },
-  "_version": 2
+  "_version": 3
 }
