@@ -1,10 +1,10 @@
 {
   "Anas platyrhynchos": {
     "bewertung": {
-      "detail": 0.283,
-      "farbe": 0.696,
-      "fuellung": 0.408,
-      "gesamt": 19.06,
+      "detail": 0.284,
+      "farbe": 0.692,
+      "fuellung": 0.422,
+      "gesamt": 19.15,
       "inseln": 1
     },
     "datei": "File:The Indian ducks and their allies (1908) (14565347917).jpg",
@@ -17,49 +17,49 @@
       {
         "datei": "File:Anas platyrhynchos 1869.jpg",
         "detail": 0.25,
-        "farbe": 0.362,
-        "fuellung": 0.462,
-        "gesamt": 14.53,
+        "farbe": 0.386,
+        "fuellung": 0.5,
+        "gesamt": 15.46,
         "inseln": 1
       },
       {
         "datei": "File:The birds of Europe (1837) (14563996429).jpg",
-        "detail": 0.284,
+        "detail": 0.283,
         "farbe": 0.466,
-        "fuellung": 0.386,
-        "gesamt": 14.19,
+        "fuellung": 0.422,
+        "gesamt": 14.63,
         "inseln": 1
       },
       {
         "datei": "File:Keulemans Onze vogels 1 69.jpg",
         "detail": 0.283,
-        "farbe": 0.319,
-        "fuellung": 0.46,
-        "gesamt": 12.15,
+        "farbe": 0.328,
+        "fuellung": 0.48,
+        "gesamt": 12.57,
         "inseln": 1
       },
       {
         "datei": "File:The Indian ducks and their allies (1908) (14565347917).jpg",
-        "detail": 0.283,
-        "farbe": 0.696,
-        "fuellung": 0.408,
-        "gesamt": 19.06,
+        "detail": 0.284,
+        "farbe": 0.692,
+        "fuellung": 0.422,
+        "gesamt": 19.15,
         "inseln": 1
       },
       {
         "datei": "File:The Indian ducks and their allies (6254570660).jpg",
-        "detail": 0.279,
-        "farbe": 0.693,
-        "fuellung": 0.408,
-        "gesamt": 19.06,
+        "detail": 0.282,
+        "farbe": 0.691,
+        "fuellung": 0.421,
+        "gesamt": 19.14,
         "inseln": 1
       },
       {
         "datei": "File:Archibald Thorburn Winter landscape with mallard.jpg",
-        "detail": 0.3,
-        "farbe": 0.637,
-        "fuellung": 0.508,
-        "gesamt": 15.83,
+        "detail": 0.301,
+        "farbe": 0.635,
+        "fuellung": 0.51,
+        "gesamt": 15.81,
         "inseln": 2
       }
     ],
