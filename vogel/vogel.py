@@ -467,35 +467,62 @@ def _setze_platte(img, platte, feld):
     p = p.resize((int(p.width * faktor), int(p.height * faktor)), Image.LANCZOS)
     x = x0 + (x1 - x0 - p.width) // 2
     y = y0 + (y1 - y0 - p.height) // 2
-    # Ist links und rechts Platz, läuft der Bildhintergrund seitlich bis zum Rahmen aus
+    # Bleibt seitlich oder oben/unten Platz, läuft der Bildhintergrund bis zum Rahmen
+    # (unten bis zur Linie über der Unterschrift) aus
     links, rechts = x - 5, img.width - 5 - (x + p.width)
-    if links > 8:
+    oben, unten = y - 5, y1 + 2 - (y + p.height)
+    seitlich, senkrecht = links > 8, oben > 8
+    if seitlich:
         breit = Image.new("RGB", (p.width + links + rechts, p.height), PAPIER)
         breit.paste(_verlauf(p, links, "links"), (0, 0))
-        breit.paste(p, (links, 0))
+        breit.paste(p, (links, 0), _feder(p.size, seitlich=True))
         breit.paste(_verlauf(p, rechts, "rechts"), (links + p.width, 0))
         p, x = breit, x - links
-    # Ränder weich ins Seitenpapier auslaufen lassen, damit keine Kante sichtbar ist
+    if senkrecht:
+        hoch = Image.new("RGB", (p.width, p.height + oben + unten), PAPIER)
+        hoch.paste(_verlauf(p, oben, "oben"), (0, 0))
+        hoch.paste(p, (0, oben), _feder(p.size, seitlich=False))
+        hoch.paste(_verlauf(p, unten, "unten"), (0, oben + p.height))
+        p, y = hoch, y - oben
+    # Übrige Ränder weich ins Seitenpapier auslaufen lassen, damit keine Kante sichtbar ist
     weich = 12
-    seitlich = 0 if links > 8 else weich
+    rx = 0 if seitlich else weich
+    ry = 0 if senkrecht else weich
     maske = Image.new("L", p.size, 0)
-    ImageDraw.Draw(maske).rectangle((seitlich, weich, p.width - seitlich, p.height - weich),
-                                    fill=255)
+    ImageDraw.Draw(maske).rectangle((rx, ry, p.width - rx, p.height - ry), fill=255)
     maske = maske.filter(ImageFilter.GaussianBlur(weich / 2))
     img.paste(p, (x, y), maske)
 
 
+def _feder(groesse, seitlich, weich=10):
+    """Maske, die die Tafel an zwei gegenüberliegenden Kanten weich ausblendet."""
+    w, h = groesse
+    maske = Image.new("L", groesse, 0)
+    box = (weich, -weich, w - weich, h + weich) if seitlich else (-weich, weich, w + weich, h - weich)
+    ImageDraw.Draw(maske).rectangle(box, fill=255)
+    return maske.filter(ImageFilter.GaussianBlur(weich / 2))
+
+
 def _verlauf(p, breite, seite):
-    """Streifen, der die Randfarbe der Tafel (zeilenweise, vertikal geglättet) weich in
-    PAPIER übergehen lässt – an der Tafel volle Randfarbe, am Rahmen reines Papier."""
-    spalte = p.crop((0, 0, 6, p.height) if seite == "links" else
-                    (p.width - 6, 0, p.width, p.height)).resize((1, p.height))
-    spalte = spalte.filter(ImageFilter.GaussianBlur(10))
-    rand = spalte.resize((breite, p.height))
-    rampe = Image.linear_gradient("L").rotate(90 if seite == "links" else -90)
-    rampe = rampe.resize((breite, p.height))
+    """Streifen, der die Randfarbe der Tafel (geglättet) weich in PAPIER übergehen lässt –
+    an der Tafel volle Randfarbe, am Rahmen reines Papier."""
+    quer = seite in ("links", "rechts")
+    n = p.height if quer else p.width
+    rand = {"links": (0, 0, 6, p.height), "rechts": (p.width - 6, 0, p.width, p.height),
+            "oben": (0, 0, p.width, 6), "unten": (0, p.height - 6, p.width, p.height)}[seite]
+    streifen = p.crop(rand).resize((1, n) if quer else (n, 1))
+    # Nur Hintergrundtöne übernehmen: dunkle Motivteile (Vogel, Schilf) am Rand würden
+    # sonst als Schlieren in den Verlauf gezogen
+    hell = sum(PAPIER) * 0.8
+    streifen.putdata([c if sum(c) >= hell else PAPIER for c in streifen.getdata()])
+    streifen = streifen.filter(ImageFilter.GaussianBlur(40))
+    groesse = (breite, n) if quer else (n, breite)
+    farbe = streifen.resize(groesse)
+    # linear_gradient: oben 0, unten 255 – so drehen, dass 255 an der Tafel liegt
+    drehung = {"links": 90, "rechts": -90, "oben": 0, "unten": 180}[seite]
+    rampe = Image.linear_gradient("L").rotate(drehung).resize(groesse)
     rampe = rampe.point(lambda v: int(255 * (v / 255) ** 0.7))  # Randfarbe trägt etwas weiter
-    return Image.composite(rand, Image.new("RGB", rand.size, PAPIER), rampe)
+    return Image.composite(farbe, Image.new("RGB", groesse, PAPIER), rampe)
 
 
 # ---------------------------------------------------------------- Ablauf
