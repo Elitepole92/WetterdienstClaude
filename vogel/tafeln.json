@@ -1,4 +1,70 @@
 {
+  "Anas platyrhynchos": {
+    "bewertung": {
+      "detail": 0.283,
+      "farbe": 0.696,
+      "fuellung": 0.408,
+      "gesamt": 19.06,
+      "inseln": 1
+    },
+    "datei": "File:The Indian ducks and their allies (1908) (14565347917).jpg",
+    "jahr": 1908,
+    "kuenstler": "Baker, E. C. Stuart (Edward Charles Stuart), 1864-1944; Lodge, George Edward, ill; Grnvold, Henrik, 1858-1940, ill; Keul",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:The_Indian_ducks_and_their_allies_(1908)_(14565347917).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/The_Indian_ducks_and_their_allies_%281908%29_%2814565347917%29.jpg/1280px-The_Indian_ducks_and_their_allies_%281908%29_%2814565347917%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Anas platyrhynchos 1869.jpg",
+        "detail": 0.25,
+        "farbe": 0.362,
+        "fuellung": 0.462,
+        "gesamt": 14.53,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The birds of Europe (1837) (14563996429).jpg",
+        "detail": 0.284,
+        "farbe": 0.466,
+        "fuellung": 0.386,
+        "gesamt": 14.19,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 1 69.jpg",
+        "detail": 0.283,
+        "farbe": 0.319,
+        "fuellung": 0.46,
+        "gesamt": 12.15,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The Indian ducks and their allies (1908) (14565347917).jpg",
+        "detail": 0.283,
+        "farbe": 0.696,
+        "fuellung": 0.408,
+        "gesamt": 19.06,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The Indian ducks and their allies (6254570660).jpg",
+        "detail": 0.279,
+        "farbe": 0.693,
+        "fuellung": 0.408,
+        "gesamt": 19.06,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Archibald Thorburn Winter landscape with mallard.jpg",
+        "detail": 0.3,
+        "farbe": 0.637,
+        "fuellung": 0.508,
+        "gesamt": 15.83,
+        "inseln": 2
+      }
+    ],
+    "werk": "Keulemans"
+  },
   "Ardea alba": {
     "bewertung": {
       "detail": 0.253,
