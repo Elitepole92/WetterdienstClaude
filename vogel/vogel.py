@@ -43,7 +43,7 @@ VERLAUF_LAENGE = 20
 PAPIER = (250, 246, 230)  # #FAF6E6, fester Hintergrund fürs HMI
 BREITE, HOEHE = 480, 680   # Bildfläche im HMI (Display 480×800 hochkant)
 FELD = (14, 14, BREITE - 14, 620)  # Bereich für die Tafel (bei zweizeiliger Unterschrift kürzer)
-CACHE_VERSION = 2
+CACHE_VERSION = 3
 TINTE = (28, 22, 16)
 SEPIA = (92, 64, 40)
 
@@ -203,7 +203,7 @@ def suche_tafel(art):
 def bewerte(platte, kandidat):
     """Wie gut taugt die (aufbereitete) Tafel fürs kleine Display? Farbig, große ruhige
     Flächen und gute Ausnutzung des Feldes sind gut; viel Feindetail ist schlecht."""
-    p = schneide_breite(auf_papier(stelle_frei(platte)))
+    p = auf_papier(stelle_frei(platte))
     fb, fh = FELD[2] - FELD[0], FELD[3] - FELD[1]
     faktor = min(fb / p.width, fh / p.height)
     p = p.resize((max(1, int(p.width * faktor)), max(1, int(p.height * faktor))), Image.LANCZOS)
@@ -216,7 +216,8 @@ def bewerte(platte, kandidat):
     detail = sum(1 for k, m in zip(kanten, maske) if m and k > 48) / n
     fuellung = p.width * p.height / (fb * fh)
     inseln = zaehle_inseln(p)
-    gesamt = (kandidat["punkte"] * 0.5 + farbe * 20 + fuellung * 4 - detail * 15
+    # Füllung stark gewichtet: hohe Tafeln nutzen das hohe Bildfeld, breite lassen Leerraum
+    gesamt = (kandidat["punkte"] * 0.5 + farbe * 20 + fuellung * 12 - detail * 15
               - (inseln - 1) * 3)
     return {"farbe": round(farbe, 3), "detail": round(detail, 3),
             "fuellung": round(fuellung, 3), "inseln": inseln, "gesamt": round(gesamt, 2)}
@@ -360,10 +361,10 @@ def seite(platte, art):
     if datum:
         d.text((x1, grund), datum, font=f_dat, fill=SEPIA, anchor="rs")
         x_sym = int(x1 - b_dat)
-        img.paste(symbol, (x_sym, grund - symbol.height), symbol)
+        img.paste(symbol, (x_sym, grund - symbol.height + 3), symbol)
     d.line((x0, linie, x1, linie), fill=SEPIA, width=1)
 
-    _setze_platte(img, schneide_breite(auf_papier(stelle_frei(platte))),
+    _setze_platte(img, auf_papier(stelle_frei(platte)),
                   (FELD[0], FELD[1], FELD[2], unten))
     rahmen(d, BREITE, HOEHE, 4)
     return img
@@ -408,24 +409,6 @@ def _groesster_block(profil, luecke):
     if not bloecke:
         return 0, 0
     return max(bloecke, key=lambda bl: sum(profil[bl[0]:bl[1]]))
-
-
-def schneide_breite(platte, max_seitenverhaeltnis=1.3):
-    """Sehr breite Bilder seitlich beschneiden, zentriert auf den Schwerpunkt der Zeichnung,
-    damit der Vogel im hohen Bildfeld größer wird."""
-    w, h = platte.size
-    if w / h <= max_seitenverhaeltnis:
-        return platte
-    neu = int(h * max_seitenverhaeltnis)
-    abstand = ImageChops.difference(platte, Image.new("RGB", platte.size, PAPIER)).convert("L")
-    spalten = [0] * w
-    klein = abstand.resize((w // 4 or 1, h // 4 or 1))
-    for x in range(klein.width):
-        spalten[min(w - 1, x * 4)] = sum(klein.getpixel((x, y)) for y in range(klein.height))
-    gesamt = sum(spalten) or 1
-    mitte = int(sum(x * v for x, v in enumerate(spalten)) / gesamt)
-    links = min(max(0, mitte - neu // 2), w - neu)
-    return platte.crop((links, 0, links + neu, h))
 
 
 def auf_papier(platte):
