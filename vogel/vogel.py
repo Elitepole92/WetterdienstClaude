@@ -494,7 +494,7 @@ def _setze_platte(img, platte, feld):
     img.paste(p, (x, y), maske)
 
 
-def _feder(groesse, seitlich, weich=10):
+def _feder(groesse, seitlich, weich=18):
     """Maske, die die Tafel an zwei gegenüberliegenden Kanten weich ausblendet."""
     w, h = groesse
     maske = Image.new("L", groesse, 0)
