@@ -166,6 +166,11 @@ def suche_tafel(art):
             and deutsch.lower() in text)
         if not name_ok:
             continue
+        # Andere Unterart (z. B. "Turdus merula bourdilloni") – nur die Nominatform passt
+        unterarten = re.findall(rf"{re.escape(latein.lower())}\s+([a-z]{{5,}})", text)
+        if any(u != epitheton.lower() and u.endswith(("i", "ae", "ensis", "anus", "ana", "icus"))
+               for u in unterarten):
+            continue
         punkte = 3 if latein.lower() in titel.lower() else 1
         werk = next(((w, b) for w, b in WERKE if w.lower() in text), None)
         j = jahr(meta)
