@@ -41,8 +41,9 @@ COMMONS = "https://commons.wikimedia.org/w/api.php"
 VERLAUF_LAENGE = 20
 
 PAPIER = (250, 246, 230)  # #FAF6E6, fester Hintergrund fürs HMI
-BREITE, HOEHE = 480, 640   # Bildfläche im HMI (Display 480×800 hochkant)
-FELD = (14, 14, BREITE - 14, 586)  # Bereich für die Tafel (bei zweizeiliger Unterschrift kürzer)
+BREITE, HOEHE = 680, 480   # Bildfläche im HMI (Querformat)
+FELD_BREIT = (14, 14, BREITE - 14, 426)   # breite Tafel: volle Breite, Unterschrift darunter
+FELD_HOCH = (14, 14, 474, HOEHE - 14)     # hohe Tafel: links, Beschriftung rechts daneben
 CACHE_VERSION = 2
 TINTE = (28, 22, 16)
 SEPIA = (92, 64, 40)
@@ -204,7 +205,8 @@ def bewerte(platte, kandidat):
     """Wie gut taugt die (aufbereitete) Tafel fürs kleine Display? Farbig, große ruhige
     Flächen und gute Ausnutzung des Feldes sind gut; viel Feindetail ist schlecht."""
     p = schneide_breite(auf_papier(stelle_frei(platte)))
-    fb, fh = FELD[2] - FELD[0], FELD[3] - FELD[1]
+    feld = FELD_BREIT if ist_breit(p) else FELD_HOCH
+    fb, fh = feld[2] - feld[0], feld[3] - feld[1]
     faktor = min(fb / p.width, fh / p.height)
     p = p.resize((max(1, int(p.width * faktor)), max(1, int(p.height * faktor))), Image.LANCZOS)
     abstand = ImageChops.difference(p, Image.new("RGB", p.size, PAPIER)).convert("L")
@@ -312,37 +314,65 @@ def datum_text(iso):
     return f"{d.day}. {MONATE[d.month - 1]}"
 
 
+def ist_breit(p):
+    """Breite Tafeln bekommen die volle Bildbreite, hohe die linke Seite."""
+    return p.width / p.height >= 1.15
+
+
 def seite(platte, art):
-    """Seite 480×640: Tafel fast vollflächig, darunter eine Bildunterschrift wie im
-    Lexikon – Name, lateinischer Name kursiv, rechts das Datum der letzten Sichtung.
-    Passt das nicht in eine Zeile, stehen die Namen untereinander."""
+    """Seite 680×480 im Querformat. Hohe Tafel: Bild links, rechts ein Schild mit Name,
+    lateinischem Name und Datum. Breite Tafel: Bild über die volle Breite, darunter
+    eine einzeilige Bildunterschrift."""
     img = Image.new("RGB", (BREITE, HOEHE), PAPIER)
     d = ImageDraw.Draw(img)
-    x0, x1 = 22, BREITE - 22
+    p = schneide_breite(auf_papier(stelle_frei(platte)), max_seitenverhaeltnis=1.6)
     name, latein = art["deutsch"], art["latein"]
     datum = datum_text(art["zuletzt"]) if art.get("zuletzt") else ""
     f_name, f_lat, f_dat = schrift("normal", 26), schrift("kursiv", 19), schrift("normal", 18)
-    b_name, b_lat = d.textlength(name, font=f_name), d.textlength(latein, font=f_lat)
-    b_dat = d.textlength(datum, font=f_dat)
 
-    if b_name + 10 + b_lat + 16 + b_dat <= x1 - x0:
-        linie, unten = 592, 586
-        d.text((x0, 616), name, font=f_name, fill=TINTE, anchor="ls")
-        d.text((x0 + b_name + 10, 616), latein, font=f_lat, fill=SEPIA, anchor="ls")
+    if ist_breit(p):
+        x0, x1 = 22, BREITE - 22
+        b_name = d.textlength(name, font=f_name)
+        d.text((x0, 456), name, font=f_name, fill=TINTE, anchor="ls")
+        d.text((x0 + b_name + 10, 456), latein, font=f_lat, fill=SEPIA, anchor="ls")
+        if datum:
+            d.text((x1, 456), datum, font=f_dat, fill=SEPIA, anchor="rs")
+        d.line((x0, 432, x1, 432), fill=SEPIA, width=1)
+        _setze_platte(img, p, FELD_BREIT)
     else:
-        linie, unten = 562, 556
-        f_name = passe_an(d, name, "normal", 26, x1 - x0)
-        d.text((x0, 590), name, font=f_name, fill=TINTE, anchor="ls")
-        f_lat = passe_an(d, latein, "kursiv", 19, x1 - x0 - b_dat - 16)
-        d.text((x0, 616), latein, font=f_lat, fill=SEPIA, anchor="ls")
-    if datum:
-        d.text((x1, 616), datum, font=f_dat, fill=SEPIA, anchor="rs")
-    d.line((x0, linie, x1, linie), fill=SEPIA, width=1)
-
-    _setze_platte(img, schneide_breite(auf_papier(stelle_frei(platte))),
-                  (FELD[0], FELD[1], FELD[2], unten))
+        # Schild rechts unten, linksbündig, von unten nach oben gesetzt
+        x0, x1 = FELD_HOCH[2] + 18, BREITE - 22
+        f_name = passe_an(d, max(name.split(), key=len), "normal", 26, x1 - x0)
+        f_lat = passe_an(d, max(latein.split(), key=len), "kursiv", 19, x1 - x0)
+        y = HOEHE - 24
+        if datum:
+            d.text((x0, y), datum, font=f_dat, fill=SEPIA, anchor="ls")
+            y -= 34
+        for zeile in reversed(_zeilen(d, latein, f_lat, x1 - x0)):
+            d.text((x0, y), zeile, font=f_lat, fill=SEPIA, anchor="ls")
+            y -= 24
+        y -= 6
+        for zeile in reversed(_zeilen(d, name, f_name, x1 - x0)):
+            d.text((x0, y), zeile, font=f_name, fill=TINTE, anchor="ls")
+            y -= 31
+        d.line((x0, y + 4, x0 + 40, y + 4), fill=SEPIA, width=1)
+        _setze_platte(img, p, FELD_HOCH)
     rahmen(d, BREITE, HOEHE, 4)
     return img
+
+
+def _zeilen(d, text, font, breite):
+    """Text auf Zeilen umbrechen; zu lange Einzelwörter werden an Bindestrichen geteilt."""
+    woerter = text.replace("-", "- ").split()
+    zeilen, zeile = [], ""
+    for wort in woerter:
+        probe = (zeile + wort) if zeile.endswith("-") else f"{zeile} {wort}".strip()
+        if zeile and d.textlength(probe, font=font) > breite:
+            zeilen.append(zeile)
+            zeile = wort
+        else:
+            zeile = probe
+    return zeilen + [zeile] if zeile else zeilen
 
 
 def stelle_frei(platte):
