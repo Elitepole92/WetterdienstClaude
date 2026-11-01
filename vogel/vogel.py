@@ -475,13 +475,13 @@ def _setze_platte(img, platte, feld):
     if seitlich:
         breit = Image.new("RGB", (p.width + links + rechts, p.height), PAPIER)
         breit.paste(_verlauf(p, links, "links"), (0, 0))
-        breit.paste(p, (links, 0), _feder(p.size, seitlich=True))
+        breit.paste(p, (links, 0), _feder(p, seitlich=True))
         breit.paste(_verlauf(p, rechts, "rechts"), (links + p.width, 0))
         p, x = breit, x - links
     if senkrecht:
         hoch = Image.new("RGB", (p.width, p.height + oben + unten), PAPIER)
         hoch.paste(_verlauf(p, oben, "oben"), (0, 0))
-        hoch.paste(p, (0, oben), _feder(p.size, seitlich=False))
+        hoch.paste(p, (0, oben), _feder(p, seitlich=False))
         hoch.paste(_verlauf(p, unten, "unten"), (0, oben + p.height))
         p, y = hoch, y - oben
     # Übrige Ränder weich ins Seitenpapier auslaufen lassen, damit keine Kante sichtbar ist
@@ -494,13 +494,29 @@ def _setze_platte(img, platte, feld):
     img.paste(p, (x, y), maske)
 
 
-def _feder(groesse, seitlich, weich=18):
-    """Maske, die die Tafel an zwei gegenüberliegenden Kanten weich ausblendet."""
-    w, h = groesse
-    maske = Image.new("L", groesse, 0)
-    box = (weich, -weich, w - weich, h + weich) if seitlich else (-weich, weich, w + weich, h - weich)
-    ImageDraw.Draw(maske).rectangle(box, fill=255)
-    return maske.filter(ImageFilter.GaussianBlur(weich / 2))
+def _feder(p, seitlich, weich=18):
+    """Maske, die die Tafel an zwei gegenüberliegenden Kanten weich ausblendet – aber nur
+    dort, wo am Rand heller Hintergrund ist. Reicht das Motiv selbst (Kopf, Schwanz) bis
+    an die Kante, bleibt es voll sichtbar."""
+    w, h = p.size
+    hell = sum(PAPIER) * 0.8
+    maske = Image.new("L", p.size, 255)
+    px = maske.load()
+    q = p.load()
+    laenge, tiefe = (h, w) if seitlich else (w, h)
+    for i in range(laenge):
+        for kante in (0, tiefe - 1):
+            rand = q[kante, i] if seitlich else q[i, kante]
+            if sum(rand) < hell:
+                continue
+            for t in range(min(weich, tiefe // 2)):
+                a = int(255 * t / weich)
+                pos = kante + t if kante == 0 else kante - t
+                if seitlich:
+                    px[pos, i] = a
+                else:
+                    px[i, pos] = a
+    return maske.filter(ImageFilter.GaussianBlur(2))
 
 
 def _verlauf(p, breite, seite):
