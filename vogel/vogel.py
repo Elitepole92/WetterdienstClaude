@@ -39,7 +39,7 @@ INAT = "https://api.inaturalist.org/v1"
 COMMONS = "https://commons.wikimedia.org/w/api.php"
 VERLAUF_LAENGE = 20
 
-PAPIER = (251, 248, 240)
+PAPIER = (250, 246, 230)  # #FAF6E6, fester Hintergrund fürs HMI
 TINTE = (28, 22, 16)
 SEPIA = (92, 64, 40)
 
@@ -237,8 +237,8 @@ def datum_text(iso):
 def seite(platte, art, groesse=1200):
     """Quadratische Seite: Tafel, darunter deutscher und lateinischer Name,
     klein die letzte Sichtung."""
-    platte = stelle_frei(platte)
-    img = Image.new("RGB", (groesse, groesse), papierton(platte))
+    platte = auf_papier(stelle_frei(platte))
+    img = Image.new("RGB", (groesse, groesse), PAPIER)
     d = ImageDraw.Draw(img)
     m = 28
     x0, x1 = m + 50, groesse - m - 50
@@ -272,6 +272,15 @@ def stelle_frei(platte):
     x0, y0, x1, y1 = (max(0, box[0] - rand), max(0, box[1] - rand),
                       min(klein.width, box[2] + rand), min(klein.height, box[3] + rand))
     return platte.crop(tuple(int(v / f) for v in (x0, y0, x1, y1)))
+
+
+def auf_papier(platte):
+    """Papierton der freigestellten Tafel exakt auf PAPIER umrechnen, damit sie
+    ohne Kante in den festen Seitenhintergrund übergeht."""
+    ton = papierton(platte)
+    kanaele = [k.point(lambda v, f=PAPIER[i] / max(ton[i], 1): min(255, int(v * f)))
+               for i, k in enumerate(platte.split())]
+    return Image.merge("RGB", kanaele)
 
 
 def papierton(platte):
