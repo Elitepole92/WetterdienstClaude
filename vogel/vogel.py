@@ -392,7 +392,37 @@ def stelle_frei(platte):
         return platte
     rand = 6
     box = (max(0, x0 - rand), max(0, y0 - rand), min(w, x1 + rand), min(h, y1 + rand))
-    return platte.crop(tuple(int(v / f) for v in box))
+    return ohne_beschriftung(platte.crop(tuple(int(v / f) for v in box)))
+
+
+def ohne_beschriftung(platte, dichte=0.10, mindestens=0.04):
+    """Textzeilen unter und über der Zeichnung abschneiden (Artname, Tafelnummer,
+    Lithograf). Die Zeichnung ist ein hoher Block mit durchgehend viel Inhalt pro Zeile;
+    Schriftzeilen sind nur wenige Zeilen hoch und durch Lücken getrennt. Von unten und
+    oben wird bis zum ersten ausreichend hohen dichten Block gekürzt."""
+    f = 400 / platte.width
+    klein = platte.resize((400, max(1, int(platte.height * f))))
+    abstand = ImageChops.difference(klein, Image.new("RGB", klein.size, PAPIER)).convert("L")
+    w, h = klein.size
+    px = abstand.load()
+    voll = [sum(1 for x in range(w) if px[x, y] > 40) / w >= dichte for y in range(h)]
+    hoch = max(6, int(h * mindestens))  # so viele dichte Zeilen am Stück = Zeichnung
+
+    def kante(zeilen):
+        lauf = 0
+        for i, v in enumerate(zeilen):
+            lauf = lauf + 1 if v else 0
+            if lauf >= hoch:
+                return i - lauf + 1
+        return 0
+
+    oben = kante(voll)
+    unten = h - kante(voll[::-1])
+    if unten - oben < h * 0.5:  # im Zweifel nichts abschneiden
+        return platte
+    rand = 4
+    return platte.crop((0, int(max(0, oben - rand) / f), platte.width,
+                        int(min(h, unten + rand) / f)))
 
 
 def _groesster_block(profil, luecke):
@@ -435,14 +465,37 @@ def _setze_platte(img, platte, feld):
     p = platte
     faktor = min((x1 - x0) / p.width, (y1 - y0) / p.height)
     p = p.resize((int(p.width * faktor), int(p.height * faktor)), Image.LANCZOS)
-    # Ränder weich ins Seitenpapier auslaufen lassen, damit keine Kante sichtbar ist
-    weich = 12
-    maske = Image.new("L", p.size, 0)
-    ImageDraw.Draw(maske).rectangle((weich, weich, p.width - weich, p.height - weich), fill=255)
-    maske = maske.filter(ImageFilter.GaussianBlur(weich / 2))
     x = x0 + (x1 - x0 - p.width) // 2
     y = y0 + (y1 - y0 - p.height) // 2
+    # Ist links und rechts Platz, läuft der Bildhintergrund seitlich bis zum Rahmen aus
+    links, rechts = x - 5, img.width - 5 - (x + p.width)
+    if links > 8:
+        breit = Image.new("RGB", (p.width + links + rechts, p.height), PAPIER)
+        breit.paste(_verlauf(p, links, "links"), (0, 0))
+        breit.paste(p, (links, 0))
+        breit.paste(_verlauf(p, rechts, "rechts"), (links + p.width, 0))
+        p, x = breit, x - links
+    # Ränder weich ins Seitenpapier auslaufen lassen, damit keine Kante sichtbar ist
+    weich = 12
+    seitlich = 0 if links > 8 else weich
+    maske = Image.new("L", p.size, 0)
+    ImageDraw.Draw(maske).rectangle((seitlich, weich, p.width - seitlich, p.height - weich),
+                                    fill=255)
+    maske = maske.filter(ImageFilter.GaussianBlur(weich / 2))
     img.paste(p, (x, y), maske)
+
+
+def _verlauf(p, breite, seite):
+    """Streifen, der die Randfarbe der Tafel (zeilenweise, vertikal geglättet) weich in
+    PAPIER übergehen lässt – an der Tafel volle Randfarbe, am Rahmen reines Papier."""
+    spalte = p.crop((0, 0, 6, p.height) if seite == "links" else
+                    (p.width - 6, 0, p.width, p.height)).resize((1, p.height))
+    spalte = spalte.filter(ImageFilter.GaussianBlur(10))
+    rand = spalte.resize((breite, p.height))
+    rampe = Image.linear_gradient("L").rotate(90 if seite == "links" else -90)
+    rampe = rampe.resize((breite, p.height))
+    rampe = rampe.point(lambda v: int(255 * (v / 255) ** 0.7))  # Randfarbe trägt etwas weiter
+    return Image.composite(rand, Image.new("RGB", rand.size, PAPIER), rampe)
 
 
 # ---------------------------------------------------------------- Ablauf
