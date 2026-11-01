@@ -1,19 +1,20 @@
 {
-  "deutsch": "Amsel",
-  "latein": "Turdus merula",
-  "zuletzt": "2026-10-27",
-  "tafel": "File:GouldBirdsEuropeIIBlackbird.jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:GouldBirdsEuropeIIBlackbird.jpg",
+  "deutsch": "Turmfalke",
+  "latein": "Falco tinnunculus",
+  "zuletzt": "2026-10-30",
+  "tafel": "File:FalcoKeulemans.jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:FalcoKeulemans.jpg",
   "bewertung": {
-    "farbe": 0.371,
-    "detail": 0.256,
-    "fuellung": 0.797,
+    "farbe": 0.563,
+    "detail": 0.299,
+    "fuellung": 0.969,
     "inseln": 1,
-    "gesamt": 11.28
+    "gesamt": 15.15
   },
-  "stand": "01.11. 09:40 Uhr",
+  "stand": "01.11. 09:45 Uhr",
   "slot": "2026-11-01 09",
   "verlauf": [
+    "Falco tinnunculus",
     "Turdus merula",
     "Erithacus rubecula",
     "Larus canus",
@@ -32,7 +33,6 @@
     "Anas crecca",
     "Cyanistes caeruleus",
     "Ardea alba",
-    "Alopochen aegyptiaca",
-    "Buteo buteo"
+    "Alopochen aegyptiaca"
   ]
 }

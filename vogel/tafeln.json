@@ -1,4 +1,70 @@
 {
+  "Falco tinnunculus": {
+    "bewertung": {
+      "detail": 0.299,
+      "farbe": 0.563,
+      "fuellung": 0.969,
+      "gesamt": 15.15,
+      "inseln": 1
+    },
+    "datei": "File:FalcoKeulemans.jpg",
+    "jahr": 1874,
+    "kuenstler": "J G Keulemans",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:FalcoKeulemans.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/FalcoKeulemans.jpg/1280px-FalcoKeulemans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Falco tinnunculus 1873.jpg",
+        "detail": 0.308,
+        "farbe": 0.33,
+        "fuellung": 0.998,
+        "gesamt": 8.47,
+        "inseln": 2
+      },
+      {
+        "datei": "File:GouldBirdsEuropeIKestrel.jpg",
+        "detail": 0.322,
+        "farbe": 0.356,
+        "fuellung": 0.9,
+        "gesamt": 10.38,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The birds of Europe (9398543909).jpg",
+        "detail": 0.326,
+        "farbe": 0.352,
+        "fuellung": 0.92,
+        "gesamt": 10.33,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (6029168332).jpg",
+        "detail": 0.356,
+        "farbe": 0.445,
+        "fuellung": 0.978,
+        "gesamt": 11.97,
+        "inseln": 1
+      },
+      {
+        "datei": "File:FalcoKeulemans.jpg",
+        "detail": 0.299,
+        "farbe": 0.563,
+        "fuellung": 0.969,
+        "gesamt": 15.15,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 2 02.jpg",
+        "detail": 0.323,
+        "farbe": 0.388,
+        "fuellung": 0.941,
+        "gesamt": 8.17,
+        "inseln": 2
+      }
+    ],
+    "werk": "Keulemans"
+  },
   "Turdus merula": {
     "bewertung": {
       "detail": 0.256,
