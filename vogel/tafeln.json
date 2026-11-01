@@ -117,5 +117,64 @@
     ],
     "werk": "Keulemans"
   },
+  "Turdus merula": {
+    "bewertung": {
+      "detail": 0.252,
+      "farbe": 0.61,
+      "fuellung": 0.826,
+      "gesamt": 16.22
+    },
+    "datei": "File:British birds (1915) (20229954889).jpg",
+    "jahr": 1915,
+    "kuenstler": "Thorburn, Archibald, 1860-1935",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20229954889).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/British_birds_%281915%29_%2820229954889%29.jpg/1280px-British_birds_%281915%29_%2820229954889%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Turdus merula 1869.jpg",
+        "detail": 0.249,
+        "farbe": 0.249,
+        "fuellung": 0.751,
+        "gesamt": 9.75
+      },
+      {
+        "datei": "File:GouldBirdsEuropeIIBlackbird.jpg",
+        "detail": 0.256,
+        "farbe": 0.371,
+        "fuellung": 0.797,
+        "gesamt": 11.28
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 1 23.jpg",
+        "detail": 0.251,
+        "farbe": 0.266,
+        "fuellung": 0.751,
+        "gesamt": 9.06
+      },
+      {
+        "datei": "File:Onze vogels in huis en tuin (12239505706).jpg",
+        "detail": 0.249,
+        "farbe": 0.3,
+        "fuellung": 0.751,
+        "gesamt": 9.78
+      },
+      {
+        "datei": "File:A naturalist's sketch book (Plate 22) BHL46157839.jpg",
+        "detail": 0.225,
+        "farbe": 0.398,
+        "fuellung": 0.56,
+        "gesamt": 11.31
+      },
+      {
+        "datei": "File:British birds (1915) (20229954889).jpg",
+        "detail": 0.252,
+        "farbe": 0.61,
+        "fuellung": 0.826,
+        "gesamt": 16.22
+      }
+    ],
+    "werk": "Thorburn"
+  },
   "_version": 2
 }
