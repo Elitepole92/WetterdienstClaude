@@ -1,19 +1,20 @@
 {
-  "deutsch": "Stockente",
-  "latein": "Anas platyrhynchos",
-  "zuletzt": "2026-10-27",
-  "tafel": "File:The Indian ducks and their allies (6254570660).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:The_Indian_ducks_and_their_allies_(6254570660).jpg",
+  "deutsch": "Rabenkrähe",
+  "latein": "Corvus corone",
+  "zuletzt": "2026-10-26",
+  "tafel": "File:British birds (1915) (19795669463).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(19795669463).jpg",
   "bewertung": {
-    "farbe": 0.661,
-    "detail": 0.286,
-    "fuellung": 0.439,
+    "farbe": 0.444,
+    "detail": 0.156,
+    "fuellung": 0.866,
     "inseln": 1,
-    "gesamt": 18.69
+    "gesamt": 21.43
   },
-  "stand": "01.11. 09:57 Uhr",
+  "stand": "01.11. 09:58 Uhr",
   "slot": "2026-11-01 09",
   "verlauf": [
+    "Corvus corone",
     "Anas platyrhynchos",
     "Alopochen aegyptiaca",
     "Picus viridis",
@@ -32,7 +33,6 @@
     "Phalacrocorax carbo",
     "Mergus serrator",
     "Anser anser",
-    "Anser albifrons",
-    "Anas crecca"
+    "Anser albifrons"
   ]
 }

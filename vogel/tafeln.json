@@ -65,5 +65,47 @@
     ],
     "werk": "Keulemans"
   },
+  "Corvus corone": {
+    "bewertung": {
+      "detail": 0.156,
+      "farbe": 0.444,
+      "fuellung": 0.866,
+      "gesamt": 21.43,
+      "inseln": 1
+    },
+    "datei": "File:British birds (1915) (19795669463).jpg",
+    "jahr": 1915,
+    "kuenstler": "Thorburn, Archibald, 1860-1935",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(19795669463).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/British_birds_%281915%29_%2819795669463%29.jpg/1280px-British_birds_%281915%29_%2819795669463%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:The birds of Europe (1837) (14751684372).jpg",
+        "detail": 0.211,
+        "farbe": 0.391,
+        "fuellung": 0.952,
+        "gesamt": 20.58,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (19795669463).jpg",
+        "detail": 0.156,
+        "farbe": 0.444,
+        "fuellung": 0.866,
+        "gesamt": 21.43,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Corvus cornix (PD).jpg",
+        "detail": 0.279,
+        "farbe": 0.408,
+        "fuellung": 0.929,
+        "gesamt": 17.62,
+        "inseln": 1
+      }
+    ],
+    "werk": "Thorburn"
+  },
   "_version": 3
 }
