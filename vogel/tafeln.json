@@ -330,6 +330,72 @@
     "werk": "Thorburn"
   },
   "Larus cachinnans": null,
+  "Mergus serrator": {
+    "bewertung": {
+      "detail": 0.306,
+      "farbe": 0.853,
+      "fuellung": 0.975,
+      "gesamt": 29.67,
+      "inseln": 1
+    },
+    "datei": "File:Mergus serrator 1921.jpg",
+    "jahr": 1921,
+    "kuenstler": "John Gerrard Keulemans",
+    "punkte": 11,
+    "seite": "https://commons.wikimedia.org/wiki/File:Mergus_serrator_1921.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Mergus_serrator_1921.jpg/1280px-Mergus_serrator_1921.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Mergus serrator 1921.jpg",
+        "detail": 0.306,
+        "farbe": 0.853,
+        "fuellung": 0.975,
+        "gesamt": 29.67,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The birds of Europe (1837) (14727674346).jpg",
+        "detail": 0.231,
+        "farbe": 0.326,
+        "fuellung": 0.492,
+        "gesamt": 10.46,
+        "inseln": 2
+      },
+      {
+        "datei": "File:MergusSerratorKeulemans.jpg",
+        "detail": 0.266,
+        "farbe": 0.687,
+        "fuellung": 0.989,
+        "gesamt": 26.13,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The Indian ducks and their allies (6254044305).jpg",
+        "detail": 0.252,
+        "farbe": 0.624,
+        "fuellung": 0.998,
+        "gesamt": 25.16,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (19795738833).jpg",
+        "detail": 0.221,
+        "farbe": 0.435,
+        "fuellung": 0.78,
+        "gesamt": 19.25,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Ferdinand von Wright - Red-Breasted Merganser, Male - A I 616-13 - Finnish National Gallery.jpg",
+        "detail": 0.232,
+        "farbe": 0.418,
+        "fuellung": 0.459,
+        "gesamt": 14.38,
+        "inseln": 1
+      }
+    ],
+    "werk": "Keulemans"
+  },
   "Turdus merula": {
     "bewertung": {
       "detail": 0.256,

@@ -1,19 +1,20 @@
 {
-  "deutsch": "Schwanzmeise",
-  "latein": "Aegithalos caudatus",
-  "zuletzt": "2026-10-28",
-  "tafel": "File:A chapter on birds (Pl. 11) (9092013269).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:A_chapter_on_birds_(Pl._11)_(9092013269).jpg",
+  "deutsch": "Mittelsäger",
+  "latein": "Mergus serrator",
+  "zuletzt": "2026-10-29",
+  "tafel": "File:Mergus serrator 1921.jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Mergus_serrator_1921.jpg",
   "bewertung": {
-    "farbe": 0.79,
-    "detail": 0.305,
-    "fuellung": 0.909,
+    "farbe": 0.853,
+    "detail": 0.306,
+    "fuellung": 0.975,
     "inseln": 1,
-    "gesamt": 26.62
+    "gesamt": 29.67
   },
-  "stand": "01.11. 15:08 Uhr",
-  "slot": "2026-11-01 15",
+  "stand": "01.11. 19:07 Uhr",
+  "slot": "2026-11-01 19",
   "verlauf": [
+    "Mergus serrator",
     "Aegithalos caudatus",
     "Anas crecca",
     "Anas platyrhynchos",
@@ -32,7 +33,6 @@
     "Garrulus glandarius",
     "Mergus merganser",
     "Phasianus colchicus",
-    "Gallinula chloropus",
-    "Mareca strepera"
+    "Gallinula chloropus"
   ]
 }
