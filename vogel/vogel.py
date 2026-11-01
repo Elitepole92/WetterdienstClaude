@@ -42,7 +42,7 @@ VERLAUF_LAENGE = 20
 
 PAPIER = (250, 246, 230)  # #FAF6E6, fester Hintergrund fürs HMI
 BREITE, HOEHE = 480, 640   # Bildfläche im HMI (Display 480×800 hochkant)
-FELD = (16, 16, BREITE - 16, 474)  # Bereich für die Tafel
+FELD = (14, 14, BREITE - 14, 586)  # Bereich für die Tafel (bei zweizeiliger Unterschrift kürzer)
 CACHE_VERSION = 2
 TINTE = (28, 22, 16)
 SEPIA = (92, 64, 40)
@@ -313,20 +313,35 @@ def datum_text(iso):
 
 
 def seite(platte, art):
-    """Seite 480×640: Tafel, darunter deutscher und lateinischer Name und das Datum
-    der letzten Sichtung."""
+    """Seite 480×640: Tafel fast vollflächig, darunter eine Bildunterschrift wie im
+    Lexikon – Name, lateinischer Name kursiv, rechts das Datum der letzten Sichtung.
+    Passt das nicht in eine Zeile, stehen die Namen untereinander."""
     img = Image.new("RGB", (BREITE, HOEHE), PAPIER)
     d = ImageDraw.Draw(img)
-    _setze_platte(img, schneide_breite(auf_papier(stelle_frei(platte))), FELD)
-    rahmen(d, BREITE, HOEHE, 4)
+    x0, x1 = 22, BREITE - 22
+    name, latein = art["deutsch"], art["latein"]
+    datum = datum_text(art["zuletzt"]) if art.get("zuletzt") else ""
+    f_name, f_lat, f_dat = schrift("normal", 26), schrift("kursiv", 19), schrift("normal", 18)
+    b_name, b_lat = d.textlength(name, font=f_name), d.textlength(latein, font=f_lat)
+    b_dat = d.textlength(datum, font=f_dat)
 
-    x0, x1 = FELD[0], FELD[2]
-    f = passe_an(d, art["deutsch"], "normal", 46, x1 - x0)
-    mittig(d, art["deutsch"], f, 480, x0, x1)
-    f = passe_an(d, art["latein"], "kursiv", 32, x1 - x0)
-    mittig(d, art["latein"], f, 532, x0, x1, SEPIA)
-    if art.get("zuletzt"):
-        mittig(d, datum_text(art["zuletzt"]), schrift("normal", 28), 574, x0, x1)
+    if b_name + 10 + b_lat + 16 + b_dat <= x1 - x0:
+        linie, unten = 592, 586
+        d.text((x0, 616), name, font=f_name, fill=TINTE, anchor="ls")
+        d.text((x0 + b_name + 10, 616), latein, font=f_lat, fill=SEPIA, anchor="ls")
+    else:
+        linie, unten = 562, 556
+        f_name = passe_an(d, name, "normal", 26, x1 - x0)
+        d.text((x0, 590), name, font=f_name, fill=TINTE, anchor="ls")
+        f_lat = passe_an(d, latein, "kursiv", 19, x1 - x0 - b_dat - 16)
+        d.text((x0, 616), latein, font=f_lat, fill=SEPIA, anchor="ls")
+    if datum:
+        d.text((x1, 616), datum, font=f_dat, fill=SEPIA, anchor="rs")
+    d.line((x0, linie, x1, linie), fill=SEPIA, width=1)
+
+    _setze_platte(img, schneide_breite(auf_papier(stelle_frei(platte))),
+                  (FELD[0], FELD[1], FELD[2], unten))
+    rahmen(d, BREITE, HOEHE, 4)
     return img
 
 
