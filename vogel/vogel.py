@@ -130,8 +130,7 @@ def jahr(meta):
 
 def suche_tafel(art):
     latein, deutsch = art["latein"], art["deutsch"]
-    gattung, epitheton = (latein.split() + [""])[:2]
-    stamm = epitheton[:5].lower()
+    epitheton = (latein.split() + ["", ""])[1]
     treffer = {}
     anfragen = [f'"{latein}" {w}' for w in SUCHWERKE]
     anfragen += [f'"{latein}" lithograph', f'{deutsch} Naumann Tafel', f'{epitheton} Naumann']
@@ -160,8 +159,11 @@ def suche_tafel(art):
                                              "Categories", "Credit")]).lower()
         if any(w in titel.lower() for w in SPERRWOERTER):
             continue
-        name_ok = latein.lower() in text or (stamm and stamm in text and
-                                            (gattung.lower() in text or deutsch.lower() in text))
+        # Voller Name, oder (bei alten Gattungsnamen) das Epitheton als ganzes Wort im
+        # Dateinamen plus der deutsche Name – sonst rutschen Unterarten/Verwandte durch.
+        name_ok = latein.lower() in text or (
+            epitheton and re.search(rf"\b{re.escape(epitheton.lower())}\b", titel.lower())
+            and deutsch.lower() in text)
         if not name_ok:
             continue
         punkte = 3 if latein.lower() in titel.lower() else 1
