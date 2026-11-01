@@ -1,4 +1,70 @@
 {
+  "Aegithalos caudatus": {
+    "bewertung": {
+      "detail": 0.305,
+      "farbe": 0.79,
+      "fuellung": 0.909,
+      "gesamt": 26.62,
+      "inseln": 1
+    },
+    "datei": "File:A chapter on birds (Pl. 11) (9092013269).jpg",
+    "jahr": 1895,
+    "kuenstler": "Keulemans, J. G.; Sharpe, Richard Bowdler",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:A_chapter_on_birds_(Pl._11)_(9092013269).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/A_chapter_on_birds_%28Pl._11%29_%289092013269%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "verglichen": [
+      {
+        "datei": "File:Aegithalos caudatus 1869.jpg",
+        "detail": 0.283,
+        "farbe": 0.408,
+        "fuellung": 0.942,
+        "gesamt": 20.74,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A chapter on birds (Pl. 11) (9092013269).jpg",
+        "detail": 0.305,
+        "farbe": 0.79,
+        "fuellung": 0.909,
+        "gesamt": 26.62,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 1 15.jpg",
+        "detail": 0.3,
+        "farbe": 0.387,
+        "fuellung": 0.931,
+        "gesamt": 18.92,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (20407999692).jpg",
+        "detail": 0.249,
+        "farbe": 0.635,
+        "fuellung": 0.873,
+        "gesamt": 23.94,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Notes on the birds of Northamptonshire and neighbourhood (1895) (14750608765).jpg",
+        "detail": 0.3,
+        "farbe": 0.407,
+        "fuellung": 0.426,
+        "gesamt": 13.26,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Notes on the birds of Northamptonshire and neighbourhood (1895) (14751609122).jpg",
+        "detail": 0.29,
+        "farbe": 0.403,
+        "fuellung": 0.426,
+        "gesamt": 13.32,
+        "inseln": 1
+      }
+    ],
+    "werk": "Keulemans"
+  },
   "Anas crecca": {
     "bewertung": {
       "detail": 0.272,
