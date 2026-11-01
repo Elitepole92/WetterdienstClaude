@@ -1,12 +1,13 @@
 {
-  "deutsch": "Zwergtaucher",
-  "latein": "Tachybaptus ruficollis",
-  "zuletzt": "2026-10-30",
-  "tafel": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 247) (6058906723).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Johann_Andreas_Naumann%27s_..._Naturgeschichte_der_V%C3%B6gel_Deutschlands,_nach_einigen_Erfahrungen_entworfen_(Taf._247)_(6058906723).jpg",
-  "stand": "01.11. 06:07 Uhr",
-  "slot": "2026-11-01 06",
+  "deutsch": "Sturmmöwe",
+  "latein": "Larus canus",
+  "zuletzt": "2026-10-26",
+  "tafel": "File:The genera of birds (19322156592).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:The_genera_of_birds_(19322156592).jpg",
+  "stand": "01.11. 09:23 Uhr",
+  "slot": "2026-11-01 09",
   "verlauf": [
+    "Larus canus",
     "Tachybaptus ruficollis",
     "Accipiter nisus",
     "Podiceps cristatus",
@@ -25,7 +26,6 @@
     "Alopochen aegyptiaca",
     "Buteo buteo",
     "Cygnus olor",
-    "Anas platyrhynchos",
-    "Larus argentatus"
+    "Anas platyrhynchos"
   ]
 }
