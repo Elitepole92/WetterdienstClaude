@@ -42,7 +42,7 @@ VERLAUF_LAENGE = 20
 
 PAPIER = (250, 246, 230)  # #FAF6E6, fester Hintergrund fürs HMI
 BREITE, HOEHE = 480, 680   # Bildfläche im HMI (Display 480×800 hochkant)
-FELD = (14, 14, BREITE - 14, 626)  # Bereich für die Tafel (bei zweizeiliger Unterschrift kürzer)
+FELD = (14, 14, BREITE - 14, 620)  # Bereich für die Tafel (bei zweizeiliger Unterschrift kürzer)
 CACHE_VERSION = 2
 TINTE = (28, 22, 16)
 SEPIA = (92, 64, 40)
@@ -312,31 +312,55 @@ def datum_text(iso):
     return f"{d.day}. {MONATE[d.month - 1]}"
 
 
+def fernglas(hoehe, farbe=SEPIA):
+    """Kleines Fernglas-Symbol (RGBA), vierfach gezeichnet und herunterskaliert."""
+    k = 4
+    h = hoehe * k
+    w = int(h * 1.45)
+    img = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    rohr = int(w * 0.40)
+    r = rohr // 2
+    for x in (0, w - rohr):
+        # Okular oben, Tubus, runde Objektivlinse unten
+        d.rounded_rectangle((x + rohr * 0.18, 0, x + rohr * 0.82, h * 0.30), radius=k * 2, fill=farbe)
+        d.rounded_rectangle((x, h * 0.22, x + rohr, h - r), radius=k * 3, fill=farbe)
+        d.ellipse((x, h - 2 * r, x + rohr, h), fill=farbe)
+        d.ellipse((x + r * 0.35, h - 2 * r + r * 0.35, x + rohr - r * 0.35, h - r * 0.35),
+                  fill=(0, 0, 0, 0))
+    d.rectangle((rohr - k, h * 0.30, w - rohr + k, h * 0.52), fill=farbe)  # Mittelsteg
+    return img.resize((w // k, hoehe), Image.LANCZOS)
+
+
 def seite(platte, art):
     """Seite 480×680: Tafel fast vollflächig, darunter eine Bildunterschrift wie im
-    Lexikon – Name, lateinischer Name kursiv, rechts das Datum der letzten Sichtung.
-    Passt das nicht in eine Zeile, stehen die Namen untereinander."""
+    Lexikon – Name, lateinischer Name kursiv, rechts Fernglas und Datum der letzten
+    Sichtung. Passt das nicht in eine Zeile, stehen die Namen untereinander."""
     img = Image.new("RGB", (BREITE, HOEHE), PAPIER)
     d = ImageDraw.Draw(img)
     x0, x1 = 22, BREITE - 22
     name, latein = art["deutsch"], art["latein"]
     datum = datum_text(art["zuletzt"]) if art.get("zuletzt") else ""
-    f_name, f_lat, f_dat = schrift("normal", 26), schrift("kursiv", 19), schrift("normal", 18)
+    f_name, f_lat, f_dat = schrift("normal", 32), schrift("kursiv", 23), schrift("normal", 22)
     b_name, b_lat = d.textlength(name, font=f_name), d.textlength(latein, font=f_lat)
-    b_dat = d.textlength(datum, font=f_dat)
+    symbol = fernglas(16) if datum else None
+    b_dat = d.textlength(datum, font=f_dat) + (symbol.width + 7 if symbol else 0)
 
-    if b_name + 10 + b_lat + 16 + b_dat <= x1 - x0:
-        linie, unten = 632, 626
-        d.text((x0, 656), name, font=f_name, fill=TINTE, anchor="ls")
-        d.text((x0 + b_name + 10, 656), latein, font=f_lat, fill=SEPIA, anchor="ls")
+    grund = 658
+    if b_name + 12 + b_lat + 18 + b_dat <= x1 - x0:
+        linie, unten = 626, 620
+        d.text((x0, grund), name, font=f_name, fill=TINTE, anchor="ls")
+        d.text((x0 + b_name + 12, grund), latein, font=f_lat, fill=SEPIA, anchor="ls")
     else:
-        linie, unten = 602, 596
-        f_name = passe_an(d, name, "normal", 26, x1 - x0)
-        d.text((x0, 630), name, font=f_name, fill=TINTE, anchor="ls")
-        f_lat = passe_an(d, latein, "kursiv", 19, x1 - x0 - b_dat - 16)
-        d.text((x0, 656), latein, font=f_lat, fill=SEPIA, anchor="ls")
+        linie, unten = 594, 588
+        f_name = passe_an(d, name, "normal", 32, x1 - x0)
+        d.text((x0, grund - 32), name, font=f_name, fill=TINTE, anchor="ls")
+        f_lat = passe_an(d, latein, "kursiv", 23, x1 - x0 - b_dat - 18)
+        d.text((x0, grund), latein, font=f_lat, fill=SEPIA, anchor="ls")
     if datum:
-        d.text((x1, 656), datum, font=f_dat, fill=SEPIA, anchor="rs")
+        d.text((x1, grund), datum, font=f_dat, fill=SEPIA, anchor="rs")
+        x_sym = int(x1 - b_dat)
+        img.paste(symbol, (x_sym, grund - symbol.height), symbol)
     d.line((x0, linie, x1, linie), fill=SEPIA, width=1)
 
     _setze_platte(img, schneide_breite(auf_papier(stelle_frei(platte))),
