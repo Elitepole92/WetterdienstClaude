@@ -1,4 +1,70 @@
 {
+  "Anas crecca": {
+    "bewertung": {
+      "detail": 0.272,
+      "farbe": 0.551,
+      "fuellung": 0.886,
+      "gesamt": 22.09,
+      "inseln": 1
+    },
+    "datei": "File:British birds (1915) (20422865591).jpg",
+    "jahr": 1915,
+    "kuenstler": "Thorburn, Archibald, 1860-1935",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20422865591).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/British_birds_%281915%29_%2820422865591%29.jpg/1280px-British_birds_%281915%29_%2820422865591%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Anas crecca 1873.jpg",
+        "detail": 0.31,
+        "farbe": 0.37,
+        "fuellung": 0.469,
+        "gesamt": 13.87,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The birds of Europe (1837) (14750648175).jpg",
+        "detail": 0.312,
+        "farbe": 0.246,
+        "fuellung": 0.38,
+        "gesamt": 9.29,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 2 70.jpg",
+        "detail": 0.303,
+        "farbe": 0.443,
+        "fuellung": 0.47,
+        "gesamt": 14.47,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Annual report (1909) (14589793470).jpg",
+        "detail": 0.316,
+        "farbe": 0.277,
+        "fuellung": 0.502,
+        "gesamt": 11.32,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Archibald Thorburn Wigeon and Teal by the water's edge 1906.jpg",
+        "detail": 0.272,
+        "farbe": 0.627,
+        "fuellung": 0.419,
+        "gesamt": 18.0,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (20422865591).jpg",
+        "detail": 0.272,
+        "farbe": 0.551,
+        "fuellung": 0.886,
+        "gesamt": 22.09,
+        "inseln": 1
+      }
+    ],
+    "werk": "Thorburn"
+  },
   "Anas platyrhynchos": {
     "bewertung": {
       "detail": 0.284,

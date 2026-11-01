@@ -1,19 +1,20 @@
 {
-  "deutsch": "Stockente",
-  "latein": "Anas platyrhynchos",
-  "zuletzt": "2026-10-27",
-  "tafel": "File:The Indian ducks and their allies (1908) (14565347917).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:The_Indian_ducks_and_their_allies_(1908)_(14565347917).jpg",
+  "deutsch": "Krickente",
+  "latein": "Anas crecca",
+  "zuletzt": "2026-10-29",
+  "tafel": "File:British birds (1915) (20422865591).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20422865591).jpg",
   "bewertung": {
-    "farbe": 0.692,
-    "detail": 0.284,
-    "fuellung": 0.422,
+    "farbe": 0.551,
+    "detail": 0.272,
+    "fuellung": 0.886,
     "inseln": 1,
-    "gesamt": 19.15
+    "gesamt": 22.09
   },
-  "stand": "01.11. 10:39 Uhr",
-  "slot": "2026-11-01 10",
+  "stand": "01.11. 11:07 Uhr",
+  "slot": "2026-11-01 11",
   "verlauf": [
+    "Anas crecca",
     "Anas platyrhynchos",
     "Ardea alba",
     "Chroicocephalus ridibundus",
@@ -32,7 +33,6 @@
     "Phasianus colchicus",
     "Gallinula chloropus",
     "Mareca strepera",
-    "Phalacrocorax carbo",
-    "Mergus serrator"
+    "Phalacrocorax carbo"
   ]
 }
