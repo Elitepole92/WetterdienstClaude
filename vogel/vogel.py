@@ -40,7 +40,7 @@ INAT = "https://api.inaturalist.org/v1"
 COMMONS = "https://commons.wikimedia.org/w/api.php"
 VERLAUF_LAENGE = 20
 
-PAPIER = (238, 223, 192)  # #EEDFC0, fester Sepia-Hintergrund fürs HMI
+PAPIER = (244, 234, 211)  # #F4EAD3, fester Sepia-Hintergrund fürs HMI
 BREITE, HOEHE = 480, 680   # Bildfläche im HMI (Display 480×800 hochkant)
 FELD = (14, 14, BREITE - 14, 620)  # Bereich für die Tafel (bei zweizeiliger Unterschrift kürzer)
 CACHE_VERSION = 3
