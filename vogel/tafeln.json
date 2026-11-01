@@ -65,6 +65,73 @@
     ],
     "werk": "Keulemans"
   },
+  "Chroicocephalus ridibundus": {
+    "bewertung": {
+      "detail": 0.2,
+      "farbe": 0.515,
+      "fuellung": 0.83,
+      "gesamt": 18.77,
+      "inseln": 2
+    },
+    "datei": "File:British birds (1915) (20408084552).jpg",
+    "jahr": 1915,
+    "kuenstler": "Thorburn, Archibald, 1860-1935",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20408084552).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/British_birds_%281915%29_%2820408084552%29.jpg/1280px-British_birds_%281915%29_%2820408084552%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:The birds of Europe (1837) (14750412182).jpg",
+        "detail": 0.299,
+        "farbe": 0.383,
+        "fuellung": 0.492,
+        "gesamt": 13.57,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Ornithological miscellany (Plate) (5981488307).jpg",
+        "detail": 0.333,
+        "farbe": 0.382,
+        "fuellung": 0.45,
+        "gesamt": 12.56,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Ornithological miscellany (Plate) (5981488693).jpg",
+        "detail": 0.33,
+        "farbe": 0.394,
+        "fuellung": 0.454,
+        "gesamt": 12.87,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Ornithological miscellany (Plate) (5982047510).jpg",
+        "detail": 0.345,
+        "farbe": 0.386,
+        "fuellung": 0.35,
+        "gesamt": 11.24,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (20408084552).jpg",
+        "detail": 0.2,
+        "farbe": 0.515,
+        "fuellung": 0.83,
+        "gesamt": 18.77,
+        "inseln": 2
+      },
+      {
+        "datei": "File:Birds beneficial to agriculture (8404527051).jpg",
+        "detail": 0.193,
+        "farbe": 0.249,
+        "fuellung": 0.48,
+        "gesamt": 11.35,
+        "inseln": 1
+      }
+    ],
+    "werk": "Thorburn"
+  },
+  "Larus cachinnans": null,
   "Turdus merula": {
     "bewertung": {
       "detail": 0.256,

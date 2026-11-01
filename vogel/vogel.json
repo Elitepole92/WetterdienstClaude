@@ -1,19 +1,20 @@
 {
-  "deutsch": "Silberreiher",
-  "latein": "Ardea alba",
+  "deutsch": "Lachmöwe",
+  "latein": "Chroicocephalus ridibundus",
   "zuletzt": "2026-10-30",
-  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (20549807560).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(20549807560).jpg",
+  "tafel": "File:British birds (1915) (20408084552).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20408084552).jpg",
   "bewertung": {
-    "farbe": 0.806,
-    "detail": 0.253,
-    "fuellung": 0.896,
-    "inseln": 1,
-    "gesamt": 27.57
+    "farbe": 0.515,
+    "detail": 0.2,
+    "fuellung": 0.83,
+    "inseln": 2,
+    "gesamt": 18.77
   },
-  "stand": "01.11. 10:14 Uhr",
+  "stand": "01.11. 10:18 Uhr",
   "slot": "2026-11-01 10",
   "verlauf": [
+    "Chroicocephalus ridibundus",
     "Ardea alba",
     "Turdus merula",
     "Corvus corone",
@@ -32,7 +33,6 @@
     "Gallinula chloropus",
     "Mareca strepera",
     "Phalacrocorax carbo",
-    "Mergus serrator",
-    "Anser anser"
+    "Mergus serrator"
   ]
 }
