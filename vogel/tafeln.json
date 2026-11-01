@@ -1,4 +1,63 @@
 {
+  "Erithacus rubecula": {
+    "bewertung": {
+      "detail": 0.251,
+      "farbe": 0.733,
+      "fuellung": 0.761,
+      "gesamt": 18.43
+    },
+    "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (10036178774).jpg",
+    "jahr": 1885,
+    "kuenstler": "Keulemans, J. G.; Lilford, Thomas Littleton Powys; Newton, Alfred; Salvin, Osbert; Thorburn, Archibald",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(10036178774).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%2810036178774%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "verglichen": [
+      {
+        "datei": "File:Erithacus rubecula 1869.jpg",
+        "detail": 0.357,
+        "farbe": 0.395,
+        "fuellung": 0.751,
+        "gesamt": 11.05
+      },
+      {
+        "datei": "File:GouldBirdsEuropeIIRobin.jpg",
+        "detail": 0.318,
+        "farbe": 0.563,
+        "fuellung": 0.857,
+        "gesamt": 14.42
+      },
+      {
+        "datei": "File:A history of the birds of Europe (Pl. 644) (6989225270).jpg",
+        "detail": 0.342,
+        "farbe": 0.363,
+        "fuellung": 0.942,
+        "gesamt": 10.4
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (10036178774).jpg",
+        "detail": 0.251,
+        "farbe": 0.733,
+        "fuellung": 0.761,
+        "gesamt": 18.43
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 1 22.jpg",
+        "detail": 0.369,
+        "farbe": 0.344,
+        "fuellung": 0.751,
+        "gesamt": 8.84
+      },
+      {
+        "datei": "File:British birds (1915) (19795660143).jpg",
+        "detail": 0.273,
+        "farbe": 0.65,
+        "fuellung": 0.94,
+        "gesamt": 17.17
+      }
+    ],
+    "werk": "Keulemans"
+  },
   "Larus canus": {
     "bewertung": {
       "detail": 0.222,
