@@ -481,17 +481,26 @@ def _setze_platte(img, platte, feld):
     links, rechts = x - 5, img.width - 5 - (x + p.width)
     oben, unten = y - 5, y1 + 2 - (y + p.height)
     seitlich, senkrecht = links > 8, oben > 8
+    # Unter der weich ausgeblendeten Tafelkante liegt die Randfarbe des Verlaufs (nicht
+    # das Papier), damit Tafel und Verlauf ohne Stufe ineinander übergehen.
+    f = 40
     if seitlich:
         breit = Image.new("RGB", (p.width + links + rechts, p.height), PAPIER)
-        breit.paste(_verlauf(p, links, "links"), (0, 0))
-        breit.paste(p, (links, 0), _feder(p, seitlich=True))
-        breit.paste(_verlauf(p, rechts, "rechts"), (links + p.width, 0))
+        vl, vr = _verlauf(p, links, "links"), _verlauf(p, rechts, "rechts")
+        breit.paste(vl, (0, 0))
+        breit.paste(vl.crop((links - 1, 0, links, p.height)).resize((f, p.height)), (links, 0))
+        breit.paste(vr.crop((0, 0, 1, p.height)).resize((f, p.height)), (links + p.width - f, 0))
+        breit.paste(vr, (links + p.width, 0))
+        breit.paste(p, (links, 0), _feder(p, seitlich=True, weich=f))
         p, x = breit, x - links
     if senkrecht:
         hoch = Image.new("RGB", (p.width, p.height + oben + unten), PAPIER)
-        hoch.paste(_verlauf(p, oben, "oben"), (0, 0))
-        hoch.paste(p, (0, oben), _feder(p, seitlich=False))
-        hoch.paste(_verlauf(p, unten, "unten"), (0, oben + p.height))
+        vo, vu = _verlauf(p, oben, "oben"), _verlauf(p, unten, "unten")
+        hoch.paste(vo, (0, 0))
+        hoch.paste(vo.crop((0, oben - 1, p.width, oben)).resize((p.width, f)), (0, oben))
+        hoch.paste(vu.crop((0, 0, p.width, 1)).resize((p.width, f)), (0, oben + p.height - f))
+        hoch.paste(vu, (0, oben + p.height))
+        hoch.paste(p, (0, oben), _feder(p, seitlich=False, weich=f))
         p, y = hoch, y - oben
     # Übrige Ränder weich ins Seitenpapier auslaufen lassen, damit keine Kante sichtbar ist
     weich = 12
