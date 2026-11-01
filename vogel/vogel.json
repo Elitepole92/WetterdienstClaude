@@ -1,19 +1,20 @@
 {
-  "deutsch": "Nilgans",
-  "latein": "Alopochen aegyptiaca",
+  "deutsch": "Stockente",
+  "latein": "Anas platyrhynchos",
   "zuletzt": "2026-10-27",
-  "tafel": "File:The birds of Europe (1837) (14563957050).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:The_birds_of_Europe_(1837)_(14563957050).jpg",
+  "tafel": "File:The Indian ducks and their allies (6254570660).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:The_Indian_ducks_and_their_allies_(6254570660).jpg",
   "bewertung": {
-    "farbe": 0.505,
-    "detail": 0.256,
-    "fuellung": 0.629,
+    "farbe": 0.682,
+    "detail": 0.296,
+    "fuellung": 0.573,
     "inseln": 1,
-    "gesamt": 13.27
+    "gesamt": 15.98
   },
-  "stand": "01.11. 09:49 Uhr",
+  "stand": "01.11. 09:54 Uhr",
   "slot": "2026-11-01 09",
   "verlauf": [
+    "Anas platyrhynchos",
     "Alopochen aegyptiaca",
     "Picus viridis",
     "Falco tinnunculus",
@@ -32,7 +33,6 @@
     "Mergus serrator",
     "Anser anser",
     "Anser albifrons",
-    "Anas crecca",
-    "Cyanistes caeruleus"
+    "Anas crecca"
   ]
 }

@@ -33,6 +33,72 @@
     ],
     "werk": "Gould"
   },
+  "Anas platyrhynchos": {
+    "bewertung": {
+      "detail": 0.296,
+      "farbe": 0.682,
+      "fuellung": 0.573,
+      "gesamt": 15.98,
+      "inseln": 1
+    },
+    "datei": "File:The Indian ducks and their allies (6254570660).jpg",
+    "jahr": 1908,
+    "kuenstler": "Baker, E. C. Stuart; Bombay Natural History Society.; Green, J.; Grnvold, Henrik; Keulemans, J. G.; Lodge, George Edward",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:The_Indian_ducks_and_their_allies_(6254570660).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/The_Indian_ducks_and_their_allies_%286254570660%29.jpg/1280px-The_Indian_ducks_and_their_allies_%286254570660%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Anas platyrhynchos 1869.jpg",
+        "detail": 0.271,
+        "farbe": 0.365,
+        "fuellung": 0.573,
+        "gesamt": 11.03,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The birds of Europe (1837) (14563996429).jpg",
+        "detail": 0.314,
+        "farbe": 0.426,
+        "fuellung": 0.573,
+        "gesamt": 10.6,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 1 69.jpg",
+        "detail": 0.298,
+        "farbe": 0.321,
+        "fuellung": 0.573,
+        "gesamt": 8.74,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The Indian ducks and their allies (1908) (14565347917).jpg",
+        "detail": 0.298,
+        "farbe": 0.682,
+        "fuellung": 0.571,
+        "gesamt": 15.95,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The Indian ducks and their allies (6254570660).jpg",
+        "detail": 0.296,
+        "farbe": 0.682,
+        "fuellung": 0.573,
+        "gesamt": 15.98,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Archibald Thorburn Winter landscape with mallard.jpg",
+        "detail": 0.316,
+        "farbe": 0.597,
+        "fuellung": 0.573,
+        "gesamt": 13.98,
+        "inseln": 1
+      }
+    ],
+    "werk": "Keulemans"
+  },
   "Falco tinnunculus": {
     "bewertung": {
       "detail": 0.299,
@@ -99,6 +165,7 @@
     ],
     "werk": "Keulemans"
   },
+  "Larus cachinnans": null,
   "Picus viridis": {
     "bewertung": {
       "detail": 0.282,
