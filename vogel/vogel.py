@@ -395,31 +395,39 @@ def stelle_frei(platte):
     return ohne_beschriftung(platte.crop(tuple(int(v / f) for v in box)))
 
 
-def ohne_beschriftung(platte, dichte=0.10, mindestens=0.04):
+def ohne_beschriftung(platte, leer=0.005, luecke=3, anteil=0.15):
     """Textzeilen unter und über der Zeichnung abschneiden (Artname, Tafelnummer,
-    Lithograf). Die Zeichnung ist ein hoher Block mit durchgehend viel Inhalt pro Zeile;
-    Schriftzeilen sind nur wenige Zeilen hoch und durch Lücken getrennt. Von unten und
-    oben wird bis zum ersten ausreichend hohen dichten Block gekürzt."""
+    Lithograf). Die Zeilen werden in Blöcke zerlegt, die durch leere Zeilen getrennt
+    sind; behalten wird der Block mit dem meisten Inhalt plus angrenzende Blöcke mit
+    nennenswertem Inhalt. Was am Körper hängt (Kopf, Schwanz), ist kein eigener Block
+    und bleibt daher immer stehen."""
     f = 400 / platte.width
     klein = platte.resize((400, max(1, int(platte.height * f))))
     abstand = ImageChops.difference(klein, Image.new("RGB", klein.size, PAPIER)).convert("L")
     w, h = klein.size
     px = abstand.load()
-    voll = [sum(1 for x in range(w) if px[x, y] > 40) / w >= dichte for y in range(h)]
-    hoch = max(6, int(h * mindestens))  # so viele dichte Zeilen am Stück = Zeichnung
+    zeilen = [sum(1 for x in range(w) if px[x, y] > 40) / w for y in range(h)]
 
-    def kante(zeilen):
-        lauf = 0
-        for i, v in enumerate(zeilen):
-            lauf = lauf + 1 if v else 0
-            if lauf >= hoch:
-                return i - lauf + 1
-        return 0
-
-    oben = kante(voll)
-    unten = h - kante(voll[::-1])
-    if unten - oben < h * 0.5:  # im Zweifel nichts abschneiden
+    bloecke, start, leerlauf = [], None, 0
+    for i, v in enumerate(zeilen + [0] * luecke):
+        if v > leer:
+            if start is None:
+                start = i
+            leerlauf, ende = 0, i + 1
+        elif start is not None:
+            leerlauf += 1
+            if leerlauf >= luecke:
+                bloecke.append([start, ende, sum(zeilen[start:ende])])
+                start = None
+    if len(bloecke) < 2:
         return platte
+    haupt = max(range(len(bloecke)), key=lambda i: bloecke[i][2])
+    von = bis = haupt
+    while von > 0 and bloecke[von - 1][2] >= anteil * bloecke[haupt][2]:
+        von -= 1
+    while bis < len(bloecke) - 1 and bloecke[bis + 1][2] >= anteil * bloecke[haupt][2]:
+        bis += 1
+    oben, unten = bloecke[von][0], bloecke[bis][1]
     rand = 4
     return platte.crop((0, int(max(0, oben - rand) / f), platte.width,
                         int(min(h, unten + rand) / f)))
@@ -537,7 +545,7 @@ def _verlauf(p, breite, seite):
     # linear_gradient: oben 0, unten 255 – so drehen, dass 255 an der Tafel liegt
     drehung = {"links": 90, "rechts": -90, "oben": 0, "unten": 180}[seite]
     rampe = Image.linear_gradient("L").rotate(drehung).resize(groesse)
-    rampe = rampe.point(lambda v: int(255 * (v / 255) ** 0.7))  # Randfarbe trägt etwas weiter
+    rampe = rampe.point(lambda v: int(255 * (v / 255) ** 0.3))  # Randfarbe trägt weit, Sepia erst am Rahmen
     return Image.composite(farbe, Image.new("RGB", groesse, PAPIER), rampe)
 
 
