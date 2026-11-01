@@ -5,9 +5,10 @@
    Bremen gemeldet wurden, und wählt eine davon (Abwechslung über den Verlauf).
 2. Sucht auf Wikimedia Commons eine handkolorierte Tafel aus einem Vogelwerk
    des 19. Jahrhunderts (Naumann, Gould, Keulemans, Susemihl …; gemeinfrei).
-3. Setzt daraus ein quadratisches Bild mit deutschem und lateinischem Namen
-   und dem Datum der letzten Sichtung; schreibt vogel/vogel.png (1200×1200)
-   und vogel/vogel.json.
+   Mehrere Kandidaten werden geladen und bewertet: farbig, ruhige große Flächen,
+   gute Ausnutzung der kleinen Bildfläche.
+3. Setzt daraus ein Bild mit deutschem und lateinischem Namen und dem Datum der
+   letzten Sichtung; schreibt vogel/vogel.png (480×640) und vogel/vogel.json.
 
 Aufruf: python3 vogel/vogel.py [--art "Turdus merula"]
 Schlägt etwas fehl, wird nichts überschrieben (Exit-Code != 0).
@@ -29,7 +30,7 @@ from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter, ImageFo
 
 HIER = Path(__file__).resolve().parent
 FONTS = HIER / "fonts"
-TAFELN = HIER / "tafeln.json"      # Cache: Art -> gefundene Tafel (oder null)
+TAFELN = HIER / "tafeln.json"      # Cache: Art -> gewählte Tafel samt Bewertung (oder null)
 INFO = HIER / "vogel.json"
 
 LAT, LNG, RADIUS_KM = 53.08, 8.81, 20
@@ -40,15 +41,22 @@ COMMONS = "https://commons.wikimedia.org/w/api.php"
 VERLAUF_LAENGE = 20
 
 PAPIER = (250, 246, 230)  # #FAF6E6, fester Hintergrund fürs HMI
+BREITE, HOEHE = 480, 640   # Bildfläche im HMI (Display 480×800 hochkant)
+FELD = (16, 16, BREITE - 16, 474)  # Bereich für die Tafel
+CACHE_VERSION = 2
 TINTE = (28, 22, 16)
 SEPIA = (92, 64, 40)
 
-# Illustratoren bzw. Werke, deren Tafeln wir suchen (Suchbegriff, Bonus).
+# Illustratoren bzw. Werke, deren Tafeln wir suchen (Suchbegriff, Bonus). Maler mit
+# großen, flächigen Aquarellen/Lithografien vor den feinen Kupferstichen.
 WERKE = [
-    ("Naumann", 6), ("Gould", 5), ("Keulemans", 4), ("Susemihl", 4),
-    ("von Wright", 4), ("Dresser", 3), ("Thorburn", 3), ("Lilford", 3),
-    ("Frohawk", 2), ("Kleinschmidt", 2), ("Friderich", 2), ("Meyer", 1),
+    ("Gould", 5), ("Keulemans", 5), ("Thorburn", 5), ("Lilford", 4),
+    ("von Wright", 4), ("Frohawk", 3), ("Susemihl", 3), ("Dresser", 3),
+    ("Naumann", 1), ("Kleinschmidt", 1), ("Friderich", 1), ("Meyer", 1),
 ]
+SUCHWERKE = ["Gould", "Keulemans", "Thorburn", "Lilford", "von Wright", "Naumann", "Frohawk"]
+MIN_FARBE = 0.15      # mittlere Sättigung der Zeichnung; darunter gilt sie als nicht farbig
+MAX_KANDIDATEN = 6    # so viele Tafeln pro Art herunterladen und bewerten
 SPERRWOERTER = ("egg", "eier", "oolog", "skelet", "skull", "schädel", "map", "karte",
                 "nest", "feder", "feather", "stamp", "briefmarke", "photo")
 MONATE = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August",
@@ -125,7 +133,7 @@ def suche_tafel(art):
     gattung, epitheton = (latein.split() + [""])[:2]
     stamm = epitheton[:5].lower()
     treffer = {}
-    anfragen = [f'"{latein}" {w}' for w, _ in WERKE[:6]]
+    anfragen = [f'"{latein}" {w}' for w in SUCHWERKE]
     anfragen += [f'"{latein}" lithograph', f'{deutsch} Naumann Tafel', f'{epitheton} Naumann']
     for q in anfragen:
         try:
@@ -133,7 +141,7 @@ def suche_tafel(art):
                 "action": "query", "format": "json", "generator": "search",
                 "gsrnamespace": 6, "gsrsearch": q, "gsrlimit": 25,
                 "prop": "imageinfo", "iiprop": "url|size|mime|extmetadata",
-                "iiurlwidth": 1600,
+                "iiurlwidth": 1200,
             })
         except Exception as e:  # einzelne Suche darf scheitern
             print(f"  Commons-Suche '{q}' fehlgeschlagen: {e}", file=sys.stderr)
@@ -141,7 +149,7 @@ def suche_tafel(art):
         for seite in d.get("query", {}).get("pages", {}).values():
             treffer.setdefault(seite["title"], seite)
 
-    beste, beste_punkte = None, 0
+    kandidaten = []
     for titel, seite in treffer.items():
         ii = (seite.get("imageinfo") or [{}])[0]
         if ii.get("mime") not in ("image/jpeg", "image/png", "image/tiff"):
@@ -161,7 +169,7 @@ def suche_tafel(art):
         j = jahr(meta)
         if werk:
             punkte += werk[1]
-        if j and j <= 1925:
+        if j and j <= 1935:
             punkte += 3
         elif not werk:
             continue  # vermutlich Foto oder moderne Zeichnung
@@ -170,19 +178,59 @@ def suche_tafel(art):
         b, h = ii.get("width", 0), ii.get("height", 0)
         if min(b, h) < 700:
             continue
-        if h >= b:
-            punkte += 1
-        if punkte > beste_punkte:
-            kuenstler = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ",
-                                                    meta.get("Artist", {}).get("value", ""))).strip()
-            beste_punkte, beste = punkte, {
-                "datei": titel,
-                "url": ii.get("thumburl") or ii["url"],
-                "seite": ii.get("descriptionurl"),
-                "kuenstler": kuenstler[:120],
-                "werk": werk[0] if werk else None,
-                "jahr": j,
-            }
+        kuenstler = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ",
+                                                meta.get("Artist", {}).get("value", ""))).strip()
+        kandidaten.append({
+            "datei": titel,
+            "url": ii.get("thumburl") or ii["url"],
+            "seite": ii.get("descriptionurl"),
+            "kuenstler": kuenstler[:120],
+            "werk": werk[0] if werk else None,
+            "jahr": j,
+            "punkte": punkte,
+        })
+    kandidaten.sort(key=lambda k: k["punkte"], reverse=True)
+    return kandidaten[:MAX_KANDIDATEN]
+
+
+def bewerte(platte, kandidat):
+    """Wie gut taugt die (aufbereitete) Tafel fürs kleine Display? Farbig, große ruhige
+    Flächen und gute Ausnutzung des Feldes sind gut; viel Feindetail ist schlecht."""
+    p = auf_papier(stelle_frei(platte))
+    fb, fh = FELD[2] - FELD[0], FELD[3] - FELD[1]
+    faktor = min(fb / p.width, fh / p.height)
+    p = p.resize((max(1, int(p.width * faktor)), max(1, int(p.height * faktor))), Image.LANCZOS)
+    abstand = ImageChops.difference(p, Image.new("RGB", p.size, PAPIER)).convert("L")
+    maske = [v > 40 for v in abstand.getdata()]
+    n = max(1, sum(maske))
+    saett = p.convert("HSV").getchannel("S").getdata()
+    kanten = p.convert("L").filter(ImageFilter.FIND_EDGES).getdata()
+    farbe = sum(s for s, m in zip(saett, maske) if m) / n / 255
+    detail = sum(1 for k, m in zip(kanten, maske) if m and k > 48) / n
+    fuellung = p.width * p.height / (fb * fh)
+    gesamt = kandidat["punkte"] * 0.5 + farbe * 20 + fuellung * 4 - detail * 15
+    return {"farbe": round(farbe, 3), "detail": round(detail, 3),
+            "fuellung": round(fuellung, 3), "gesamt": round(gesamt, 2)}
+
+
+def beste_tafel(art):
+    """Kandidaten suchen, herunterladen, bewerten; die beste farbige Tafel zurückgeben."""
+    beste, verglichen = None, []
+    for k in suche_tafel(art):
+        try:
+            bild = bereite_tafel_auf(hole_bild(k["url"]))
+        except Exception as e:
+            print(f"  {k['datei']}: Download fehlgeschlagen ({e})", file=sys.stderr)
+            continue
+        k["bewertung"] = bewerte(bild, k)
+        print(f"  {k['bewertung']}  {k['datei']}")
+        verglichen.append({"datei": k["datei"], **k["bewertung"]})
+        if k["bewertung"]["farbe"] < MIN_FARBE:
+            continue
+        if not beste or k["bewertung"]["gesamt"] > beste[0]["bewertung"]["gesamt"]:
+            beste = (k, bild)
+    if beste:
+        beste[0]["verglichen"] = verglichen
     return beste
 
 
@@ -219,14 +267,14 @@ def mittig(draw, text, font, y, x0, x1, farbe=TINTE):
 
 
 def passe_an(draw, text, art, groesse, max_breite):
-    while groesse > 20 and draw.textlength(text, font=schrift(art, groesse)) > max_breite:
+    while groesse > 16 and draw.textlength(text, font=schrift(art, groesse)) > max_breite:
         groesse -= 2
     return schrift(art, groesse)
 
 
 def rahmen(draw, b, h, m):
-    draw.rectangle((m, m, b - m, h - m), outline=TINTE, width=5)
-    draw.rectangle((m + 12, m + 12, b - m - 12, h - m - 12), outline=TINTE, width=2)
+    draw.rectangle((m, m, b - 1 - m, h - 1 - m), outline=TINTE, width=3)
+    draw.rectangle((m + 6, m + 6, b - 1 - m - 6, h - 1 - m - 6), outline=TINTE, width=1)
 
 
 def datum_text(iso):
@@ -234,25 +282,21 @@ def datum_text(iso):
     return f"{d.day}. {MONATE[d.month - 1]}"
 
 
-def seite(platte, art, groesse=1200):
-    """Quadratische Seite: Tafel, darunter deutscher und lateinischer Name,
-    klein die letzte Sichtung."""
-    platte = auf_papier(stelle_frei(platte))
-    img = Image.new("RGB", (groesse, groesse), PAPIER)
+def seite(platte, art):
+    """Seite 480×640: Tafel, darunter deutscher und lateinischer Name und das Datum
+    der letzten Sichtung."""
+    img = Image.new("RGB", (BREITE, HOEHE), PAPIER)
     d = ImageDraw.Draw(img)
-    m = 28
-    x0, x1 = m + 50, groesse - m - 50
-    _setze_platte(img, platte, (x0, m + 40, x1, groesse - 300))
-    rahmen(d, groesse, groesse, m)
+    _setze_platte(img, auf_papier(stelle_frei(platte)), FELD)
+    rahmen(d, BREITE, HOEHE, 4)
 
-    y = groesse - 285
-    f = passe_an(d, art["deutsch"], "normal", 84, x1 - x0)
-    mittig(d, art["deutsch"], f, y, x0, x1)
-    f = passe_an(d, art["latein"], "kursiv", 58, x1 - x0)
-    mittig(d, art["latein"], f, y + 100, x0, x1, SEPIA)
+    x0, x1 = FELD[0], FELD[2]
+    f = passe_an(d, art["deutsch"], "normal", 46, x1 - x0)
+    mittig(d, art["deutsch"], f, 480, x0, x1)
+    f = passe_an(d, art["latein"], "kursiv", 32, x1 - x0)
+    mittig(d, art["latein"], f, 532, x0, x1, SEPIA)
     if art.get("zuletzt"):
-        mittig(d, f"Zuletzt gesichtet am {datum_text(art['zuletzt'])}",
-               schrift("kursiv", 28), y + 168, x0, x1, SEPIA)
+        mittig(d, datum_text(art["zuletzt"]), schrift("normal", 28), 574, x0, x1)
     return img
 
 
@@ -297,7 +341,7 @@ def _setze_platte(img, platte, feld):
     faktor = min((x1 - x0) / p.width, (y1 - y0) / p.height)
     p = p.resize((int(p.width * faktor), int(p.height * faktor)), Image.LANCZOS)
     # Ränder weich ins Seitenpapier auslaufen lassen, damit keine Kante sichtbar ist
-    weich = 30
+    weich = 12
     maske = Image.new("L", p.size, 0)
     ImageDraw.Draw(maske).rectangle((weich, weich, p.width - weich, p.height - weich), fill=255)
     maske = maske.filter(ImageFilter.GaussianBlur(weich / 2))
@@ -318,6 +362,8 @@ def main():
     info_alt = json.loads(INFO.read_text("utf-8")) if INFO.exists() else {}
     verlauf = info_alt.get("verlauf", [])
     tafeln = json.loads(TAFELN.read_text("utf-8")) if TAFELN.exists() else {}
+    if tafeln.get("_version") != CACHE_VERSION:
+        tafeln = {"_version": CACHE_VERSION}  # alte Auswahl ohne Bewertung verwerfen
 
     tage = 7
     arten = gesichtete_arten(tage)
@@ -337,25 +383,27 @@ def main():
 
     gewaehlt = None
     for art in reihenfolge[:12]:
-        if art["latein"] in tafeln:
+        if art["latein"] in tafeln and not args.art:
             tafel = tafeln[art["latein"]]
+            if tafel:
+                gewaehlt = (art, tafel, bereite_tafel_auf(hole_bild(tafel["url"])))
+                break
         else:
             print(f"Suche Tafel für {art['latein']} ({art['deutsch']}) …")
-            tafel = suche_tafel(art)
-            tafeln[art["latein"]] = tafel
-        if tafel:
-            gewaehlt = (art, tafel)
-            break
-        print(f"  keine Tafel für {art['latein']}")
+            treffer = beste_tafel(art)
+            tafeln[art["latein"]] = treffer[0] if treffer else None
+            if treffer:
+                gewaehlt = (art, *treffer)
+                break
+        print(f"  keine farbige Tafel für {art['latein']}")
     TAFELN.write_text(json.dumps(tafeln, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
                       "utf-8")
     if not gewaehlt:
         sys.exit("Für keine der gemeldeten Arten eine historische Tafel gefunden.")
 
-    art, tafel = gewaehlt
+    art, tafel, platte = gewaehlt
     print(f"Gewählt: {art['deutsch']} ({art['latein']}) – {tafel['datei']}")
     art = letzte_sichtung(art, tage)
-    platte = bereite_tafel_auf(hole_bild(tafel["url"]))
     seite(platte, art).save(HIER / "vogel.png", optimize=True)
 
     info = {
@@ -364,6 +412,7 @@ def main():
         "zuletzt": art.get("zuletzt"),
         "tafel": tafel["datei"],
         "tafel_seite": tafel.get("seite"),
+        "bewertung": tafel.get("bewertung"),
         "stand": stand,
         "slot": jetzt.strftime("%Y-%m-%d %H"),  # verhindert Doppelläufe pro Stunde
         "verlauf": ([art["latein"]] + [v for v in verlauf if v != art["latein"]])[:VERLAUF_LAENGE],
