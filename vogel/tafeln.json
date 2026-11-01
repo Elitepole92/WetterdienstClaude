@@ -1,4 +1,38 @@
 {
+  "Alopochen aegyptiaca": {
+    "bewertung": {
+      "detail": 0.256,
+      "farbe": 0.505,
+      "fuellung": 0.629,
+      "gesamt": 13.27,
+      "inseln": 1
+    },
+    "datei": "File:The birds of Europe (1837) (14563957050).jpg",
+    "jahr": 1837,
+    "kuenstler": "Internet Archive Book Images",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:The_birds_of_Europe_(1837)_(14563957050).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/The_birds_of_Europe_%281837%29_%2814563957050%29.jpg/1280px-The_birds_of_Europe_%281837%29_%2814563957050%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:The birds of Europe (1837) (14563957050).jpg",
+        "detail": 0.256,
+        "farbe": 0.505,
+        "fuellung": 0.629,
+        "gesamt": 13.27,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 294) (6058923225).jpg",
+        "detail": 0.348,
+        "farbe": 0.381,
+        "fuellung": 0.998,
+        "gesamt": 8.9,
+        "inseln": 1
+      }
+    ],
+    "werk": "Gould"
+  },
   "Falco tinnunculus": {
     "bewertung": {
       "detail": 0.299,
