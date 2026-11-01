@@ -43,7 +43,7 @@ VERLAUF_LAENGE = 20
 PAPIER = (244, 234, 211)  # #F4EAD3, fester Sepia-Hintergrund fürs HMI
 BREITE, HOEHE = 480, 680   # Bildfläche im HMI (Display 480×800 hochkant)
 FELD = (14, 14, BREITE - 14, 620)  # Bereich für die Tafel (bei zweizeiliger Unterschrift kürzer)
-CACHE_VERSION = 3
+CACHE_VERSION = 4
 TINTE = (28, 22, 16)
 SEPIA = (92, 64, 40)
 
@@ -56,6 +56,7 @@ WERKE = [
 ]
 SUCHWERKE = ["Gould", "Keulemans", "Thorburn", "Lilford", "von Wright", "Naumann", "Frohawk"]
 MIN_FARBE = 0.15      # mittlere Sättigung der Zeichnung; darunter gilt sie als nicht farbig
+MIN_FUELLUNG = 0.35   # darunter bliebe zu viel Leerraum (z. B. Panoramen)
 MAX_KANDIDATEN = 6    # so viele Tafeln pro Art herunterladen und bewerten
 SPERRWOERTER = ("egg", "eier", "oolog", "skelet", "skull", "schädel", "map", "karte",
                 "nest", "feder", "feather", "stamp", "briefmarke", "photo")
@@ -122,7 +123,7 @@ def waehle(arten, verlauf, rng):
 def jahr(meta):
     for feld in ("DateTimeOriginal", "DateTime"):
         txt = re.sub(r"<[^>]+>", " ", meta.get(feld, {}).get("value", ""))
-        m = re.search(r"\b(1[6-9]\d\d)\b", txt)
+        m = re.search(r"\b(1[6-9]\d\d|20\d\d)\b", txt)
         if m:
             return int(m.group(1))
     return None
@@ -168,7 +169,8 @@ def suche_tafel(art):
             continue
         # Andere Unterart (z. B. "Turdus merula bourdilloni") – nur die Nominatform passt
         unterarten = re.findall(rf"{re.escape(latein.lower())}\s+([a-z]{{5,}})", text)
-        if any(u != epitheton.lower() and u.endswith(("i", "ae", "ensis", "anus", "ana", "icus"))
+        if any(u != epitheton.lower() and u not in ("linnaeus", "linnaei", "linne")
+               and u.endswith(("i", "ae", "a", "us", "is", "um", "ensis"))
                for u in unterarten):
             continue
         punkte = 3 if latein.lower() in titel.lower() else 1
@@ -256,7 +258,7 @@ def beste_tafel(art):
         k["bewertung"] = bewerte(bild, k)
         print(f"  {k['bewertung']}  {k['datei']}")
         verglichen.append({"datei": k["datei"], **k["bewertung"]})
-        if k["bewertung"]["farbe"] < MIN_FARBE:
+        if k["bewertung"]["farbe"] < MIN_FARBE or k["bewertung"]["fuellung"] < MIN_FUELLUNG:
             continue
         if not beste or k["bewertung"]["gesamt"] > beste[0]["bewertung"]["gesamt"]:
             beste = (k, bild)
