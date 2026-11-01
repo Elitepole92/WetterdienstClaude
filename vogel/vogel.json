@@ -1,19 +1,20 @@
 {
-  "deutsch": "Turmfalke",
-  "latein": "Falco tinnunculus",
-  "zuletzt": "2026-10-30",
-  "tafel": "File:FalcoKeulemans.jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:FalcoKeulemans.jpg",
+  "deutsch": "Grünspecht",
+  "latein": "Picus viridis",
+  "zuletzt": "2026-10-25",
+  "tafel": "File:British birds (1915) (19795674093).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(19795674093).jpg",
   "bewertung": {
-    "farbe": 0.563,
-    "detail": 0.299,
-    "fuellung": 0.969,
+    "farbe": 0.578,
+    "detail": 0.282,
+    "fuellung": 0.841,
     "inseln": 1,
-    "gesamt": 15.15
+    "gesamt": 15.19
   },
-  "stand": "01.11. 09:45 Uhr",
+  "stand": "01.11. 09:49 Uhr",
   "slot": "2026-11-01 09",
   "verlauf": [
+    "Picus viridis",
     "Falco tinnunculus",
     "Turdus merula",
     "Erithacus rubecula",
@@ -32,7 +33,6 @@
     "Anser albifrons",
     "Anas crecca",
     "Cyanistes caeruleus",
-    "Ardea alba",
-    "Alopochen aegyptiaca"
+    "Ardea alba"
   ]
 }

@@ -65,6 +65,72 @@
     ],
     "werk": "Keulemans"
   },
+  "Picus viridis": {
+    "bewertung": {
+      "detail": 0.282,
+      "farbe": 0.578,
+      "fuellung": 0.841,
+      "gesamt": 15.19,
+      "inseln": 1
+    },
+    "datei": "File:British birds (1915) (19795674093).jpg",
+    "jahr": 1915,
+    "kuenstler": "Thorburn, Archibald, 1860-1935",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(19795674093).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/British_birds_%281915%29_%2819795674093%29.jpg/1280px-British_birds_%281915%29_%2819795674093%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Picus viridis 1876.jpg",
+        "detail": 0.343,
+        "farbe": 0.436,
+        "fuellung": 0.82,
+        "gesamt": 12.36,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The birds of Europe (1837) (14729003216).jpg",
+        "detail": 0.24,
+        "farbe": 0.436,
+        "fuellung": 0.626,
+        "gesamt": 12.13,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A history of the birds of Europe (Pl. 690) (6989244622).jpg",
+        "detail": 0.329,
+        "farbe": 0.372,
+        "fuellung": 0.926,
+        "gesamt": 10.71,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (8290241883).jpg",
+        "detail": 0.303,
+        "farbe": 0.453,
+        "fuellung": 0.659,
+        "gesamt": 11.66,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 3 17.jpg",
+        "detail": 0.368,
+        "farbe": 0.492,
+        "fuellung": 0.817,
+        "gesamt": 12.09,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (19795674093).jpg",
+        "detail": 0.282,
+        "farbe": 0.578,
+        "fuellung": 0.841,
+        "gesamt": 15.19,
+        "inseln": 1
+      }
+    ],
+    "werk": "Thorburn"
+  },
   "Turdus merula": {
     "bewertung": {
       "detail": 0.256,
