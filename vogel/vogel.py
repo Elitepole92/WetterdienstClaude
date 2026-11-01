@@ -215,9 +215,32 @@ def bewerte(platte, kandidat):
     farbe = sum(s for s, m in zip(saett, maske) if m) / n / 255
     detail = sum(1 for k, m in zip(kanten, maske) if m and k > 48) / n
     fuellung = p.width * p.height / (fb * fh)
-    gesamt = kandidat["punkte"] * 0.5 + farbe * 20 + fuellung * 4 - detail * 15
+    inseln = zaehle_inseln(p)
+    gesamt = (kandidat["punkte"] * 0.5 + farbe * 20 + fuellung * 4 - detail * 15
+              - (inseln - 1) * 3)
     return {"farbe": round(farbe, 3), "detail": round(detail, 3),
-            "fuellung": round(fuellung, 3), "gesamt": round(gesamt, 2)}
+            "fuellung": round(fuellung, 3), "inseln": inseln, "gesamt": round(gesamt, 2)}
+
+
+def zaehle_inseln(p, raster=60):
+    """Getrennte Bildinseln zählen – Sammeltafeln mit mehreren einzeln stehenden
+    Vögeln haben viele, eine Tafel mit einem großen Motiv nur eine."""
+    k = p.resize((raster, max(1, int(raster * p.height / p.width))))
+    abstand = ImageChops.difference(k, Image.new("RGB", k.size, PAPIER)).convert("L")
+    w, h = k.size
+    voll = {(x, y) for y in range(h) for x in range(w) if abstand.getpixel((x, y)) > 30}
+    groessen = []
+    while voll:
+        stapel, n = [voll.pop()], 0
+        while stapel:
+            x, y = stapel.pop()
+            n += 1
+            for nb in ((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)):
+                if nb in voll:
+                    voll.remove(nb)
+                    stapel.append(nb)
+        groessen.append(n)
+    return max(1, sum(1 for g in groessen if g >= 0.03 * w * h))
 
 
 def beste_tafel(art):
