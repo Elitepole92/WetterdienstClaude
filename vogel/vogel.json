@@ -1,20 +1,20 @@
 {
-  "deutsch": "Rotkehlchen",
-  "latein": "Erithacus rubecula",
-  "zuletzt": "2026-10-30",
-  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (10036178774).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(10036178774).jpg",
+  "deutsch": "Amsel",
+  "latein": "Turdus merula",
+  "zuletzt": "2026-10-27",
+  "tafel": "File:MerulaBourdilloniKeulemans.jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:MerulaBourdilloniKeulemans.jpg",
   "bewertung": {
-    "farbe": 0.733,
-    "detail": 0.251,
-    "fuellung": 0.761,
-    "gesamt": 18.43
+    "farbe": 0.448,
+    "detail": 0.267,
+    "fuellung": 0.806,
+    "gesamt": 12.67
   },
-  "stand": "01.11. 09:37 Uhr",
+  "stand": "01.11. 09:38 Uhr",
   "slot": "2026-11-01 09",
   "verlauf": [
-    "Erithacus rubecula",
     "Turdus merula",
+    "Erithacus rubecula",
     "Larus canus",
     "Tachybaptus ruficollis",
     "Accipiter nisus",
