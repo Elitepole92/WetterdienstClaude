@@ -473,6 +473,7 @@ def _setze_platte(img, platte, feld):
     p = platte
     faktor = min((x1 - x0) / p.width, (y1 - y0) / p.height)
     p = p.resize((int(p.width * faktor), int(p.height * faktor)), Image.LANCZOS)
+    p = p.crop((3, 3, p.width - 3, p.height - 3))  # feine Randlinien der Vorlage weg
     x = x0 + (x1 - x0 - p.width) // 2
     y = y0 + (y1 - y0 - p.height) // 2
     # Bleibt seitlich oder oben/unten Platz, läuft der Bildhintergrund bis zum Rahmen
@@ -512,9 +513,11 @@ def _feder(p, seitlich, weich=40):
     px = maske.load()
     q = p.load()
     laenge, tiefe = (h, w) if seitlich else (w, h)
+    tief = min(weich // 2, tiefe // 4)  # etwas innerhalb prüfen, nicht die Randlinie selbst
     for i in range(laenge):
         for kante in (0, tiefe - 1):
-            rand = q[kante, i] if seitlich else q[i, kante]
+            innen = kante + tief if kante == 0 else kante - tief
+            rand = q[innen, i] if seitlich else q[i, innen]
             if sum(rand) < hell:
                 continue
             for t in range(min(weich, tiefe // 2)):
