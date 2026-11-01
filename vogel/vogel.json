@@ -1,12 +1,13 @@
 {
-  "deutsch": "Sperber",
-  "latein": "Accipiter nisus",
+  "deutsch": "Zwergtaucher",
+  "latein": "Tachybaptus ruficollis",
   "zuletzt": "2026-10-30",
-  "tafel": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 19) (6058833633).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Johann_Andreas_Naumann%27s_..._Naturgeschichte_der_V%C3%B6gel_Deutschlands,_nach_einigen_Erfahrungen_entworfen_(Taf._19)_(6058833633).jpg",
-  "stand": "31.10. 19:08 Uhr",
-  "slot": "2026-10-31 19",
+  "tafel": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 247) (6058906723).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Johann_Andreas_Naumann%27s_..._Naturgeschichte_der_V%C3%B6gel_Deutschlands,_nach_einigen_Erfahrungen_entworfen_(Taf._247)_(6058906723).jpg",
+  "stand": "01.11. 06:07 Uhr",
+  "slot": "2026-11-01 06",
   "verlauf": [
+    "Tachybaptus ruficollis",
     "Accipiter nisus",
     "Podiceps cristatus",
     "Garrulus glandarius",
@@ -25,7 +26,6 @@
     "Buteo buteo",
     "Cygnus olor",
     "Anas platyrhynchos",
-    "Larus argentatus",
-    "Corvus corone"
+    "Larus argentatus"
   ]
 }
