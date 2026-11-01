@@ -58,5 +58,64 @@
     ],
     "werk": "Keulemans"
   },
+  "Turdus merula": {
+    "bewertung": {
+      "detail": 0.267,
+      "farbe": 0.448,
+      "fuellung": 0.806,
+      "gesamt": 12.67
+    },
+    "datei": "File:MerulaBourdilloniKeulemans.jpg",
+    "jahr": 1881,
+    "kuenstler": "John Gerrard Keulemans",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:MerulaBourdilloniKeulemans.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/MerulaBourdilloniKeulemans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "verglichen": [
+      {
+        "datei": "File:Turdus merula 1869.jpg",
+        "detail": 0.249,
+        "farbe": 0.249,
+        "fuellung": 0.751,
+        "gesamt": 9.75
+      },
+      {
+        "datei": "File:GouldBirdsEuropeIIBlackbird.jpg",
+        "detail": 0.256,
+        "farbe": 0.371,
+        "fuellung": 0.797,
+        "gesamt": 11.28
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 1 23.jpg",
+        "detail": 0.251,
+        "farbe": 0.266,
+        "fuellung": 0.751,
+        "gesamt": 9.06
+      },
+      {
+        "datei": "File:MerulaBourdilloniKeulemans.jpg",
+        "detail": 0.267,
+        "farbe": 0.448,
+        "fuellung": 0.806,
+        "gesamt": 12.67
+      },
+      {
+        "datei": "File:Onze vogels in huis en tuin (12239505706).jpg",
+        "detail": 0.249,
+        "farbe": 0.3,
+        "fuellung": 0.751,
+        "gesamt": 9.78
+      },
+      {
+        "datei": "File:A naturalist's sketch book (Plate 22) BHL46157839.jpg",
+        "detail": 0.225,
+        "farbe": 0.398,
+        "fuellung": 0.56,
+        "gesamt": 11.31
+      }
+    ],
+    "werk": "Keulemans"
+  },
   "_version": 2
 }
