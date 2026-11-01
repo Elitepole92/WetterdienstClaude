@@ -395,7 +395,7 @@ def stelle_frei(platte):
     return ohne_beschriftung(platte.crop(tuple(int(v / f) for v in box)))
 
 
-def ohne_beschriftung(platte, leer=0.005, luecke=3, anteil=0.15):
+def ohne_beschriftung(platte, leer=0.02, luecke=3, anteil=0.15):
     """Textzeilen unter und über der Zeichnung abschneiden (Artname, Tafelnummer,
     Lithograf). Die Zeilen werden in Blöcke zerlegt, die durch leere Zeilen getrennt
     sind; behalten wird der Block mit dem meisten Inhalt plus angrenzende Blöcke mit
@@ -502,7 +502,7 @@ def _setze_platte(img, platte, feld):
     img.paste(p, (x, y), maske)
 
 
-def _feder(p, seitlich, weich=18):
+def _feder(p, seitlich, weich=28):
     """Maske, die die Tafel an zwei gegenüberliegenden Kanten weich ausblendet – aber nur
     dort, wo am Rand heller Hintergrund ist. Reicht das Motiv selbst (Kopf, Schwanz) bis
     an die Kante, bleibt es voll sichtbar."""
@@ -536,10 +536,23 @@ def _verlauf(p, breite, seite):
             "oben": (0, 0, p.width, 6), "unten": (0, p.height - 6, p.width, p.height)}[seite]
     streifen = p.crop(rand).resize((1, n) if quer else (n, 1))
     # Nur Hintergrundtöne übernehmen: dunkle Motivteile (Vogel, Schilf) am Rand würden
-    # sonst als Schlieren in den Verlauf gezogen
+    # sonst als Schlieren in den Verlauf gezogen. Sie werden durch den gewichteten
+    # Mittelwert der hellen Nachbarn ersetzt, damit der Hintergrundton durchgeht.
     hell = sum(PAPIER) * 0.8
-    streifen.putdata([c if sum(c) >= hell else PAPIER for c in streifen.getdata()])
-    streifen = streifen.filter(ImageFilter.GaussianBlur(40))
+    farben = list(streifen.getdata())
+    gewicht = [1.0 if sum(c) >= hell else 0.0 for c in farben]
+    radius = max(20, n // 12)
+    glatt = []
+    for i in range(n):
+        lo, hi = max(0, i - radius), min(n, i + radius + 1)
+        g = sum(gewicht[lo:hi])
+        if g:
+            glatt.append(tuple(int(sum(farben[j][k] * gewicht[j] for j in range(lo, hi)) / g)
+                               for k in range(3)))
+        else:
+            glatt.append(PAPIER)
+    streifen.putdata(glatt)
+    streifen = streifen.filter(ImageFilter.GaussianBlur(10))
     groesse = (breite, n) if quer else (n, breite)
     farbe = streifen.resize(groesse)
     # linear_gradient: oben 0, unten 255 – so drehen, dass 255 an der Tafel liegt
