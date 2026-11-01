@@ -20,10 +20,15 @@ https://raw.githubusercontent.com/Elitepole92/WetterdienstClaude/main/spruch.jso
 
 ## Regeln für den Spruch
 
-Ton: **trockenes Norddeutsch** – Untertreibung, Gelassenheit, null Aufregung. Die Pointe
-wird hingestellt, nicht erklärt. Hochdeutsch, **kein Platt**.
+Ton: **trockenes Norddeutsch, frech mit echtem Seitenhieb** – Untertreibung, Gelassenheit,
+null Aufregung, aber nicht brav. Die Pointe wird hingestellt, nicht erklärt. Nicht cringe,
+nicht gewollt lustig. Hochdeutsch, **kein Platt**.
 
-- **Hauptstil (meistens): trocken mit kleinem Seitenhieb.** Das Wetter lakonisch
+**So entsteht der Spruch:** erst das Wetter lesen und eine konkrete Beobachtung wählen
+(grau und trocken, ordentlich Böen, Nebel, morgen Regen …), dann die Pointe *daraus*
+ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
+
+- **Hauptstil (meistens): trocken mit Seitenhieb.** Das Wetter lakonisch
   kommentieren und dann ein Stich gegen Hamburger, Süddeutsche, Werder, Touristen,
   Schönwetter-Optimisten, Leute mit falscher Jacke … – Beispiele:
   - Ordentlich Böen heute. Für Hamburger ist das Sturm, für uns ist das Lüften.
@@ -33,15 +38,30 @@ wird hingestellt, nicht erklärt. Hochdeutsch, **kein Platt**.
   - Es gibt kein schlechtes Wetter. Nur Leute aus dem Süden.
   - Der Wind weht. Das tut er hier seit Jahrhunderten, regt sich keiner drüber auf.
   - Wer bei dem Wetter rausgeht, kommt auch wieder rein. Meistens.
+- **So klingt es richtig** (vom Nutzer als gut bewertet, ebenfalls nur Ton, nicht übernehmen):
+  - Kein Regen, kein Wind, keine Sonne. Der Bremer sagt: geht. Der Optimist sagt: gleich reißt's auf. Der Optimist wohnt nicht lange hier.
+  - Grau, trocken, kaum Wind. Für Bremen ist das ein schöner Sonntag. Wer jetzt nach Sonne fragt, kommt aus Süddeutschland.
+  - Grau und windstill, es passiert einfach nichts. Wie Werder in der zweiten Halbzeit.
+  - Heute grau und trocken, morgen grau mit Regen. Für den einen derselbe Mist, für den Bremer aufregende Abwechslung.
 - **Die Beispiele oben zeigen nur den Ton. Nie einen Beispielsatz oder dessen Pointe
   übernehmen, auch nicht abgewandelt.** Jeder Spruch braucht eine eigene, neue Idee.
+- **Pointe muss ohne Vorwissen zünden.** Das Ziel des Seitenhiebs klar benennen
+  („kommt aus Süddeutschland“ statt „ist zu Besuch“). Keine Anspielungen, die man erst
+  erklären müsste.
+- **Pointe braucht einen echten Kontrast.** Kein Wortspiel mit zwei fast gleichbedeutenden
+  Wörtern (z. B. „kein Wetterwechsel, sondern Abwechslung“) – das dreht sich im Kreis.
+- **Keine Sprünge ohne Anlass.** Andere Tage (morgen, Montag …) nur erwähnen, wenn der
+  Spruch das von Anfang an aufbaut, nicht als Überraschung am Ende.
+- **Kneipentest vor dem Schreiben:** Würde man den Satz am Tresen so sagen, und versteht
+  ihn jeder sofort? Wenn nicht, neu formulieren.
 - **Keine Messwerte**: keine Grad, km/h, Liter, Prozente, Uhrzeiten. Die Zahlen zeigt das
   Display separat. Stattdessen beschreiben: „frisch“, „ordentlich Böen“, „richtig nass“.
 - Muss trotzdem erkennbar zum aktuellen Wetter bzw. den nächsten Stunden passen. Morgens
   eher auf den Tag, um 19 Uhr auf Abend/Nacht und morgen.
 - Mundart-Färbung höchstens sparsam („nich“, „büschen“, „Schietwetter“) und nur, wenn sie
-  natürlich klingt – nicht reinstreuen, damit es norddeutsch wirkt. Kein „Digger“.
-- Ein bis drei kurze Sätze, ca. 80–180 Zeichen. Keine Emojis, keine Anführungszeichen.
+  zum Witz beiträgt – nicht reinstreuen, damit es norddeutsch wirkt. Kein „Digger“.
+- Ein bis drei kurze Sätze, **höchstens ca. 22 Wörter / 135 Zeichen** (mehr passt nicht ins
+  Textfeld des Displays). Keine Emojis, keine Anführungszeichen.
 - Frech ist erlaubt, aber keine Beleidigungen von Gruppen, nichts Sexistisches/
   Rassistisches, keine Gewalt.
 - Nicht wiederholen: vorher `git log -p -8 -- spruch.json` anschauen und andere Pointe und
