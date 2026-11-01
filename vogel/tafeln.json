@@ -67,10 +67,10 @@
   },
   "Ardea alba": {
     "bewertung": {
-      "detail": 0.242,
-      "farbe": 0.79,
-      "fuellung": 0.805,
-      "gesamt": 26.34,
+      "detail": 0.248,
+      "farbe": 0.796,
+      "fuellung": 0.836,
+      "gesamt": 26.73,
       "inseln": 1
     },
     "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (20549807560).jpg",
@@ -90,18 +90,18 @@
       },
       {
         "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (20549807560).jpg",
-        "detail": 0.242,
-        "farbe": 0.79,
-        "fuellung": 0.805,
-        "gesamt": 26.34,
+        "detail": 0.248,
+        "farbe": 0.796,
+        "fuellung": 0.836,
+        "gesamt": 26.73,
         "inseln": 1
       },
       {
         "datei": "File:NZ Blue & White Herons.jpg",
-        "detail": 0.28,
-        "farbe": 0.62,
-        "fuellung": 0.955,
-        "gesamt": 24.15,
+        "detail": 0.284,
+        "farbe": 0.61,
+        "fuellung": 0.949,
+        "gesamt": 23.83,
         "inseln": 1
       },
       {
@@ -114,18 +114,18 @@
       },
       {
         "datei": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 222) (6059446046).jpg",
-        "detail": 0.33,
+        "detail": 0.327,
         "farbe": 0.222,
-        "fuellung": 0.979,
-        "gesamt": 13.73,
+        "fuellung": 0.97,
+        "gesamt": 13.68,
         "inseln": 1
       },
       {
         "datei": "File:Reports on the fishes, reptiles and birds of Massachusetts (1839) (14747885821).jpg",
         "detail": 0.374,
         "farbe": 0.061,
-        "fuellung": 0.31,
-        "gesamt": 1.33,
+        "fuellung": 0.309,
+        "gesamt": 1.31,
         "inseln": 1
       }
     ],
