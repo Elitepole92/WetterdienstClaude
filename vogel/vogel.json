@@ -2,9 +2,15 @@
   "deutsch": "Sturmmöwe",
   "latein": "Larus canus",
   "zuletzt": "2026-10-26",
-  "tafel": "File:The genera of birds (19322156592).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:The_genera_of_birds_(19322156592).jpg",
-  "stand": "01.11. 09:23 Uhr",
+  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (Plate XXII) (20310404102).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(Plate_XXII)_(20310404102).jpg",
+  "bewertung": {
+    "farbe": 0.699,
+    "detail": 0.222,
+    "fuellung": 0.531,
+    "gesamt": 17.26
+  },
+  "stand": "01.11. 09:35 Uhr",
   "slot": "2026-11-01 09",
   "verlauf": [
     "Larus canus",
