@@ -532,8 +532,10 @@ def _verlauf(p, breite, seite):
     an der Tafel volle Randfarbe, am Rahmen reines Papier."""
     quer = seite in ("links", "rechts")
     n = p.height if quer else p.width
-    rand = {"links": (0, 0, 6, p.height), "rechts": (p.width - 6, 0, p.width, p.height),
-            "oben": (0, 0, p.width, 6), "unten": (0, p.height - 6, p.width, p.height)}[seite]
+    # Farbe etwas innerhalb der Kante abnehmen – ganz am Rand ist altes Papier oft vergilbt
+    a, b = 8, 24
+    rand = {"links": (a, 0, b, p.height), "rechts": (p.width - b, 0, p.width - a, p.height),
+            "oben": (0, a, p.width, b), "unten": (0, p.height - b, p.width, p.height - a)}[seite]
     streifen = p.crop(rand).resize((1, n) if quer else (n, 1))
     # Nur Hintergrundtöne übernehmen: dunkle Motivteile (Vogel, Schilf) am Rand würden
     # sonst als Schlieren in den Verlauf gezogen. Sie werden durch den gewichteten
