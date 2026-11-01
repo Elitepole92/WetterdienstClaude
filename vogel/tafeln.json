@@ -1,84 +1,18 @@
 {
-  "Anas platyrhynchos": {
-    "bewertung": {
-      "detail": 0.286,
-      "farbe": 0.661,
-      "fuellung": 0.439,
-      "gesamt": 18.69,
-      "inseln": 1
-    },
-    "datei": "File:The Indian ducks and their allies (6254570660).jpg",
-    "jahr": 1908,
-    "kuenstler": "Baker, E. C. Stuart; Bombay Natural History Society.; Green, J.; Grnvold, Henrik; Keulemans, J. G.; Lodge, George Edward",
-    "punkte": 9,
-    "seite": "https://commons.wikimedia.org/wiki/File:The_Indian_ducks_and_their_allies_(6254570660).jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/The_Indian_ducks_and_their_allies_%286254570660%29.jpg/1280px-The_Indian_ducks_and_their_allies_%286254570660%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "verglichen": [
-      {
-        "datei": "File:Anas platyrhynchos 1869.jpg",
-        "detail": 0.259,
-        "farbe": 0.352,
-        "fuellung": 0.497,
-        "gesamt": 14.62,
-        "inseln": 1
-      },
-      {
-        "datei": "File:The birds of Europe (1837) (14563996429).jpg",
-        "detail": 0.292,
-        "farbe": 0.41,
-        "fuellung": 0.422,
-        "gesamt": 13.38,
-        "inseln": 1
-      },
-      {
-        "datei": "File:Keulemans Onze vogels 1 69.jpg",
-        "detail": 0.292,
-        "farbe": 0.311,
-        "fuellung": 0.495,
-        "gesamt": 12.28,
-        "inseln": 1
-      },
-      {
-        "datei": "File:The Indian ducks and their allies (1908) (14565347917).jpg",
-        "detail": 0.287,
-        "farbe": 0.661,
-        "fuellung": 0.439,
-        "gesamt": 18.68,
-        "inseln": 1
-      },
-      {
-        "datei": "File:The Indian ducks and their allies (6254570660).jpg",
-        "detail": 0.286,
-        "farbe": 0.661,
-        "fuellung": 0.439,
-        "gesamt": 18.69,
-        "inseln": 1
-      },
-      {
-        "datei": "File:Archibald Thorburn Winter landscape with mallard.jpg",
-        "detail": 0.311,
-        "farbe": 0.593,
-        "fuellung": 0.51,
-        "gesamt": 17.81,
-        "inseln": 1
-      }
-    ],
-    "werk": "Keulemans"
-  },
   "Ardea alba": {
     "bewertung": {
-      "detail": 0.04,
-      "farbe": 0.932,
-      "fuellung": 0.238,
-      "gesamt": 24.88,
+      "detail": 0.232,
+      "farbe": 0.787,
+      "fuellung": 0.67,
+      "gesamt": 24.8,
       "inseln": 1
     },
-    "datei": "File:Ardea alba modesta composite - Gould's Lagoon.jpg",
-    "jahr": null,
-    "kuenstler": "JJ Harrison ( https://www.jjharrison.com.au/ )",
-    "punkte": 8,
-    "seite": "https://commons.wikimedia.org/wiki/File:Ardea_alba_modesta_composite_-_Gould%27s_Lagoon.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Ardea_alba_modesta_composite_-_Gould%27s_Lagoon.jpg/1280px-Ardea_alba_modesta_composite_-_Gould%27s_Lagoon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (20549807560).jpg",
+    "jahr": 1885,
+    "kuenstler": "Keulemans, J. G.; Lilford, Thomas Littleton Powys; Newton, Alfred; Salvin, Osbert; Thorburn, Archibald",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(20549807560).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%2820549807560%29.jpg/1280px-Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%2820549807560%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "verglichen": [
       {
         "datei": "File:Bul02BirdP036.jpg",
@@ -113,65 +47,23 @@
         "inseln": 1
       },
       {
-        "datei": "File:Ardea alba modesta - Gould's Lagoon.jpg",
-        "detail": 0.144,
-        "farbe": 0.804,
-        "fuellung": 0.49,
-        "gesamt": 23.79,
+        "datei": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 222) (6059446046).jpg",
+        "detail": 0.33,
+        "farbe": 0.222,
+        "fuellung": 0.979,
+        "gesamt": 13.73,
         "inseln": 1
       },
       {
-        "datei": "File:Ardea alba modesta composite - Gould's Lagoon.jpg",
-        "detail": 0.04,
-        "farbe": 0.932,
-        "fuellung": 0.238,
-        "gesamt": 24.88,
+        "datei": "File:Reports on the fishes, reptiles and birds of Massachusetts (1839) (14747885821).jpg",
+        "detail": 0.374,
+        "farbe": 0.061,
+        "fuellung": 0.31,
+        "gesamt": 1.33,
         "inseln": 1
       }
     ],
-    "werk": "Gould"
+    "werk": "Keulemans"
   },
-  "Corvus corone": {
-    "bewertung": {
-      "detail": 0.156,
-      "farbe": 0.444,
-      "fuellung": 0.866,
-      "gesamt": 21.43,
-      "inseln": 1
-    },
-    "datei": "File:British birds (1915) (19795669463).jpg",
-    "jahr": 1915,
-    "kuenstler": "Thorburn, Archibald, 1860-1935",
-    "punkte": 9,
-    "seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(19795669463).jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/British_birds_%281915%29_%2819795669463%29.jpg/1280px-British_birds_%281915%29_%2819795669463%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "verglichen": [
-      {
-        "datei": "File:The birds of Europe (1837) (14751684372).jpg",
-        "detail": 0.211,
-        "farbe": 0.391,
-        "fuellung": 0.952,
-        "gesamt": 20.58,
-        "inseln": 1
-      },
-      {
-        "datei": "File:British birds (1915) (19795669463).jpg",
-        "detail": 0.156,
-        "farbe": 0.444,
-        "fuellung": 0.866,
-        "gesamt": 21.43,
-        "inseln": 1
-      },
-      {
-        "datei": "File:Corvus cornix (PD).jpg",
-        "detail": 0.279,
-        "farbe": 0.408,
-        "fuellung": 0.929,
-        "gesamt": 17.62,
-        "inseln": 1
-      }
-    ],
-    "werk": "Thorburn"
-  },
-  "_version": 3
+  "_version": 4
 }
