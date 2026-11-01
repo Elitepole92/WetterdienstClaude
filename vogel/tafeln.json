@@ -65,5 +65,71 @@
     ],
     "werk": "Keulemans"
   },
+  "Turdus merula": {
+    "bewertung": {
+      "detail": 0.256,
+      "farbe": 0.453,
+      "fuellung": 0.888,
+      "gesamt": 20.36,
+      "inseln": 1
+    },
+    "datei": "File:GouldBirdsEuropeIIBlackbird.jpg",
+    "jahr": 1837,
+    "kuenstler": "J and E Gould E Lear",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:GouldBirdsEuropeIIBlackbird.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/GouldBirdsEuropeIIBlackbird.jpg/1280px-GouldBirdsEuropeIIBlackbird.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Turdus merula 1869.jpg",
+        "detail": 0.229,
+        "farbe": 0.247,
+        "fuellung": 0.53,
+        "gesamt": 13.37,
+        "inseln": 1
+      },
+      {
+        "datei": "File:GouldBirdsEuropeIIBlackbird.jpg",
+        "detail": 0.256,
+        "farbe": 0.453,
+        "fuellung": 0.888,
+        "gesamt": 20.36,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 1 23.jpg",
+        "detail": 0.228,
+        "farbe": 0.251,
+        "fuellung": 0.521,
+        "gesamt": 12.36,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Onze vogels in huis en tuin (12239505706).jpg",
+        "detail": 0.227,
+        "farbe": 0.287,
+        "fuellung": 0.52,
+        "gesamt": 13.07,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A naturalist's sketch book (Plate 22) BHL46157839.jpg",
+        "detail": 0.174,
+        "farbe": 0.439,
+        "fuellung": 0.759,
+        "gesamt": 19.77,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (20229954889).jpg",
+        "detail": 0.244,
+        "farbe": 0.637,
+        "fuellung": 0.88,
+        "gesamt": 18.14,
+        "inseln": 3
+      }
+    ],
+    "werk": "Gould"
+  },
   "_version": 4
 }
