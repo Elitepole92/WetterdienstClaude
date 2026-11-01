@@ -65,6 +65,72 @@
     ],
     "werk": "Keulemans"
   },
+  "Ardea alba": {
+    "bewertung": {
+      "detail": 0.04,
+      "farbe": 0.932,
+      "fuellung": 0.238,
+      "gesamt": 24.88,
+      "inseln": 1
+    },
+    "datei": "File:Ardea alba modesta composite - Gould's Lagoon.jpg",
+    "jahr": null,
+    "kuenstler": "JJ Harrison ( https://www.jjharrison.com.au/ )",
+    "punkte": 8,
+    "seite": "https://commons.wikimedia.org/wiki/File:Ardea_alba_modesta_composite_-_Gould%27s_Lagoon.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Ardea_alba_modesta_composite_-_Gould%27s_Lagoon.jpg/1280px-Ardea_alba_modesta_composite_-_Gould%27s_Lagoon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Bul02BirdP036.jpg",
+        "detail": 0.276,
+        "farbe": 0.666,
+        "fuellung": 0.954,
+        "gesamt": 22.13,
+        "inseln": 2
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (20549807560).jpg",
+        "detail": 0.232,
+        "farbe": 0.787,
+        "fuellung": 0.67,
+        "gesamt": 24.8,
+        "inseln": 1
+      },
+      {
+        "datei": "File:NZ Blue & White Herons.jpg",
+        "detail": 0.28,
+        "farbe": 0.62,
+        "fuellung": 0.955,
+        "gesamt": 24.15,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (20390434076).jpg",
+        "detail": 0.252,
+        "farbe": 0.684,
+        "fuellung": 0.776,
+        "gesamt": 23.72,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Ardea alba modesta - Gould's Lagoon.jpg",
+        "detail": 0.144,
+        "farbe": 0.804,
+        "fuellung": 0.49,
+        "gesamt": 23.79,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Ardea alba modesta composite - Gould's Lagoon.jpg",
+        "detail": 0.04,
+        "farbe": 0.932,
+        "fuellung": 0.238,
+        "gesamt": 24.88,
+        "inseln": 1
+      }
+    ],
+    "werk": "Gould"
+  },
   "Corvus corone": {
     "bewertung": {
       "detail": 0.156,

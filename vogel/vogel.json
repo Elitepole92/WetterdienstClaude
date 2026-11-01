@@ -1,19 +1,20 @@
 {
-  "deutsch": "Rabenkrähe",
-  "latein": "Corvus corone",
-  "zuletzt": "2026-10-26",
-  "tafel": "File:British birds (1915) (19795669463).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(19795669463).jpg",
+  "deutsch": "Silberreiher",
+  "latein": "Ardea alba",
+  "zuletzt": "2026-10-30",
+  "tafel": "File:Ardea alba modesta composite - Gould's Lagoon.jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Ardea_alba_modesta_composite_-_Gould%27s_Lagoon.jpg",
   "bewertung": {
-    "farbe": 0.444,
-    "detail": 0.156,
-    "fuellung": 0.866,
+    "farbe": 0.932,
+    "detail": 0.04,
+    "fuellung": 0.238,
     "inseln": 1,
-    "gesamt": 21.43
+    "gesamt": 24.88
   },
-  "stand": "01.11. 09:58 Uhr",
-  "slot": "2026-11-01 09",
+  "stand": "01.11. 10:08 Uhr",
+  "slot": "2026-11-01 10",
   "verlauf": [
+    "Ardea alba",
     "Corvus corone",
     "Anas platyrhynchos",
     "Alopochen aegyptiaca",
@@ -32,7 +33,6 @@
     "Mareca strepera",
     "Phalacrocorax carbo",
     "Mergus serrator",
-    "Anser anser",
-    "Anser albifrons"
+    "Anser anser"
   ]
 }
