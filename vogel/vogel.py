@@ -196,7 +196,7 @@ def suche_tafel(art):
 def bewerte(platte, kandidat):
     """Wie gut taugt die (aufbereitete) Tafel fürs kleine Display? Farbig, große ruhige
     Flächen und gute Ausnutzung des Feldes sind gut; viel Feindetail ist schlecht."""
-    p = auf_papier(stelle_frei(platte))
+    p = schneide_breite(auf_papier(stelle_frei(platte)))
     fb, fh = FELD[2] - FELD[0], FELD[3] - FELD[1]
     faktor = min(fb / p.width, fh / p.height)
     p = p.resize((max(1, int(p.width * faktor)), max(1, int(p.height * faktor))), Image.LANCZOS)
@@ -287,7 +287,7 @@ def seite(platte, art):
     der letzten Sichtung."""
     img = Image.new("RGB", (BREITE, HOEHE), PAPIER)
     d = ImageDraw.Draw(img)
-    _setze_platte(img, auf_papier(stelle_frei(platte)), FELD)
+    _setze_platte(img, schneide_breite(auf_papier(stelle_frei(platte))), FELD)
     rahmen(d, BREITE, HOEHE, 4)
 
     x0, x1 = FELD[0], FELD[2]
@@ -302,20 +302,61 @@ def seite(platte, art):
 
 def stelle_frei(platte):
     """Nur den Bildteil mit den Vögeln behalten: Tafelnummer, Beschriftung und
-    leeres Papier fallen weg. Dünne Linien (Schrift) werden über ein Opening
-    der Maske ignoriert, flächige Zeichnung bleibt stehen."""
+    leeres Papier fallen weg. Dünne Linien werden über ein Opening der Maske
+    ignoriert; von dem, was bleibt, zählt nur der größte zusammenhängende Block
+    (abgesetzte Bildunterschriften fallen so heraus)."""
     f = 400 / platte.width
     klein = platte.resize((400, max(1, int(platte.height * f))))
     abstand = ImageChops.difference(klein, Image.new("RGB", klein.size, PAPIER)).convert("L")
     maske = abstand.point(lambda v: 255 if v > 40 else 0)
-    maske = maske.filter(ImageFilter.MinFilter(5)).filter(ImageFilter.MaxFilter(15))
-    box = maske.getbbox()
-    if not box:
+    maske = maske.filter(ImageFilter.MinFilter(5)).filter(ImageFilter.MaxFilter(9))
+    w, h = maske.size
+    px = maske.load()
+    zeilen = [sum(1 for x in range(w) if px[x, y]) for y in range(h)]
+    y0, y1 = _groesster_block(zeilen, luecke=8)
+    spalten = [sum(1 for y in range(y0, y1) if px[x, y]) for x in range(w)]
+    x0, x1 = _groesster_block(spalten, luecke=8)
+    if x1 <= x0 or y1 <= y0:
         return platte
-    rand = 8
-    x0, y0, x1, y1 = (max(0, box[0] - rand), max(0, box[1] - rand),
-                      min(klein.width, box[2] + rand), min(klein.height, box[3] + rand))
-    return platte.crop(tuple(int(v / f) for v in (x0, y0, x1, y1)))
+    rand = 6
+    box = (max(0, x0 - rand), max(0, y0 - rand), min(w, x1 + rand), min(h, y1 + rand))
+    return platte.crop(tuple(int(v / f) for v in box))
+
+
+def _groesster_block(profil, luecke):
+    """Bereich [a, b) mit der meisten Masse, Lücken unter `luecke` werden überbrückt."""
+    bloecke, start, leer = [], None, 0
+    for i, v in enumerate(profil + [0] * luecke):
+        if v:
+            if start is None:
+                start = i
+            leer, ende = 0, i + 1
+        elif start is not None:
+            leer += 1
+            if leer >= luecke:
+                bloecke.append((start, ende))
+                start = None
+    if not bloecke:
+        return 0, 0
+    return max(bloecke, key=lambda bl: sum(profil[bl[0]:bl[1]]))
+
+
+def schneide_breite(platte, max_seitenverhaeltnis=1.3):
+    """Sehr breite Bilder seitlich beschneiden, zentriert auf den Schwerpunkt der Zeichnung,
+    damit der Vogel im hohen Bildfeld größer wird."""
+    w, h = platte.size
+    if w / h <= max_seitenverhaeltnis:
+        return platte
+    neu = int(h * max_seitenverhaeltnis)
+    abstand = ImageChops.difference(platte, Image.new("RGB", platte.size, PAPIER)).convert("L")
+    spalten = [0] * w
+    klein = abstand.resize((w // 4 or 1, h // 4 or 1))
+    for x in range(klein.width):
+        spalten[min(w - 1, x * 4)] = sum(klein.getpixel((x, y)) for y in range(klein.height))
+    gesamt = sum(spalten) or 1
+    mitte = int(sum(x * v for x, v in enumerate(spalten)) / gesamt)
+    links = min(max(0, mitte - neu // 2), w - neu)
+    return platte.crop((links, 0, links + neu, h))
 
 
 def auf_papier(platte):
