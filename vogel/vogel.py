@@ -502,7 +502,7 @@ def _setze_platte(img, platte, feld):
     img.paste(p, (x, y), maske)
 
 
-def _feder(p, seitlich, weich=28):
+def _feder(p, seitlich, weich=40):
     """Maske, die die Tafel an zwei gegenüberliegenden Kanten weich ausblendet – aber nur
     dort, wo am Rand heller Hintergrund ist. Reicht das Motiv selbst (Kopf, Schwanz) bis
     an die Kante, bleibt es voll sichtbar."""
@@ -538,10 +538,10 @@ def _verlauf(p, breite, seite):
     # Nur Hintergrundtöne übernehmen: dunkle Motivteile (Vogel, Schilf) am Rand würden
     # sonst als Schlieren in den Verlauf gezogen. Sie werden durch den gewichteten
     # Mittelwert der hellen Nachbarn ersetzt, damit der Hintergrundton durchgeht.
-    hell = sum(PAPIER) * 0.8
+    hell = sum(PAPIER) * 0.93  # nur echter Papier-/Himmelston, kein Schilf oder Boden
     farben = list(streifen.getdata())
     gewicht = [1.0 if sum(c) >= hell else 0.0 for c in farben]
-    radius = max(20, n // 12)
+    radius = max(30, n // 4)
     glatt = []
     for i in range(n):
         lo, hi = max(0, i - radius), min(n, i + radius + 1)
