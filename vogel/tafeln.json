@@ -387,6 +387,72 @@
     ],
     "werk": "Thorburn"
   },
+  "Larus argentatus": {
+    "bewertung": {
+      "detail": 0.232,
+      "farbe": 0.673,
+      "fuellung": 0.434,
+      "gesamt": 19.69,
+      "inseln": 1
+    },
+    "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (Plate XXIII) (20132195059).jpg",
+    "jahr": 1885,
+    "kuenstler": "Keulemans, J. G.; Lilford, Thomas Littleton Powys; Newton, Alfred; Salvin, Osbert; Thorburn, Archibald",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(Plate_XXIII)_(20132195059).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%28Plate_XXIII%29_%2820132195059%29.jpg/1280px-Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%28Plate_XXIII%29_%2820132195059%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:The birds of Europe (1837) (14750731935).jpg",
+        "detail": 0.258,
+        "farbe": 0.407,
+        "fuellung": 0.422,
+        "gesamt": 13.83,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (Plate XXIII) (20132195059).jpg",
+        "detail": 0.232,
+        "farbe": 0.673,
+        "fuellung": 0.434,
+        "gesamt": 19.69,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (19795760133).jpg",
+        "detail": 0.221,
+        "farbe": 0.462,
+        "fuellung": 0.817,
+        "gesamt": 14.21,
+        "inseln": 3
+      },
+      {
+        "datei": "File:Ferdinand von Wright - European Herring Gull - A II 1022-22 - Finnish National Gallery.jpg",
+        "detail": 0.237,
+        "farbe": 0.395,
+        "fuellung": 0.38,
+        "gesamt": 12.91,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Magnus von Wright - European Herring Gull - A II 1022-18 - Finnish National Gallery.jpg",
+        "detail": 0.331,
+        "farbe": 0.343,
+        "fuellung": 0.373,
+        "gesamt": 10.37,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Magnus von Wright - European Herring Gull - A II 1022-20 - Finnish National Gallery.jpg",
+        "detail": 0.287,
+        "farbe": 0.366,
+        "fuellung": 0.85,
+        "gesamt": 17.21,
+        "inseln": 1
+      }
+    ],
+    "werk": "Keulemans"
+  },
   "Larus cachinnans": null,
   "Mareca strepera": {
     "bewertung": {
