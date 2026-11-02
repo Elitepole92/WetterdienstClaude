@@ -1,19 +1,20 @@
 {
-  "deutsch": "Mittelsäger",
-  "latein": "Mergus serrator",
+  "deutsch": "Schnatterente",
+  "latein": "Mareca strepera",
   "zuletzt": "2026-10-29",
-  "tafel": "File:Mergus serrator 1921.jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Mergus_serrator_1921.jpg",
+  "tafel": "File:British birds (1915) (20416667065).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20416667065).jpg",
   "bewertung": {
-    "farbe": 0.853,
-    "detail": 0.306,
-    "fuellung": 0.975,
+    "farbe": 0.597,
+    "detail": 0.243,
+    "fuellung": 0.781,
     "inseln": 1,
-    "gesamt": 29.67
+    "gesamt": 22.17
   },
-  "stand": "01.11. 19:07 Uhr",
-  "slot": "2026-11-01 19",
+  "stand": "02.11. 06:08 Uhr",
+  "slot": "2026-11-02 06",
   "verlauf": [
+    "Mareca strepera",
     "Mergus serrator",
     "Aegithalos caudatus",
     "Anas crecca",
@@ -32,7 +33,6 @@
     "Podiceps cristatus",
     "Garrulus glandarius",
     "Mergus merganser",
-    "Phasianus colchicus",
-    "Gallinula chloropus"
+    "Phasianus colchicus"
   ]
 }
