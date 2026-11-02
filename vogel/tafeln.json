@@ -263,6 +263,64 @@
     ],
     "werk": "Keulemans"
   },
+  "Buteo buteo": {
+    "bewertung": {
+      "detail": 0.309,
+      "farbe": 0.866,
+      "fuellung": 0.876,
+      "gesamt": 27.7,
+      "inseln": 1
+    },
+    "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (6029164046).jpg",
+    "jahr": 1885,
+    "kuenstler": "Archibald Thorburn",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(6029164046).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%286029164046%29.jpg/1280px-Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%286029164046%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Archibuteo Lagopus.tif",
+        "detail": 0.221,
+        "farbe": 0.532,
+        "fuellung": 0.894,
+        "gesamt": 22.54,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Buteo Vulgaris.tif",
+        "detail": 0.254,
+        "farbe": 0.525,
+        "fuellung": 0.977,
+        "gesamt": 22.92,
+        "inseln": 1
+      },
+      {
+        "datei": "File:GouldBirdsEuropeICommon Buzzard.jpg",
+        "detail": 0.313,
+        "farbe": 0.449,
+        "fuellung": 0.777,
+        "gesamt": 18.11,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (20390411406).jpg",
+        "detail": 0.232,
+        "farbe": 0.762,
+        "fuellung": 0.873,
+        "gesamt": 26.73,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (6029164046).jpg",
+        "detail": 0.309,
+        "farbe": 0.866,
+        "fuellung": 0.876,
+        "gesamt": 27.7,
+        "inseln": 1
+      }
+    ],
+    "werk": "Thorburn"
+  },
   "Chroicocephalus ridibundus": {
     "bewertung": {
       "detail": 0.2,

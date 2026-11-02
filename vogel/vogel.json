@@ -1,19 +1,20 @@
 {
-  "deutsch": "Schnatterente",
-  "latein": "Mareca strepera",
-  "zuletzt": "2026-10-29",
-  "tafel": "File:British birds (1915) (20416667065).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20416667065).jpg",
+  "deutsch": "Mäusebussard",
+  "latein": "Buteo buteo",
+  "zuletzt": "2026-10-30",
+  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (6029164046).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(6029164046).jpg",
   "bewertung": {
-    "farbe": 0.597,
-    "detail": 0.243,
-    "fuellung": 0.781,
+    "farbe": 0.866,
+    "detail": 0.309,
+    "fuellung": 0.876,
     "inseln": 1,
-    "gesamt": 22.17
+    "gesamt": 27.7
   },
-  "stand": "02.11. 06:08 Uhr",
-  "slot": "2026-11-02 06",
+  "stand": "02.11. 11:09 Uhr",
+  "slot": "2026-11-02 11",
   "verlauf": [
+    "Buteo buteo",
     "Mareca strepera",
     "Mergus serrator",
     "Aegithalos caudatus",
@@ -32,7 +33,6 @@
     "Accipiter nisus",
     "Podiceps cristatus",
     "Garrulus glandarius",
-    "Mergus merganser",
-    "Phasianus colchicus"
+    "Mergus merganser"
   ]
 }
