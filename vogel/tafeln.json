@@ -512,6 +512,56 @@
     ],
     "werk": "Thorburn"
   },
+  "Mergus merganser": {
+    "bewertung": {
+      "detail": 0.221,
+      "farbe": 0.435,
+      "fuellung": 0.78,
+      "gesamt": 19.25,
+      "inseln": 1
+    },
+    "datei": "File:British birds (1915) (19795738833).jpg",
+    "jahr": 1915,
+    "kuenstler": "Thorburn, Archibald, 1860-1935",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(19795738833).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/British_birds_%281915%29_%2819795738833%29.jpg/1280px-British_birds_%281915%29_%2819795738833%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:The birds of Europe (1837) (14727672866).jpg",
+        "detail": 0.243,
+        "farbe": 0.451,
+        "fuellung": 0.479,
+        "gesamt": 15.63,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (19795738833).jpg",
+        "detail": 0.221,
+        "farbe": 0.435,
+        "fuellung": 0.78,
+        "gesamt": 19.25,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A history of British birds. By the Rev. F.O. Morris (1862) (14565637477).jpg",
+        "detail": 0.195,
+        "farbe": 0.507,
+        "fuellung": 0.394,
+        "gesamt": 15.95,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Magnus von Wright - Goosander, Male - A-2002-661 - Finnish National Gallery.jpg",
+        "detail": 0.253,
+        "farbe": 0.368,
+        "fuellung": 0.508,
+        "gesamt": 10.67,
+        "inseln": 2
+      }
+    ],
+    "werk": "Thorburn"
+  },
   "Mergus serrator": {
     "bewertung": {
       "detail": 0.306,
