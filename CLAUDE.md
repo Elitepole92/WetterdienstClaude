@@ -43,6 +43,11 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   - Grau, trocken, kaum Wind. Für Bremen ist das ein schöner Sonntag. Wer jetzt nach Sonne fragt, kommt aus Süddeutschland.
   - Grau und windstill, es passiert einfach nichts. Wie Werder in der zweiten Halbzeit.
   - Heute grau und trocken, morgen grau mit Regen. Für den einen derselbe Mist, für den Bremer aufregende Abwechslung.
+  - Der Niesel hat aufgehört, grau bleibt's trotzdem. Der Bremer nennt das Aufklaren, der Rest der Republik Novemberdepression.
+  - Morgen soll der Himmel stellenweise aufreißen. Das ist hier ungefähr so selten wie ein Werder-Auswärtssieg.
+  - Niesel bis in den Mittag. Wer dafür extra den Schirm aufspannt, outet sich als Zugezogener.
+  - Morgen startet die Woche mit Niesel. In München wär das ein Grund zum Krankmelden, hier ist das ein ganz normaler Montag.
+  - Grau und frisch, aber kein Tropfen fällt. Der Tourist bucht trotzdem schon die Heimfahrt.
 - **Die Beispiele oben zeigen nur den Ton. Nie einen Beispielsatz oder dessen Pointe
   übernehmen, auch nicht abgewandelt.** Jeder Spruch braucht eine eigene, neue Idee.
 - **Pointe muss ohne Vorwissen zünden.** Das Ziel des Seitenhiebs klar benennen
@@ -52,6 +57,18 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   Wörtern (z. B. „kein Wetterwechsel, sondern Abwechslung“) – das dreht sich im Kreis.
 - **Keine Sprünge ohne Anlass.** Andere Tage (morgen, Montag …) nur erwähnen, wenn der
   Spruch das von Anfang an aufbaut, nicht als Überraschung am Ende.
+- **Eine Beobachtung ist noch keine Pointe.** „Leute machen X“ reicht nicht; es braucht eine
+  Wendung oder Übertreibung, über die man stolpert (schwach: „Am Osterdeich stehen Leute mit
+  Sonnenbrille, als hätten sie den Himmel bestellt“).
+- **Der Seitenhieb muss logisch stimmen.** Das Ziel muss sich beim Thema wirklich von
+  Bremern unterscheiden: Süddeutsche/Münchner haben mehr Sonne, Touristen und Zugezogene
+  kennen das Wetter nicht. Hamburger haben dasselbe Wetter – ein Kontrast „Hamburger finden
+  Grau trist, Bremer nicht“ ergibt keinen Sinn. Hamburger nur da, wo sie sich wirklich
+  unterscheiden (Großstadtgehabe, Elbe, Pfeffersäcke …).
+- **Locker statt steif.** Tresensprache, keine Schriftsätze: „Umsonst gibt's hier nichts“
+  ist gut, ein angehängtes „auch nicht beim Wetter“ wirkt steif.
+- **Keine gewollten Redewendungen.** Lieber schlicht und trocken („hätte sich das sparen
+  können“) als ein erzwungenes Wortspiel („hat sein Geld in den Wind geschossen“).
 - **Kneipentest vor dem Schreiben:** Würde man den Satz am Tresen so sagen, und versteht
   ihn jeder sofort? Wenn nicht, neu formulieren.
 - **Keine Messwerte**: keine Grad, km/h, Liter, Prozente, Uhrzeiten. Die Zahlen zeigt das
