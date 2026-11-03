@@ -1,19 +1,20 @@
 {
-  "deutsch": "Teichhuhn",
-  "latein": "Gallinula chloropus",
+  "deutsch": "Eichelhäher",
+  "latein": "Garrulus glandarius",
   "zuletzt": "2026-10-30",
-  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (10560355216).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(10560355216).jpg",
+  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (8291309788).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(8291309788).jpg",
   "bewertung": {
-    "farbe": 0.86,
-    "detail": 0.257,
-    "fuellung": 0.911,
+    "farbe": 0.776,
+    "detail": 0.319,
+    "fuellung": 0.467,
     "inseln": 1,
-    "gesamt": 28.78
+    "gesamt": 20.84
   },
-  "stand": "03.11. 06:07 Uhr",
-  "slot": "2026-11-03 06",
+  "stand": "03.11. 11:09 Uhr",
+  "slot": "2026-11-03 11",
   "verlauf": [
+    "Garrulus glandarius",
     "Gallinula chloropus",
     "Mergus merganser",
     "Larus argentatus",
@@ -32,7 +33,6 @@
     "Falco tinnunculus",
     "Erithacus rubecula",
     "Larus canus",
-    "Tachybaptus ruficollis",
-    "Accipiter nisus"
+    "Tachybaptus ruficollis"
   ]
 }

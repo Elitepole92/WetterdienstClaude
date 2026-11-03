@@ -453,6 +453,72 @@
     ],
     "werk": "Keulemans"
   },
+  "Garrulus glandarius": {
+    "bewertung": {
+      "detail": 0.319,
+      "farbe": 0.776,
+      "fuellung": 0.467,
+      "gesamt": 20.84,
+      "inseln": 1
+    },
+    "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (8291309788).jpg",
+    "jahr": 1885,
+    "kuenstler": "Keulemans, J. G.; Lilford, Thomas Littleton Powys; Newton, Alfred; Salvin, Osbert; Thorburn, Archibald",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(8291309788).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%288291309788%29.jpg/1280px-Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%288291309788%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Garrulus glandarius 1869.jpg",
+        "detail": 0.307,
+        "farbe": 0.364,
+        "fuellung": 0.543,
+        "gesamt": 14.68,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The birds of Europe (1837) (14751675612).jpg",
+        "detail": 0.307,
+        "farbe": 0.373,
+        "fuellung": 0.835,
+        "gesamt": 17.38,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A history of the birds of Europe (Pl. 686) (7135327803).jpg",
+        "detail": 0.311,
+        "farbe": 0.358,
+        "fuellung": 0.818,
+        "gesamt": 16.82,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (8291309788).jpg",
+        "detail": 0.319,
+        "farbe": 0.776,
+        "fuellung": 0.467,
+        "gesamt": 20.84,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 1 07.jpg",
+        "detail": 0.326,
+        "farbe": 0.304,
+        "fuellung": 0.545,
+        "gesamt": 12.22,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (19794011264).jpg",
+        "detail": 0.228,
+        "farbe": 0.562,
+        "fuellung": 0.908,
+        "gesamt": 20.22,
+        "inseln": 2
+      }
+    ],
+    "werk": "Keulemans"
+  },
   "Larus argentatus": {
     "bewertung": {
       "detail": 0.232,
