@@ -1,4 +1,70 @@
 {
+  "Accipiter nisus": {
+    "bewertung": {
+      "detail": 0.318,
+      "farbe": 0.879,
+      "fuellung": 0.949,
+      "gesamt": 28.7,
+      "inseln": 1
+    },
+    "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (6028616951).jpg",
+    "jahr": 1885,
+    "kuenstler": "John Gerrard Keulemans",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(6028616951).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%286028616951%29.jpg/1280px-Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%286028616951%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Accipiter nisus 1876.jpg",
+        "detail": 0.323,
+        "farbe": 0.339,
+        "fuellung": 0.865,
+        "gesamt": 17.8,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Accipiter Nisis.tif",
+        "detail": 0.315,
+        "farbe": 0.515,
+        "fuellung": 0.924,
+        "gesamt": 21.16,
+        "inseln": 1
+      },
+      {
+        "datei": "File:GouldBirdsEuropeISparrow Hawk.jpg",
+        "detail": 0.309,
+        "farbe": 0.328,
+        "fuellung": 0.98,
+        "gesamt": 18.17,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The birds of Europe (9398533315).jpg",
+        "detail": 0.31,
+        "farbe": 0.336,
+        "fuellung": 0.98,
+        "gesamt": 18.33,
+        "inseln": 1
+      },
+      {
+        "datei": "File:AccipiterNisusKeulemans.jpg",
+        "detail": 0.292,
+        "farbe": 0.687,
+        "fuellung": 0.991,
+        "gesamt": 25.76,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (6028616951).jpg",
+        "detail": 0.318,
+        "farbe": 0.879,
+        "fuellung": 0.949,
+        "gesamt": 28.7,
+        "inseln": 1
+      }
+    ],
+    "werk": "Keulemans"
+  },
   "Aegithalos caudatus": {
     "bewertung": {
       "detail": 0.305,
@@ -263,6 +329,7 @@
     ],
     "werk": "Keulemans"
   },
+  "Branta canadensis": null,
   "Buteo buteo": {
     "bewertung": {
       "detail": 0.309,

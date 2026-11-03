@@ -1,19 +1,20 @@
 {
-  "deutsch": "Fasan",
-  "latein": "Phasianus colchicus",
+  "deutsch": "Sperber",
+  "latein": "Accipiter nisus",
   "zuletzt": "2026-10-30",
-  "tafel": "File:BirdsAsiaJohnGoVIIGoul 0152.jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:BirdsAsiaJohnGoVIIGoul_0152.jpg",
+  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (6028616951).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(6028616951).jpg",
   "bewertung": {
-    "farbe": 0.653,
-    "detail": 0.328,
-    "fuellung": 0.469,
+    "farbe": 0.879,
+    "detail": 0.318,
+    "fuellung": 0.949,
     "inseln": 1,
-    "gesamt": 18.28
+    "gesamt": 28.7
   },
-  "stand": "03.11. 15:13 Uhr",
-  "slot": "2026-11-03 15",
+  "stand": "03.11. 19:10 Uhr",
+  "slot": "2026-11-03 19",
   "verlauf": [
+    "Accipiter nisus",
     "Phasianus colchicus",
     "Garrulus glandarius",
     "Gallinula chloropus",
@@ -32,7 +33,6 @@
     "Alopochen aegyptiaca",
     "Picus viridis",
     "Falco tinnunculus",
-    "Erithacus rubecula",
-    "Larus canus"
+    "Erithacus rubecula"
   ]
 }
