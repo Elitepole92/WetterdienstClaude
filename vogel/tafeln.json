@@ -760,6 +760,72 @@
     ],
     "werk": "Keulemans"
   },
+  "Phasianus colchicus": {
+    "bewertung": {
+      "detail": 0.328,
+      "farbe": 0.653,
+      "fuellung": 0.469,
+      "gesamt": 18.28,
+      "inseln": 1
+    },
+    "datei": "File:BirdsAsiaJohnGoVIIGoul 0152.jpg",
+    "jahr": 1850,
+    "kuenstler": "John Gould / Henry Constantine Richter",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:BirdsAsiaJohnGoVIIGoul_0152.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/BirdsAsiaJohnGoVIIGoul_0152.jpg/1280px-BirdsAsiaJohnGoVIIGoul_0152.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Phasianus colchicus 1869.jpg",
+        "detail": 0.291,
+        "farbe": 0.477,
+        "fuellung": 0.526,
+        "gesamt": 13.99,
+        "inseln": 2
+      },
+      {
+        "datei": "File:BirdsAsiaJohnGoVIIGoul 0144.jpg",
+        "detail": 0.3,
+        "farbe": 0.5,
+        "fuellung": 0.503,
+        "gesamt": 16.04,
+        "inseln": 1
+      },
+      {
+        "datei": "File:BirdsAsiaJohnGoVIIGoul 0152.jpg",
+        "detail": 0.328,
+        "farbe": 0.653,
+        "fuellung": 0.469,
+        "gesamt": 18.28,
+        "inseln": 1
+      },
+      {
+        "datei": "File:BirdsAsiaJohnGoVIIGoul 0164.jpg",
+        "detail": 0.293,
+        "farbe": 0.494,
+        "fuellung": 0.473,
+        "gesamt": 15.66,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A history of the birds of Europe (Pl. 701) (6989249082).jpg",
+        "detail": 0.3,
+        "farbe": 0.381,
+        "fuellung": 0.421,
+        "gesamt": 12.67,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A history of the birds of Europe (Pl. 702) (7135334519).jpg",
+        "detail": 0.344,
+        "farbe": 0.286,
+        "fuellung": 0.469,
+        "gesamt": 10.68,
+        "inseln": 1
+      }
+    ],
+    "werk": "Gould"
+  },
   "Turdus merula": {
     "bewertung": {
       "detail": 0.256,

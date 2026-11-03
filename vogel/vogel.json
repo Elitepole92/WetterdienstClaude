@@ -1,19 +1,20 @@
 {
-  "deutsch": "Eichelhäher",
-  "latein": "Garrulus glandarius",
+  "deutsch": "Fasan",
+  "latein": "Phasianus colchicus",
   "zuletzt": "2026-10-30",
-  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (8291309788).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(8291309788).jpg",
+  "tafel": "File:BirdsAsiaJohnGoVIIGoul 0152.jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:BirdsAsiaJohnGoVIIGoul_0152.jpg",
   "bewertung": {
-    "farbe": 0.776,
-    "detail": 0.319,
-    "fuellung": 0.467,
+    "farbe": 0.653,
+    "detail": 0.328,
+    "fuellung": 0.469,
     "inseln": 1,
-    "gesamt": 20.84
+    "gesamt": 18.28
   },
-  "stand": "03.11. 11:09 Uhr",
-  "slot": "2026-11-03 11",
+  "stand": "03.11. 15:13 Uhr",
+  "slot": "2026-11-03 15",
   "verlauf": [
+    "Phasianus colchicus",
     "Garrulus glandarius",
     "Gallinula chloropus",
     "Mergus merganser",
@@ -32,7 +33,6 @@
     "Picus viridis",
     "Falco tinnunculus",
     "Erithacus rubecula",
-    "Larus canus",
-    "Tachybaptus ruficollis"
+    "Larus canus"
   ]
 }
