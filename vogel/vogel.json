@@ -1,19 +1,20 @@
 {
-  "deutsch": "Schellente",
-  "latein": "Bucephala clangula",
+  "deutsch": "Sommergoldhähnchen",
+  "latein": "Regulus ignicapilla",
   "zuletzt": "2026-11-03",
-  "tafel": "File:British birds (1915) (20228695028).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20228695028).jpg",
+  "tafel": "File:Naumann (II. 15) (8090122609).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Naumann_(II._15)_(8090122609).jpg",
   "bewertung": {
-    "farbe": 0.649,
-    "detail": 0.238,
-    "fuellung": 0.883,
-    "inseln": 2,
-    "gesamt": 21.51
+    "farbe": 0.857,
+    "detail": 0.276,
+    "fuellung": 0.894,
+    "inseln": 1,
+    "gesamt": 26.24
   },
-  "stand": "04.11. 06:08 Uhr",
-  "slot": "2026-11-04 06",
+  "stand": "04.11. 11:07 Uhr",
+  "slot": "2026-11-04 11",
   "verlauf": [
+    "Regulus ignicapilla",
     "Bucephala clangula",
     "Accipiter nisus",
     "Phasianus colchicus",
@@ -32,7 +33,6 @@
     "Turdus merula",
     "Corvus corone",
     "Alopochen aegyptiaca",
-    "Picus viridis",
-    "Falco tinnunculus"
+    "Picus viridis"
   ]
 }

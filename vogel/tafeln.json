@@ -935,6 +935,72 @@
     ],
     "werk": "Gould"
   },
+  "Regulus ignicapilla": {
+    "bewertung": {
+      "detail": 0.276,
+      "farbe": 0.857,
+      "fuellung": 0.894,
+      "gesamt": 26.24,
+      "inseln": 1
+    },
+    "datei": "File:Naumann (II. 15) (8090122609).jpg",
+    "jahr": 1897,
+    "kuenstler": "Hennicke, Carl Richard; Naumann, Johann Andreas; Naumann, Johann Andreas; Naumann, Johann Friedrich",
+    "punkte": 5,
+    "seite": "https://commons.wikimedia.org/wiki/File:Naumann_(II._15)_(8090122609).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Naumann_%28II._15%29_%288090122609%29.jpg/1280px-Naumann_%28II._15%29_%288090122609%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Regulus ignicapilla 1869.jpg",
+        "detail": 0.344,
+        "farbe": 0.395,
+        "fuellung": 0.955,
+        "gesamt": 19.7,
+        "inseln": 1
+      },
+      {
+        "datei": "File:GouldBirdsEuropeIIFire-crested Wren Golden-crested Wren.jpg",
+        "detail": 0.287,
+        "farbe": 0.558,
+        "fuellung": 0.843,
+        "gesamt": 21.47,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 1 17.jpg",
+        "detail": 0.36,
+        "farbe": 0.39,
+        "fuellung": 0.952,
+        "gesamt": 18.32,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (20422812691).jpg",
+        "detail": 0.249,
+        "farbe": 0.64,
+        "fuellung": 0.914,
+        "gesamt": 24.54,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds - (20347278722).jpg",
+        "detail": 0.244,
+        "farbe": 0.607,
+        "fuellung": 0.86,
+        "gesamt": 23.3,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Naumann (II. 15) (8090122609).jpg",
+        "detail": 0.276,
+        "farbe": 0.857,
+        "fuellung": 0.894,
+        "gesamt": 26.24,
+        "inseln": 1
+      }
+    ],
+    "werk": "Naumann"
+  },
   "Turdus merula": {
     "bewertung": {
       "detail": 0.256,
