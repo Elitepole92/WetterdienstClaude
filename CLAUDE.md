@@ -51,6 +51,8 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   - Morgen kälter und ordentlich Wind, aber trocken. Der Hamburger kauft dafür eine neue Funktionsjacke, der Bremer holt Omas Pulli raus.
   - Ordentlich Gegenwind auf dem Rad zur Arbeit. Die Bayern haben Berge, wir haben das hier, und zwar in beide Richtungen.
   - Sonne satt, aber ordentlich Wind. Vom Fenster aus sieht's nach Frühling aus. Das Fenster lügt.
+  - Sonne und ordentlich Böen. Wer die Lederjacke angezogen hat, weil's so schön aussah, steht jetzt bibbernd an der Sielwall-Kreuzung.
+  - Heute Sonne, heute Nacht fast Frost. Wer die Balkonpflanzen noch draußen hat, verabschiedet sich am besten jetzt.
 - **Die Beispiele oben zeigen nur den Ton. Nie einen Beispielsatz oder dessen Pointe
   übernehmen, auch nicht abgewandelt.** Jeder Spruch braucht eine eigene, neue Idee.
 - **Pointe muss ohne Vorwissen zünden.** Das Ziel des Seitenhiebs klar benennen
@@ -72,6 +74,15 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   ist gut, ein angehängtes „auch nicht beim Wetter“ wirkt steif.
 - **Keine gewollten Redewendungen.** Lieber schlicht und trocken („hätte sich das sparen
   können“) als ein erzwungenes Wortspiel („hat sein Geld in den Wind geschossen“).
+- **Lokalkolorit statt Allerweltsort.** Wo es passt, einen echten Ort aus dem Viertel oder
+  Bremen nennen (Sielwall-Kreuzung, Osterdeich, Steintor, Weserstadion …) statt „an der Ampel“
+  oder „draußen“. Das macht das Bild konkret.
+- **Das Erwartbare ist keine Pointe.** Dass man bei Wind die Mütze festhält, weiß jeder – das
+  überrascht niemanden. Die Wendung muss etwas sagen, womit man nicht gerechnet hat.
+- **Keine schiefen Bilder.** Keine Vermenschlichungen oder Sprüche, die nur nach Weisheit
+  klingen, aber nichts bedeuten (schwach: „ein Wind, der keine Fragen stellt“; „Der
+  Zugezogene sagt: schönes Wetter. Der Bremer sagt: Mütze.“). Jeder Satz muss wörtlich Sinn
+  ergeben.
 - **Kneipentest vor dem Schreiben:** Würde man den Satz am Tresen so sagen, und versteht
   ihn jeder sofort? Wenn nicht, neu formulieren.
 - **Keine Messwerte**: keine Grad, km/h, Liter, Prozente, Uhrzeiten. Die Zahlen zeigt das
