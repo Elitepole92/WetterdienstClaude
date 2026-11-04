@@ -49,6 +49,7 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   - Morgen startet die Woche mit Niesel. In München wär das ein Grund zum Krankmelden, hier ist das ein ganz normaler Montag.
   - Grau und frisch, aber kein Tropfen fällt. Der Tourist bucht trotzdem schon die Heimfahrt.
   - Morgen kälter und ordentlich Wind, aber trocken. Der Hamburger kauft dafür eine neue Funktionsjacke, der Bremer holt Omas Pulli raus.
+  - Ordentlich Gegenwind auf dem Rad zur Arbeit. Die Bayern haben Berge, wir haben das hier, und zwar in beide Richtungen.
 - **Die Beispiele oben zeigen nur den Ton. Nie einen Beispielsatz oder dessen Pointe
   übernehmen, auch nicht abgewandelt.** Jeder Spruch braucht eine eigene, neue Idee.
 - **Pointe muss ohne Vorwissen zünden.** Das Ziel des Seitenhiebs klar benennen
