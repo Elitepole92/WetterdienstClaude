@@ -496,6 +496,72 @@
     ],
     "werk": "Thorburn"
   },
+  "Erithacus rubecula": {
+    "bewertung": {
+      "detail": 0.262,
+      "farbe": 0.777,
+      "fuellung": 0.988,
+      "gesamt": 27.96,
+      "inseln": 1
+    },
+    "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (10036178774).jpg",
+    "jahr": 1885,
+    "kuenstler": "Keulemans, J. G.; Lilford, Thomas Littleton Powys; Newton, Alfred; Salvin, Osbert; Thorburn, Archibald",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(10036178774).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%2810036178774%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "verglichen": [
+      {
+        "datei": "File:Erithacus rubecula 1869.jpg",
+        "detail": 0.341,
+        "farbe": 0.429,
+        "fuellung": 0.515,
+        "gesamt": 15.13,
+        "inseln": 1
+      },
+      {
+        "datei": "File:GouldBirdsEuropeIIRobin.jpg",
+        "detail": 0.325,
+        "farbe": 0.631,
+        "fuellung": 0.886,
+        "gesamt": 22.88,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (10036178774).jpg",
+        "detail": 0.262,
+        "farbe": 0.777,
+        "fuellung": 0.988,
+        "gesamt": 27.96,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 1 22.jpg",
+        "detail": 0.359,
+        "farbe": 0.376,
+        "fuellung": 0.525,
+        "gesamt": 12.93,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (19795660143).jpg",
+        "detail": 0.266,
+        "farbe": 0.678,
+        "fuellung": 0.809,
+        "gesamt": 23.78,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds - (20329495476).jpg",
+        "detail": 0.263,
+        "farbe": 0.679,
+        "fuellung": 0.81,
+        "gesamt": 23.86,
+        "inseln": 1
+      }
+    ],
+    "werk": "Keulemans"
+  },
   "Gallinula chloropus": {
     "bewertung": {
       "detail": 0.257,
