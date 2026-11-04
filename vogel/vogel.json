@@ -1,19 +1,20 @@
 {
-  "deutsch": "Sperber",
-  "latein": "Accipiter nisus",
-  "zuletzt": "2026-10-30",
-  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (6028616951).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(6028616951).jpg",
+  "deutsch": "Schellente",
+  "latein": "Bucephala clangula",
+  "zuletzt": "2026-11-03",
+  "tafel": "File:British birds (1915) (20228695028).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20228695028).jpg",
   "bewertung": {
-    "farbe": 0.879,
-    "detail": 0.318,
-    "fuellung": 0.949,
-    "inseln": 1,
-    "gesamt": 28.7
+    "farbe": 0.649,
+    "detail": 0.238,
+    "fuellung": 0.883,
+    "inseln": 2,
+    "gesamt": 21.51
   },
-  "stand": "03.11. 19:10 Uhr",
-  "slot": "2026-11-03 19",
+  "stand": "04.11. 06:08 Uhr",
+  "slot": "2026-11-04 06",
   "verlauf": [
+    "Bucephala clangula",
     "Accipiter nisus",
     "Phasianus colchicus",
     "Garrulus glandarius",
@@ -32,7 +33,6 @@
     "Corvus corone",
     "Alopochen aegyptiaca",
     "Picus viridis",
-    "Falco tinnunculus",
-    "Erithacus rubecula"
+    "Falco tinnunculus"
   ]
 }
