@@ -53,6 +53,7 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   - Sonne satt, aber ordentlich Wind. Vom Fenster aus sieht's nach Frühling aus. Das Fenster lügt.
   - Sonne und ordentlich Böen. Wer die Lederjacke angezogen hat, weil's so schön aussah, steht jetzt bibbernd an der Sielwall-Kreuzung.
   - Heute Sonne, heute Nacht fast Frost. Wer die Balkonpflanzen noch draußen hat, verabschiedet sich am besten jetzt.
+  - Erste richtig kalte Nacht. Wer im Bremer Altbau wohnt, merkt jetzt, dass das Haus ganz von allein lüftet.
 - **Die Beispiele oben zeigen nur den Ton. Nie einen Beispielsatz oder dessen Pointe
   übernehmen, auch nicht abgewandelt.** Jeder Spruch braucht eine eigene, neue Idee.
 - **Pointe muss ohne Vorwissen zünden.** Das Ziel des Seitenhiebs klar benennen
