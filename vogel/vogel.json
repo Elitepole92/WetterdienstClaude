@@ -1,19 +1,20 @@
 {
-  "deutsch": "Sommergoldhähnchen",
-  "latein": "Regulus ignicapilla",
+  "deutsch": "Haubentaucher",
+  "latein": "Podiceps cristatus",
   "zuletzt": "2026-11-03",
-  "tafel": "File:Naumann (II. 15) (8090122609).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Naumann_(II._15)_(8090122609).jpg",
+  "tafel": "File:British birds (1915) (20390490416).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20390490416).jpg",
   "bewertung": {
-    "farbe": 0.857,
-    "detail": 0.276,
-    "fuellung": 0.894,
+    "farbe": 0.61,
+    "detail": 0.228,
+    "fuellung": 0.858,
     "inseln": 1,
-    "gesamt": 26.24
+    "gesamt": 23.59
   },
-  "stand": "04.11. 11:07 Uhr",
-  "slot": "2026-11-04 11",
+  "stand": "04.11. 15:11 Uhr",
+  "slot": "2026-11-04 15",
   "verlauf": [
+    "Podiceps cristatus",
     "Regulus ignicapilla",
     "Bucephala clangula",
     "Accipiter nisus",
@@ -32,7 +33,6 @@
     "Chroicocephalus ridibundus",
     "Turdus merula",
     "Corvus corone",
-    "Alopochen aegyptiaca",
-    "Picus viridis"
+    "Alopochen aegyptiaca"
   ]
 }

@@ -935,6 +935,72 @@
     ],
     "werk": "Gould"
   },
+  "Podiceps cristatus": {
+    "bewertung": {
+      "detail": 0.228,
+      "farbe": 0.61,
+      "fuellung": 0.858,
+      "gesamt": 23.59,
+      "inseln": 1
+    },
+    "datei": "File:British birds (1915) (20390490416).jpg",
+    "jahr": 1915,
+    "kuenstler": "Thorburn, Archibald, 1860-1935",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20390490416).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/British_birds_%281915%29_%2820390490416%29.jpg/1280px-British_birds_%281915%29_%2820390490416%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Companion to Gould's Handbook; or, Synopsis of the birds of Australia. Containing nearly one-third of the whole, or about 220 examples, for the most part from the original drawings (1877) (14564863238).jpg",
+        "detail": 0.296,
+        "farbe": 0.087,
+        "fuellung": 0.98,
+        "gesamt": 13.57,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Companion to Gould's Handbook; or, Synopsis of the birds of Australia (Plate 83) (6943679661).jpg",
+        "detail": 0.295,
+        "farbe": 0.092,
+        "fuellung": 0.996,
+        "gesamt": 13.86,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The birds of Europe (1837) (14564030698).jpg",
+        "detail": 0.239,
+        "farbe": 0.379,
+        "fuellung": 0.554,
+        "gesamt": 15.14,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The birds of Europe (1837) (14727678186).jpg",
+        "detail": 0.261,
+        "farbe": 0.292,
+        "fuellung": 0.399,
+        "gesamt": 11.22,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (20390490416).jpg",
+        "detail": 0.228,
+        "farbe": 0.61,
+        "fuellung": 0.858,
+        "gesamt": 23.59,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Notes on the birds of Northamptonshire and neighbourhood (1895) (14748519071).jpg",
+        "detail": 0.252,
+        "farbe": 0.382,
+        "fuellung": 0.428,
+        "gesamt": 10.51,
+        "inseln": 2
+      }
+    ],
+    "werk": "Thorburn"
+  },
   "Regulus ignicapilla": {
     "bewertung": {
       "detail": 0.276,
