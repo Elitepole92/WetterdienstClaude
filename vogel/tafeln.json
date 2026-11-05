@@ -562,6 +562,72 @@
     ],
     "werk": "Keulemans"
   },
+  "Falco tinnunculus": {
+    "bewertung": {
+      "detail": 0.293,
+      "farbe": 0.586,
+      "fuellung": 0.992,
+      "gesamt": 23.72,
+      "inseln": 1
+    },
+    "datei": "File:FalcoKeulemans.jpg",
+    "jahr": 1874,
+    "kuenstler": "J G Keulemans",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:FalcoKeulemans.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/FalcoKeulemans.jpg/1280px-FalcoKeulemans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Falco tinnunculus 1873.jpg",
+        "detail": 0.302,
+        "farbe": 0.357,
+        "fuellung": 0.934,
+        "gesamt": 16.32,
+        "inseln": 2
+      },
+      {
+        "datei": "File:GouldBirdsEuropeIKestrel.jpg",
+        "detail": 0.318,
+        "farbe": 0.421,
+        "fuellung": 0.994,
+        "gesamt": 20.08,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The birds of Europe (9398543909).jpg",
+        "detail": 0.317,
+        "farbe": 0.406,
+        "fuellung": 0.998,
+        "gesamt": 19.84,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (6029168332).jpg",
+        "detail": 0.349,
+        "farbe": 0.48,
+        "fuellung": 0.965,
+        "gesamt": 20.45,
+        "inseln": 1
+      },
+      {
+        "datei": "File:FalcoKeulemans.jpg",
+        "detail": 0.293,
+        "farbe": 0.586,
+        "fuellung": 0.992,
+        "gesamt": 23.72,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 2 02.jpg",
+        "detail": 0.312,
+        "farbe": 0.408,
+        "fuellung": 0.896,
+        "gesamt": 15.73,
+        "inseln": 2
+      }
+    ],
+    "werk": "Keulemans"
+  },
   "Fulica atra": {
     "bewertung": {
       "detail": 0.237,

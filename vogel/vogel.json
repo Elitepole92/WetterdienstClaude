@@ -1,19 +1,20 @@
 {
-  "deutsch": "Blässhuhn",
-  "latein": "Fulica atra",
+  "deutsch": "Turmfalke",
+  "latein": "Falco tinnunculus",
   "zuletzt": "2026-11-03",
-  "tafel": "File:Fulica atra by Naumann.jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Fulica_atra_by_Naumann.jpg",
+  "tafel": "File:FalcoKeulemans.jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:FalcoKeulemans.jpg",
   "bewertung": {
-    "farbe": 0.693,
-    "detail": 0.237,
-    "fuellung": 0.936,
+    "farbe": 0.586,
+    "detail": 0.293,
+    "fuellung": 0.992,
     "inseln": 1,
-    "gesamt": 25.03
+    "gesamt": 23.72
   },
-  "stand": "05.11. 06:08 Uhr",
-  "slot": "2026-11-05 06",
+  "stand": "05.11. 11:08 Uhr",
+  "slot": "2026-11-05 11",
   "verlauf": [
+    "Falco tinnunculus",
     "Fulica atra",
     "Erithacus rubecula",
     "Podiceps cristatus",
@@ -32,7 +33,6 @@
     "Anas crecca",
     "Anas platyrhynchos",
     "Ardea alba",
-    "Chroicocephalus ridibundus",
-    "Turdus merula"
+    "Chroicocephalus ridibundus"
   ]
 }
