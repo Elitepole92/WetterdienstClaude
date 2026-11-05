@@ -56,6 +56,7 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   - Erste richtig kalte Nacht. Wer im Bremer Altbau wohnt, merkt jetzt, dass das Haus ganz von allein lüftet.
   - Dritter Tag mit Sonne in Folge. In München nennt man das Herbst, in Bremen tippt man langsam auf einen Messfehler.
   - Kräftiger Wind übers Weserstadion. Bei dem Wetter geht jeder Ball ins Aus. Beim Werder-Training merkt das keiner.
+  - Endlich Sommer, richtig heiß. Der Bremer hält das genau zwei Tage aus, dann will er seinen Nieselregen zurück.
   - Ein bisschen Schnee über Nacht. In Bayern freut man sich aufs Skifahren, in Bremen bricht die Zivilisation zusammen.
   - Gewitter über der Breminale. Die Auswärtigen flüchten ins Zelt, die Bremer holen sich noch ein Bier, solange die Schlange kurz ist.
 - **Die Beispiele oben zeigen nur den Ton.** Die Beispiele unter *Hauptstil* und
