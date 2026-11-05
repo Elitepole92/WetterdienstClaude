@@ -1,19 +1,20 @@
 {
-  "deutsch": "Kormoran",
-  "latein": "Phalacrocorax carbo",
-  "zuletzt": "2026-10-29",
-  "tafel": "File:Wilhelm von Wright - Phalacrocorax carbo.jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Wilhelm_von_Wright_-_Phalacrocorax_carbo.jpg",
+  "deutsch": "Raubwürger",
+  "latein": "Lanius excubitor",
+  "zuletzt": "2026-11-04",
+  "tafel": "File:A history of the birds of Europe (Pl. 667) (7135319281).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:A_history_of_the_birds_of_Europe_(Pl._667)_(7135319281).jpg",
   "bewertung": {
-    "farbe": 0.636,
-    "detail": 0.226,
-    "fuellung": 0.958,
+    "farbe": 0.404,
+    "detail": 0.338,
+    "fuellung": 0.585,
     "inseln": 1,
-    "gesamt": 25.81
+    "gesamt": 14.54
   },
-  "stand": "05.11. 19:06 Uhr",
+  "stand": "05.11. 19:08 Uhr",
   "slot": "2026-11-05 19",
   "verlauf": [
+    "Lanius excubitor",
     "Phalacrocorax carbo",
     "Tachybaptus ruficollis",
     "Falco tinnunculus",
@@ -32,7 +33,6 @@
     "Mareca strepera",
     "Mergus serrator",
     "Aegithalos caudatus",
-    "Anas crecca",
-    "Anas platyrhynchos"
+    "Anas crecca"
   ]
 }

@@ -818,6 +818,72 @@
     ],
     "werk": "Keulemans"
   },
+  "Lanius excubitor": {
+    "bewertung": {
+      "detail": 0.338,
+      "farbe": 0.404,
+      "fuellung": 0.585,
+      "gesamt": 14.54,
+      "inseln": 1
+    },
+    "datei": "File:A history of the birds of Europe (Pl. 667) (7135319281).jpg",
+    "jahr": 1871,
+    "kuenstler": "Dresser, H. E.; Dresser, H. E.; Keulemans, J. G.; Neale, Edward; Sharpe, Richard Bowdler; Thorburn, Archibald; Wolf, Jos",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:A_history_of_the_birds_of_Europe_(Pl._667)_(7135319281).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/A_history_of_the_birds_of_Europe_%28Pl._667%29_%287135319281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "verglichen": [
+      {
+        "datei": "File:Lanius excubitor 1869.jpg",
+        "detail": 0.27,
+        "farbe": 0.36,
+        "fuellung": 0.383,
+        "gesamt": 13.26,
+        "inseln": 1
+      },
+      {
+        "datei": "File:GouldBirdsEuropeIIGreatShrike.jpg",
+        "detail": 0.267,
+        "farbe": 0.335,
+        "fuellung": 0.543,
+        "gesamt": 13.71,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A history of the birds of Europe (Pl. 666) (6989234078).jpg",
+        "detail": 0.292,
+        "farbe": 0.335,
+        "fuellung": 0.569,
+        "gesamt": 13.65,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A history of the birds of Europe (Pl. 667) (7135319281).jpg",
+        "detail": 0.338,
+        "farbe": 0.404,
+        "fuellung": 0.585,
+        "gesamt": 14.54,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A history of the birds of Europe (Pl. 668) (6989234894).jpg",
+        "detail": 0.298,
+        "farbe": 0.318,
+        "fuellung": 0.628,
+        "gesamt": 13.93,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A history of the birds of Europe (Pl. 669) (6989235158).jpg",
+        "detail": 0.307,
+        "farbe": 0.262,
+        "fuellung": 0.602,
+        "gesamt": 12.37,
+        "inseln": 1
+      }
+    ],
+    "werk": "Keulemans"
+  },
   "Larus argentatus": {
     "bewertung": {
       "detail": 0.232,
