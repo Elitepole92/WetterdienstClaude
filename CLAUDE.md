@@ -56,6 +56,8 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   - Erste richtig kalte Nacht. Wer im Bremer Altbau wohnt, merkt jetzt, dass das Haus ganz von allein lüftet.
   - Dritter Tag mit Sonne in Folge. In München nennt man das Herbst, in Bremen tippt man langsam auf einen Messfehler.
   - Kräftiger Wind übers Weserstadion. Bei dem Wetter geht jeder Ball ins Aus. Beim Werder-Training merkt das keiner.
+  - Ein bisschen Schnee über Nacht. In Bayern freut man sich aufs Skifahren, in Bremen bricht die Zivilisation zusammen.
+  - Gewitter über der Breminale. Die Auswärtigen flüchten ins Zelt, die Bremer holen sich noch ein Bier, solange die Schlange kurz ist.
 - **Die Beispiele oben zeigen nur den Ton.** Die Beispiele unter *Hauptstil* und
   *Lebensweisheit* nie übernehmen, auch nicht abgewandelt. Sprüche aus *So klingt es richtig*
   und alle eigenen früheren Sprüche dürfen nach **zwei Wochen** wörtlich wiederkommen, wenn sie
@@ -86,8 +88,10 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   überrascht niemanden. Die Wendung muss etwas sagen, womit man nicht gerechnet hat.
 - **Keine schiefen Bilder.** Keine Vermenschlichungen oder Sprüche, die nur nach Weisheit
   klingen, aber nichts bedeuten (schwach: „ein Wind, der keine Fragen stellt“; „Der
-  Zugezogene sagt: schönes Wetter. Der Bremer sagt: Mütze.“). Jeder Satz muss wörtlich Sinn
-  ergeben.
+  Zugezogene sagt: schönes Wetter. Der Bremer sagt: Mütze.“; „alle in kurzen Hosen, nur die
+  Beine haben das noch nicht mitbekommen“ – zu großer Gedankensprung). Jeder Satz muss
+  wörtlich Sinn ergeben, und der Vergleich muss in sich stimmen (in Bayern fährt man nicht
+  *in der Stadt* Ski, also nicht „in Bayern fährt man damit Ski, in Bremen fällt der Bus aus“).
 - **Die Pointe hängt am Bild.** Der zweite Teil muss direkt aus dem ersten folgen, nicht ein
   neues Thema aufmachen (schwach: Scheibe freikratzen … und abends keinen Parkplatz finden –
   das hat mit dem Kratzen nichts zu tun; besser: erst bis Hastedt zum Auto laufen, *dann* kratzen).
