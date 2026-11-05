@@ -84,6 +84,9 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   klingen, aber nichts bedeuten (schwach: „ein Wind, der keine Fragen stellt“; „Der
   Zugezogene sagt: schönes Wetter. Der Bremer sagt: Mütze.“). Jeder Satz muss wörtlich Sinn
   ergeben.
+- **Die Pointe hängt am Bild.** Der zweite Teil muss direkt aus dem ersten folgen, nicht ein
+  neues Thema aufmachen (schwach: Scheibe freikratzen … und abends keinen Parkplatz finden –
+  das hat mit dem Kratzen nichts zu tun; besser: erst bis Hastedt zum Auto laufen, *dann* kratzen).
 - **Kneipentest vor dem Schreiben:** Würde man den Satz am Tresen so sagen, und versteht
   ihn jeder sofort? Wenn nicht, neu formulieren.
 - **Keine Messwerte**: keine Grad, km/h, Liter, Prozente, Uhrzeiten. Die Zahlen zeigt das
