@@ -1059,6 +1059,72 @@
     ],
     "werk": "Keulemans"
   },
+  "Phalacrocorax carbo": {
+    "bewertung": {
+      "detail": 0.226,
+      "farbe": 0.636,
+      "fuellung": 0.958,
+      "gesamt": 25.81,
+      "inseln": 1
+    },
+    "datei": "File:Wilhelm von Wright - Phalacrocorax carbo.jpg",
+    "jahr": 1838,
+    "kuenstler": "Wilhelm von Wright",
+    "punkte": 10,
+    "seite": "https://commons.wikimedia.org/wiki/File:Wilhelm_von_Wright_-_Phalacrocorax_carbo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Wilhelm_von_Wright_-_Phalacrocorax_carbo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "verglichen": [
+      {
+        "datei": "File:Wilhelm von Wright - Phalacrocorax carbo.jpg",
+        "detail": 0.226,
+        "farbe": 0.636,
+        "fuellung": 0.958,
+        "gesamt": 25.81,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The birds of Europe (1837) (14770567303).jpg",
+        "detail": 0.245,
+        "farbe": 0.299,
+        "fuellung": 0.415,
+        "gesamt": 11.77,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (20551018309).jpg",
+        "detail": 0.257,
+        "farbe": 0.516,
+        "fuellung": 0.41,
+        "gesamt": 15.9,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (20416657095).jpg",
+        "detail": 0.246,
+        "farbe": 0.413,
+        "fuellung": 0.737,
+        "gesamt": 17.91,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 279) (6059465798).jpg",
+        "detail": 0.3,
+        "farbe": 0.358,
+        "fuellung": 0.916,
+        "gesamt": 16.15,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The birds of America - from drawings made in the United States and their territories (1840) (14748644521).jpg",
+        "detail": 0.323,
+        "farbe": 0.472,
+        "fuellung": 0.388,
+        "gesamt": 11.24,
+        "inseln": 1
+      }
+    ],
+    "werk": "von Wright"
+  },
   "Phasianus colchicus": {
     "bewertung": {
       "detail": 0.328,

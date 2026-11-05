@@ -1,19 +1,20 @@
 {
-  "deutsch": "Zwergtaucher",
-  "latein": "Tachybaptus ruficollis",
-  "zuletzt": "2026-11-03",
-  "tafel": "File:British birds (1915) (20390490416).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20390490416).jpg",
+  "deutsch": "Kormoran",
+  "latein": "Phalacrocorax carbo",
+  "zuletzt": "2026-10-29",
+  "tafel": "File:Wilhelm von Wright - Phalacrocorax carbo.jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Wilhelm_von_Wright_-_Phalacrocorax_carbo.jpg",
   "bewertung": {
-    "farbe": 0.61,
-    "detail": 0.228,
-    "fuellung": 0.858,
+    "farbe": 0.636,
+    "detail": 0.226,
+    "fuellung": 0.958,
     "inseln": 1,
-    "gesamt": 23.59
+    "gesamt": 25.81
   },
-  "stand": "05.11. 15:10 Uhr",
-  "slot": "2026-11-05 15",
+  "stand": "05.11. 19:06 Uhr",
+  "slot": "2026-11-05 19",
   "verlauf": [
+    "Phalacrocorax carbo",
     "Tachybaptus ruficollis",
     "Falco tinnunculus",
     "Fulica atra",
@@ -32,7 +33,6 @@
     "Mergus serrator",
     "Aegithalos caudatus",
     "Anas crecca",
-    "Anas platyrhynchos",
-    "Ardea alba"
+    "Anas platyrhynchos"
   ]
 }
