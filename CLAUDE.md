@@ -59,6 +59,9 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   - Endlich Sommer, richtig heiß. Der Bremer hält das genau zwei Tage aus, dann will er seinen Nieselregen zurück.
   - Ein bisschen Schnee über Nacht. In Bayern freut man sich aufs Skifahren, in Bremen bricht die Zivilisation zusammen.
   - Gewitter über der Breminale. Die Auswärtigen flüchten ins Zelt, die Bremer holen sich noch ein Bier, solange die Schlange kurz ist.
+  - Aprilwetter: Sonne, Hagel, Sonne, Regen. Im Viertel trägt man deshalb einfach alles gleichzeitig, und keiner guckt komisch.
+  - Nebel so dick, dass man das Weserstadion von der Brücke aus nicht mehr sieht. Werder-Fans sagen: ist auch besser so.
+  - Erster Tag, an dem man die Jacke offen lassen könnte. Der Bremer macht nur den obersten Knopf auf. Man weiß ja nie.
 - **Die Beispiele oben zeigen nur den Ton.** Die Beispiele unter *Hauptstil* und
   *Lebensweisheit* nie übernehmen, auch nicht abgewandelt. Sprüche aus *So klingt es richtig*
   und alle eigenen früheren Sprüche dürfen nach **zwei Wochen** wörtlich wiederkommen, wenn sie
@@ -96,6 +99,9 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
 - **Die Pointe hängt am Bild.** Der zweite Teil muss direkt aus dem ersten folgen, nicht ein
   neues Thema aufmachen (schwach: Scheibe freikratzen … und abends keinen Parkplatz finden –
   das hat mit dem Kratzen nichts zu tun; besser: erst bis Hastedt zum Auto laufen, *dann* kratzen).
+- **Keine Opa-Kalauer.** Abgegriffene Witze, die man schon hundertmal gehört hat, wirken
+  boomerig (schwach: „Blitzeis – am Osterdeich laufen Leute Schlittschuh, die das gar nicht
+  vorhatten“). Lieber eine Beobachtung, die frisch und konkret ist.
 - **Kneipentest vor dem Schreiben:** Würde man den Satz am Tresen so sagen, und versteht
   ihn jeder sofort? Wenn nicht, neu formulieren.
 - **Keine Messwerte**: keine Grad, km/h, Liter, Prozente, Uhrzeiten. Die Zahlen zeigt das
