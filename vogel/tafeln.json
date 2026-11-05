@@ -1257,6 +1257,48 @@
     ],
     "werk": "Naumann"
   },
+  "Tachybaptus ruficollis": {
+    "bewertung": {
+      "detail": 0.228,
+      "farbe": 0.61,
+      "fuellung": 0.858,
+      "gesamt": 23.59,
+      "inseln": 1
+    },
+    "datei": "File:British birds (1915) (20390490416).jpg",
+    "jahr": 1915,
+    "kuenstler": "Thorburn, Archibald, 1860-1935",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20390490416).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/British_birds_%281915%29_%2820390490416%29.jpg/1280px-British_birds_%281915%29_%2820390490416%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:British birds (1915) (20390490416).jpg",
+        "detail": 0.228,
+        "farbe": 0.61,
+        "fuellung": 0.858,
+        "gesamt": 23.59,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 247) (6058906723).jpg",
+        "detail": 0.339,
+        "farbe": 0.37,
+        "fuellung": 0.657,
+        "gesamt": 12.7,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Podicipedidae.jpg",
+        "detail": 0.254,
+        "farbe": 0.591,
+        "fuellung": 0.454,
+        "gesamt": 15.95,
+        "inseln": 1
+      }
+    ],
+    "werk": "Thorburn"
+  },
   "Turdus merula": {
     "bewertung": {
       "detail": 0.256,

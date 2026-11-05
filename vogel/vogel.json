@@ -1,19 +1,20 @@
 {
-  "deutsch": "Turmfalke",
-  "latein": "Falco tinnunculus",
+  "deutsch": "Zwergtaucher",
+  "latein": "Tachybaptus ruficollis",
   "zuletzt": "2026-11-03",
-  "tafel": "File:FalcoKeulemans.jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:FalcoKeulemans.jpg",
+  "tafel": "File:British birds (1915) (20390490416).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20390490416).jpg",
   "bewertung": {
-    "farbe": 0.586,
-    "detail": 0.293,
-    "fuellung": 0.992,
+    "farbe": 0.61,
+    "detail": 0.228,
+    "fuellung": 0.858,
     "inseln": 1,
-    "gesamt": 23.72
+    "gesamt": 23.59
   },
-  "stand": "05.11. 11:08 Uhr",
-  "slot": "2026-11-05 11",
+  "stand": "05.11. 15:10 Uhr",
+  "slot": "2026-11-05 15",
   "verlauf": [
+    "Tachybaptus ruficollis",
     "Falco tinnunculus",
     "Fulica atra",
     "Erithacus rubecula",
@@ -32,7 +33,6 @@
     "Aegithalos caudatus",
     "Anas crecca",
     "Anas platyrhynchos",
-    "Ardea alba",
-    "Chroicocephalus ridibundus"
+    "Ardea alba"
   ]
 }
