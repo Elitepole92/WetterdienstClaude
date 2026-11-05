@@ -1,19 +1,20 @@
 {
-  "deutsch": "Rotkehlchen",
-  "latein": "Erithacus rubecula",
-  "zuletzt": "2026-10-30",
-  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (10036178774).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(10036178774).jpg",
+  "deutsch": "Blässhuhn",
+  "latein": "Fulica atra",
+  "zuletzt": "2026-11-03",
+  "tafel": "File:Fulica atra by Naumann.jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Fulica_atra_by_Naumann.jpg",
   "bewertung": {
-    "farbe": 0.777,
-    "detail": 0.262,
-    "fuellung": 0.988,
+    "farbe": 0.693,
+    "detail": 0.237,
+    "fuellung": 0.936,
     "inseln": 1,
-    "gesamt": 27.96
+    "gesamt": 25.03
   },
-  "stand": "04.11. 19:08 Uhr",
-  "slot": "2026-11-04 19",
+  "stand": "05.11. 06:08 Uhr",
+  "slot": "2026-11-05 06",
   "verlauf": [
+    "Fulica atra",
     "Erithacus rubecula",
     "Podiceps cristatus",
     "Regulus ignicapilla",
@@ -32,7 +33,6 @@
     "Anas platyrhynchos",
     "Ardea alba",
     "Chroicocephalus ridibundus",
-    "Turdus merula",
-    "Corvus corone"
+    "Turdus merula"
   ]
 }

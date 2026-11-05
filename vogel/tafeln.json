@@ -562,6 +562,64 @@
     ],
     "werk": "Keulemans"
   },
+  "Fulica atra": {
+    "bewertung": {
+      "detail": 0.237,
+      "farbe": 0.693,
+      "fuellung": 0.936,
+      "gesamt": 25.03,
+      "inseln": 1
+    },
+    "datei": "File:Fulica atra by Naumann.jpg",
+    "jahr": 1899,
+    "kuenstler": "see below",
+    "punkte": 7,
+    "seite": "https://commons.wikimedia.org/wiki/File:Fulica_atra_by_Naumann.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Fulica_atra_by_Naumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "verglichen": [
+      {
+        "datei": "File:British birds (1915) (19794067864).jpg",
+        "detail": 0.235,
+        "farbe": 0.597,
+        "fuellung": 0.843,
+        "gesamt": 23.03,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Notes on the birds of Northamptonshire and neighbourhood (1895) (14563971499).jpg",
+        "detail": 0.254,
+        "farbe": 0.419,
+        "fuellung": 0.748,
+        "gesamt": 9.05,
+        "inseln": 4
+      },
+      {
+        "datei": "File:Notes on the birds of Northamptonshire and neighbourhood (1895) (14565250020).jpg",
+        "detail": 0.249,
+        "farbe": 0.448,
+        "fuellung": 0.739,
+        "gesamt": 9.6,
+        "inseln": 4
+      },
+      {
+        "datei": "File:Fulica atra by Naumann.jpg",
+        "detail": 0.237,
+        "farbe": 0.693,
+        "fuellung": 0.936,
+        "gesamt": 25.03,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 241) (6058904767).jpg",
+        "detail": 0.361,
+        "farbe": 0.32,
+        "fuellung": 0.927,
+        "gesamt": 14.61,
+        "inseln": 1
+      }
+    ],
+    "werk": "Naumann"
+  },
   "Gallinula chloropus": {
     "bewertung": {
       "detail": 0.257,
