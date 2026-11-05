@@ -65,6 +65,11 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   - Seit einer Woche keine Sonne gesehen. Im Solarium im Viertel gibt's jetzt Wartenummern.
   - Heute ausnahmsweise Rückenwind auf dem Weg zur Arbeit. Bezahlt wird heute Abend auf dem Rückweg.
   - Der Schnee ist über Nacht zu Matsch geworden. Hält ungefähr so lange wie der Vorsatz, mal wieder in die Kunsthalle zu gehen.
+  - Strömender Regen an der Sielwall-Kreuzung. Die Dealer stehen trotzdem da. So viel Zuverlässigkeit hätte man gern mal von der BSAG.
+  - Dichter Nebel am Hauptbahnhof. Der Bahnhofsvorplatz sieht jetzt endlich so aus, wie er sich anfühlt.
+  - Regen, und auf der A28 aus Delmenhorst steht alles. Gut so, dann bleibt das Viertel heute Abend mal unter sich.
+  - Sonne am Nachmittag. In der Neustadt sitzen die Studenten mit Dosenbier auf dem Bordstein. Mehr Urlaub gibt das Bafög nicht her.
+  - Ordentlich Sturm heute Nacht. In Schwachhausen liegen morgen Äste auf dem Rasen, und zwar welche, die vorher keiner genehmigt hat.
 - **Themenpool für Seitenhiebe** (zusätzlich zu den Zielen oben; nur wenn's zum Wetter passt):
   - *Freimarkt* (zweite Oktoberhälfte, Bürgerweide) und *Osterwiese* (um Ostern) – nur in der
     Saison erwähnen. *Breminale* (Juli, Osterdeich) – nur im Sommer.
@@ -129,7 +134,9 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   Textfeld des Displays). Keine Emojis, keine Anführungszeichen.
 - Frech ist erlaubt, aber keine Beleidigungen von Gruppen, nichts Sexistisches/
   Rassistisches, keine Gewalt.
-- **Nicht wiederholen:** vorher `git log --since='14 days ago' -p -- spruch.json` ansehen.
-  Innerhalb der letzten zwei Wochen keinen Spruch und keine Pointe doppelt; gegenüber den
-  letzten acht Läufen auch ein anderes Ziel für den Seitenhieb. Ein Spruch, der älter als zwei
-  Wochen ist, darf unverändert wiederverwendet werden, wenn er zum aktuellen Wetter passt.
+- **Wiederholen ist okay, unlustig nicht.** Vorher `git log --since='14 days ago' -p -- spruch.json`
+  ansehen. Lieber ab und zu einen bewährten Spruch wiederbringen als zwanghaft etwas Neues
+  bauen, das dann nicht zündet. Faustregeln: denselben Spruch nicht innerhalb von zwei Wochen
+  wörtlich wiederholen; das Ziel des Seitenhiebs möglichst nicht direkt hintereinander gleich.
+  Besteht kein neuer Spruch den Kneipentest, einen passenden aus *So klingt es richtig* oder
+  aus der Historie nehmen, der älter als zwei Wochen ist.
