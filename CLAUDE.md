@@ -65,6 +65,15 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   - Seit einer Woche keine Sonne gesehen. Im Solarium im Viertel gibt's jetzt Wartenummern.
   - Heute ausnahmsweise Rückenwind auf dem Weg zur Arbeit. Bezahlt wird heute Abend auf dem Rückweg.
   - Der Schnee ist über Nacht zu Matsch geworden. Hält ungefähr so lange wie der Vorsatz, mal wieder in die Kunsthalle zu gehen.
+- **Themenpool für Seitenhiebe** (zusätzlich zu den Zielen oben; nur wenn's zum Wetter passt):
+  - *Freimarkt* (zweite Oktoberhälfte, Bürgerweide) und *Osterwiese* (um Ostern) – nur in der
+    Saison erwähnen. *Breminale* (Juli, Osterdeich) – nur im Sommer.
+  - Die Dealer an der Sielwall-Kreuzung – augenzwinkernd über ihre Ausdauer, nicht als Drogenwitz.
+  - Die Gegend um den Hauptbahnhof, die manchmal ein bisschen gruselig ist – über den Ort,
+    nie auf Kosten von Obdachlosen oder Suchtkranken.
+  - Stau auf den Zufahrten nach Bremen (A1, A27, A28, Stephanibrücke …).
+  - Spießer aus Delmenhorst und Schwachhausen.
+  - Arme Studenten in der Neustadt.
 - **Die Beispiele oben zeigen nur den Ton.** Die Beispiele unter *Hauptstil* und
   *Lebensweisheit* nie übernehmen, auch nicht abgewandelt. Sprüche aus *So klingt es richtig*
   und alle eigenen früheren Sprüche dürfen nach **zwei Wochen** wörtlich wiederkommen, wenn sie
