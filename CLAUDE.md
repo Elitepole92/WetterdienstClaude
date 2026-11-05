@@ -62,6 +62,9 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   - Aprilwetter: Sonne, Hagel, Sonne, Regen. Im Viertel trägt man deshalb einfach alles gleichzeitig, und keiner guckt komisch.
   - Nebel so dick, dass man das Weserstadion von der Brücke aus nicht mehr sieht. Werder-Fans sagen: ist auch besser so.
   - Erster Tag, an dem man die Jacke offen lassen könnte. Der Bremer macht nur den obersten Knopf auf. Man weiß ja nie.
+  - Seit einer Woche keine Sonne gesehen. Im Solarium im Viertel gibt's jetzt Wartenummern.
+  - Heute ausnahmsweise Rückenwind auf dem Weg zur Arbeit. Bezahlt wird heute Abend auf dem Rückweg.
+  - Der Schnee ist über Nacht zu Matsch geworden. Hält ungefähr so lange wie der Vorsatz, mal wieder in die Kunsthalle zu gehen.
 - **Die Beispiele oben zeigen nur den Ton.** Die Beispiele unter *Hauptstil* und
   *Lebensweisheit* nie übernehmen, auch nicht abgewandelt. Sprüche aus *So klingt es richtig*
   und alle eigenen früheren Sprüche dürfen nach **zwei Wochen** wörtlich wiederkommen, wenn sie
@@ -99,6 +102,9 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
 - **Die Pointe hängt am Bild.** Der zweite Teil muss direkt aus dem ersten folgen, nicht ein
   neues Thema aufmachen (schwach: Scheibe freikratzen … und abends keinen Parkplatz finden –
   das hat mit dem Kratzen nichts zu tun; besser: erst bis Hastedt zum Auto laufen, *dann* kratzen).
+- **Zwei Seiten sind noch kein Witz.** Ein Gegenüber „der eine macht X, der andere Y“ braucht
+  eine Pointe, sonst ist es nur eine Aufzählung (schwach: „Der Hamburger fährt zum Elbstrand und
+  nennt es Urlaub, der Bremer hält die Füße in die Weser und nennt es Feierabend“).
 - **Keine Opa-Kalauer.** Abgegriffene Witze, die man schon hundertmal gehört hat, wirken
   boomerig (schwach: „Blitzeis – am Osterdeich laufen Leute Schlittschuh, die das gar nicht
   vorhatten“). Lieber eine Beobachtung, die frisch und konkret ist.
