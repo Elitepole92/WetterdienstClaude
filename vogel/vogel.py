@@ -32,6 +32,7 @@ HIER = Path(__file__).resolve().parent
 FONTS = HIER / "fonts"
 TAFELN = HIER / "tafeln.json"      # Cache: Art -> gewählte Tafel samt Bewertung (oder null)
 INFO = HIER / "vogel.json"
+SPRUCH = HIER.parent / "spruch.json"  # vom Wetterlauf, direkt vor dem Vogel-Lauf aktualisiert
 
 LAT, LNG, RADIUS_KM = 53.08, 8.81, 20
 TZ = ZoneInfo("Europe/Berlin")
@@ -41,8 +42,8 @@ COMMONS = "https://commons.wikimedia.org/w/api.php"
 VERLAUF_LAENGE = 20
 
 PAPIER = (244, 234, 211)  # #F4EAD3, fester Sepia-Hintergrund fürs HMI
-BREITE, HOEHE = 480, 680   # Bildfläche im HMI (Display 480×800 hochkant)
-FELD = (14, 14, BREITE - 14, 620)  # Bereich für die Tafel (bei zweizeiliger Unterschrift kürzer)
+BREITE, HOEHE = 480, 800   # ganzes Display, hochkant
+FELD = (14, 14, BREITE - 14, 740)  # Bereich für die Tafel (bei zweizeiliger Unterschrift kürzer)
 CACHE_VERSION = 4
 TINTE = (28, 22, 16)
 SEPIA = (92, 64, 40)
@@ -335,10 +336,11 @@ def fernglas(hoehe, farbe=SEPIA):
     return img.resize((w // k, hoehe), Image.LANCZOS)
 
 
-def seite(platte, art):
-    """Seite 480×680: Tafel fast vollflächig, darunter eine Bildunterschrift wie im
+def seite(platte, art, wetter=None):
+    """Seite 480×800: Tafel fast vollflächig, darunter eine Bildunterschrift wie im
     Lexikon – Name, lateinischer Name kursiv, rechts Fernglas und Datum der letzten
-    Sichtung. Passt das nicht in eine Zeile, stehen die Namen untereinander."""
+    Sichtung. Passt das nicht in eine Zeile, stehen die Namen untereinander. In der
+    ruhigsten Ecke der Tafel stehen Wetterspruch und Wetterzeile."""
     img = Image.new("RGB", (BREITE, HOEHE), PAPIER)
     d = ImageDraw.Draw(img)
     x0, x1 = 22, BREITE - 22
@@ -349,13 +351,13 @@ def seite(platte, art):
     symbol = fernglas(16) if datum else None
     b_dat = d.textlength(datum, font=f_dat) + (symbol.width + 7 if symbol else 0)
 
-    grund = 658
+    grund = 778
     if b_name + 12 + b_lat + 18 + b_dat <= x1 - x0:
-        linie, unten = 626, 620
+        linie, unten = 746, 740
         d.text((x0, grund), name, font=f_name, fill=TINTE, anchor="ls")
         d.text((x0 + b_name + 12, grund), latein, font=f_lat, fill=SEPIA, anchor="ls")
     else:
-        linie, unten = 594, 588
+        linie, unten = 714, 708
         f_name = passe_an(d, name, "normal", 32, x1 - x0)
         d.text((x0, grund - 32), name, font=f_name, fill=TINTE, anchor="ls")
         f_lat = passe_an(d, latein, "kursiv", 23, x1 - x0 - b_dat - 18)
@@ -366,10 +368,62 @@ def seite(platte, art):
         img.paste(symbol, (x_sym, grund - symbol.height + 3), symbol)
     d.line((x0, linie, x1, linie), fill=SEPIA, width=1)
 
+    # Spruch und Wetter stehen oben, die Tafel füllt den Platz darunter – so überdeckt
+    # Text nie den Vogel.
+    spruch = bool(wetter and wetter.get("spruch"))
+    oben_frei = _wetter_hoehe(d, wetter, SPRUCH_BREITE) + 24 if spruch else 0
     _setze_platte(img, auf_papier(stelle_frei(platte)),
-                  (FELD[0], FELD[1], FELD[2], unten))
+                  (FELD[0], FELD[1] + oben_frei, FELD[2], unten))
+    if spruch:
+        _wetter_kopf(img, wetter)
     rahmen(d, BREITE, HOEHE, 4)
     return img
+
+
+SPRUCH_BREITE = 400
+
+
+def _wetter_hoehe(d, wetter, breite):
+    zeilen = _zeilen(d, wetter["spruch"], schrift("kursiv", 21), breite)
+    return len(zeilen) * 25 + (30 if wetter.get("heute") else 0)
+
+
+def _wetter_kopf(img, wetter, oben=24):
+    """Wetterspruch (kursiv, zentriert) und darunter die Wetterzeile über der Tafel. Ein weich
+    auslaufender Papierton dahinter grenzt den Block vom Farbverlauf der Tafel ab."""
+    d = ImageDraw.Draw(img)
+    f_spruch, f_wetter = schrift("kursiv", 21), schrift("normal", 17)
+    zeilen = _zeilen(d, wetter["spruch"], f_spruch, SPRUCH_BREITE)
+    zeile_wetter = (wetter.get("heute") or "").replace(" %", "%")
+    hoehe = _wetter_hoehe(d, wetter, SPRUCH_BREITE)
+    x = (BREITE - SPRUCH_BREITE) // 2
+
+    schleier = Image.new("L", img.size, 0)
+    ImageDraw.Draw(schleier).rounded_rectangle(
+        (x - 12, oben - 10, x + SPRUCH_BREITE + 12, oben + hoehe + 6), radius=14, fill=225)
+    schleier = schleier.filter(ImageFilter.GaussianBlur(9))
+    img.paste(Image.new("RGB", img.size, PAPIER), (0, 0), schleier)
+
+    mitte = BREITE / 2
+    for i, zeile in enumerate(zeilen):
+        d.text((mitte, oben + 20 + i * 25), zeile, font=f_spruch, fill=TINTE, anchor="ms")
+    if zeile_wetter:
+        y_w = oben + len(zeilen) * 25 + 22
+        d.line((mitte - 20, y_w - 18, mitte + 20, y_w - 18), fill=SEPIA, width=1)
+        d.text((mitte, y_w), zeile_wetter, font=f_wetter, fill=SEPIA, anchor="ms")
+
+
+def _zeilen(d, text, font, breite):
+    """Text wortweise auf Zeilen der gegebenen Breite umbrechen."""
+    zeilen, zeile = [], ""
+    for wort in text.split():
+        probe = f"{zeile} {wort}".strip()
+        if zeile and d.textlength(probe, font=font) > breite:
+            zeilen.append(zeile)
+            zeile = wort
+        else:
+            zeile = probe
+    return zeilen + [zeile] if zeile else zeilen
 
 
 def stelle_frei(platte):
@@ -630,7 +684,8 @@ def main():
     art, tafel, platte = gewaehlt
     print(f"Gewählt: {art['deutsch']} ({art['latein']}) – {tafel['datei']}")
     art = letzte_sichtung(art, tage)
-    seite(platte, art).save(HIER / "vogel.png", optimize=True)
+    wetter = json.loads(SPRUCH.read_text("utf-8")) if SPRUCH.exists() else None
+    seite(platte, art, wetter).save(HIER / "vogel.png", optimize=True)
 
     info = {
         "deutsch": art["deutsch"],
