@@ -54,8 +54,12 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   - Sonne und ordentlich Böen. Wer die Lederjacke angezogen hat, weil's so schön aussah, steht jetzt bibbernd an der Sielwall-Kreuzung.
   - Heute Sonne, heute Nacht fast Frost. Wer die Balkonpflanzen noch draußen hat, verabschiedet sich am besten jetzt.
   - Erste richtig kalte Nacht. Wer im Bremer Altbau wohnt, merkt jetzt, dass das Haus ganz von allein lüftet.
-- **Die Beispiele oben zeigen nur den Ton. Nie einen Beispielsatz oder dessen Pointe
-  übernehmen, auch nicht abgewandelt.** Jeder Spruch braucht eine eigene, neue Idee.
+  - Dritter Tag mit Sonne in Folge. In München nennt man das Herbst, in Bremen tippt man langsam auf einen Messfehler.
+  - Kräftiger Wind übers Weserstadion. Bei dem Wetter geht jeder Ball ins Aus. Beim Werder-Training merkt das keiner.
+- **Die Beispiele oben zeigen nur den Ton.** Die Beispiele unter *Hauptstil* und
+  *Lebensweisheit* nie übernehmen, auch nicht abgewandelt. Sprüche aus *So klingt es richtig*
+  und alle eigenen früheren Sprüche dürfen nach **zwei Wochen** wörtlich wiederkommen, wenn sie
+  genau zum aktuellen Wetter passen (siehe *Nicht wiederholen*). Sonst gilt: eigene, neue Idee.
 - **Pointe muss ohne Vorwissen zünden.** Das Ziel des Seitenhiebs klar benennen
   („kommt aus Süddeutschland“ statt „ist zu Besuch“). Keine Anspielungen, die man erst
   erklären müsste.
@@ -99,5 +103,7 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   Textfeld des Displays). Keine Emojis, keine Anführungszeichen.
 - Frech ist erlaubt, aber keine Beleidigungen von Gruppen, nichts Sexistisches/
   Rassistisches, keine Gewalt.
-- Nicht wiederholen: vorher `git log -p -8 -- spruch.json` anschauen und andere Pointe und
-  anderes Ziel für den Seitenhieb wählen.
+- **Nicht wiederholen:** vorher `git log --since='14 days ago' -p -- spruch.json` ansehen.
+  Innerhalb der letzten zwei Wochen keinen Spruch und keine Pointe doppelt; gegenüber den
+  letzten acht Läufen auch ein anderes Ziel für den Seitenhieb. Ein Spruch, der älter als zwei
+  Wochen ist, darf unverändert wiederverwendet werden, wenn er zum aktuellen Wetter passt.
