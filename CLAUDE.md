@@ -80,7 +80,11 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   - Die Gegend um den Hauptbahnhof, die manchmal ein bisschen gruselig ist – über den Ort,
     nie auf Kosten von Obdachlosen oder Suchtkranken.
   - Stau auf den Zufahrten nach Bremen (A1, A27, A28, Stephanibrücke …).
-  - Spießer aus Delmenhorst und Schwachhausen.
+  - Spießer aus Delmenhorst und Schwachhausen (Funktionsjacke, Kombi, Ordnung – *Spießer*, nicht „da ist nix los“).
+  - Niedersächsische Landbevölkerung (Emsland, Landkreis Diepholz …): da ist abends nichts los.
+  - Bremen-Nord/Vegesack: Strukturschwäche, leere Fußgängerzone – über den Ort, nie über arme Leute.
+  - Lemwerden: Werften, die Superjachten für Oligarchen bauen.
+  - Bayern/Münchner: arrogant und überheblich, bei denen ist alles besser (mehr Sonne, Berge, Geld).
   - Arme Studenten in der Neustadt.
 - **Die Beispiele oben zeigen nur den Ton.** Die Beispiele unter *Hauptstil* und
   *Lebensweisheit* nie übernehmen, auch nicht abgewandelt. Sprüche aus *So klingt es richtig*
@@ -116,6 +120,9 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   Beine haben das noch nicht mitbekommen“ – zu großer Gedankensprung). Jeder Satz muss
   wörtlich Sinn ergeben, und der Vergleich muss in sich stimmen (in Bayern fährt man nicht
   *in der Stadt* Ski, also nicht „in Bayern fährt man damit Ski, in Bremen fällt der Bus aus“).
+- **Der Seitenhieb hängt am Wetter.** Prüffrage: Funktioniert der Witz bei jedem Wetter genauso? Dann ist das Wetter
+  nur Kulisse und der Spruch durchgefallen (schwach: „Kalt und windig, aber trocken. Perfekter Freitagabend fürs Viertel,
+  finden auch die Delmenhorster. Die haben ja sonst nichts.“).
 - **Die Pointe hängt am Bild.** Der zweite Teil muss direkt aus dem ersten folgen, nicht ein
   neues Thema aufmachen (schwach: Scheibe freikratzen … und abends keinen Parkplatz finden –
   das hat mit dem Kratzen nichts zu tun; besser: erst bis Hastedt zum Auto laufen, *dann* kratzen).
