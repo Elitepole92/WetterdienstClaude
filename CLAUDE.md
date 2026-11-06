@@ -73,6 +73,7 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   - Frostiger Freitagmorgen. Die Studenten aus der Neustadt gehen heute freiwillig in die Vorlesung. Da ist wenigstens geheizt.
   - Kräftiger Wind von der Küste. Am Bahnhofsvorplatz riecht's heute ausnahmsweise mal nach Nordsee.
   - Freitagnachmittag, kalt und windig. Die Schwachhauser fahren jetzt übers Wochenende nach Sylt. Da ist es genauso windig, aber teurer.
+  - Ordentlich Sturm über Bremen-Nord. In der Vegesacker Fußgängerzone fliegen trotzdem keine Schilder weg. Da hängen ja kaum noch welche.
 - **Themenpool für Seitenhiebe** (zusätzlich zu den Zielen oben; nur wenn's zum Wetter passt):
   - *Freimarkt* (zweite Oktoberhälfte, Bürgerweide) und *Osterwiese* (um Ostern) – nur in der
     Saison erwähnen. *Breminale* (Juli, Osterdeich) – nur im Sommer.
@@ -83,7 +84,7 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   - Spießer aus Delmenhorst und Schwachhausen (Funktionsjacke, Kombi, Ordnung – *Spießer*, nicht „da ist nix los“).
   - Niedersächsische Landbevölkerung (Emsland, Landkreis Diepholz …): da ist abends nichts los.
   - Bremen-Nord/Vegesack: Strukturschwäche, leere Fußgängerzone – über den Ort, nie über arme Leute.
-  - Lemwerden: Werften, die Superjachten für Oligarchen bauen.
+  - Lemwerder (nicht Lemwerden): Werften, die Superjachten für Oligarchen bauen.
   - Bayern/Münchner: arrogant und überheblich, bei denen ist alles besser (mehr Sonne, Berge, Geld).
   - Arme Studenten in der Neustadt.
 - **Die Beispiele oben zeigen nur den Ton.** Die Beispiele unter *Hauptstil* und
