@@ -852,6 +852,64 @@
     ],
     "werk": "Keulemans"
   },
+  "Grus grus": {
+    "bewertung": {
+      "detail": 0.235,
+      "farbe": 0.47,
+      "fuellung": 0.989,
+      "gesamt": 22.25,
+      "inseln": 1
+    },
+    "datei": "File:The edible and game birds of British India, with its dependencies and Ceylon. With woodcuts, lithographs, and coloured illustrations (1889) (14564044279).jpg",
+    "jahr": 1889,
+    "kuenstler": "Internet Archive Book Images",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:The_edible_and_game_birds_of_British_India,_with_its_dependencies_and_Ceylon._With_woodcuts,_lithographs,_and_coloured_illustrations_(1889)_(14564044279).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/The_edible_and_game_birds_of_British_India%2C_with_its_dependencies_and_Ceylon._With_woodcuts%2C_lithographs%2C_and_coloured_illustrations_%281889%29_%2814564044279%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "verglichen": [
+      {
+        "datei": "File:The edible and game birds of British India, with its dependencies and Ceylon. With woodcuts, lithographs, and coloured illustrations (1889) (14564044279).jpg",
+        "detail": 0.235,
+        "farbe": 0.47,
+        "fuellung": 0.989,
+        "gesamt": 22.25,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (10560346415).jpg",
+        "detail": 0.278,
+        "farbe": 0.416,
+        "fuellung": 0.676,
+        "gesamt": 16.75,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (19469766263).jpg",
+        "detail": 0.312,
+        "farbe": 0.348,
+        "fuellung": 0.683,
+        "gesamt": 14.99,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (20408057462).jpg",
+        "detail": 0.261,
+        "farbe": 0.615,
+        "fuellung": 0.738,
+        "gesamt": 21.75,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Kranich.jpg",
+        "detail": 0.215,
+        "farbe": 0.602,
+        "fuellung": 0.76,
+        "gesamt": 17.44,
+        "inseln": 2
+      }
+    ],
+    "werk": "Gould"
+  },
   "Lanius excubitor": {
     "bewertung": {
       "detail": 0.338,

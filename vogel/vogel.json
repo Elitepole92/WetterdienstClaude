@@ -1,19 +1,20 @@
 {
-  "deutsch": "Nilgans",
-  "latein": "Alopochen aegyptiaca",
-  "zuletzt": "2026-11-03",
-  "tafel": "File:The birds of Europe (1837) (14563957050).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:The_birds_of_Europe_(1837)_(14563957050).jpg",
+  "deutsch": "Kranich",
+  "latein": "Grus grus",
+  "zuletzt": "2026-11-05",
+  "tafel": "File:The edible and game birds of British India, with its dependencies and Ceylon. With woodcuts, lithographs, and coloured illustrations (1889) (14564044279).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:The_edible_and_game_birds_of_British_India,_with_its_dependencies_and_Ceylon._With_woodcuts,_lithographs,_and_coloured_illustrations_(1889)_(14564044279).jpg",
   "bewertung": {
-    "farbe": 0.571,
-    "detail": 0.247,
-    "fuellung": 0.504,
+    "farbe": 0.47,
+    "detail": 0.235,
+    "fuellung": 0.989,
     "inseln": 1,
-    "gesamt": 18.27
+    "gesamt": 22.25
   },
-  "stand": "06.11. 11:08 Uhr",
-  "slot": "2026-11-06 11",
+  "stand": "06.11. 15:13 Uhr",
+  "slot": "2026-11-06 15",
   "verlauf": [
+    "Grus grus",
     "Alopochen aegyptiaca",
     "Anas platyrhynchos",
     "Lanius excubitor",
@@ -32,7 +33,6 @@
     "Mergus merganser",
     "Larus argentatus",
     "Buteo buteo",
-    "Mareca strepera",
-    "Mergus serrator"
+    "Mareca strepera"
   ]
 }
