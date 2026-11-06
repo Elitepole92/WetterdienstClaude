@@ -74,6 +74,12 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   - Kräftiger Wind von der Küste. Am Bahnhofsvorplatz riecht's heute ausnahmsweise mal nach Nordsee.
   - Freitagnachmittag, kalt und windig. Die Schwachhauser fahren jetzt übers Wochenende nach Sylt. Da ist es genauso windig, aber teurer.
   - Ordentlich Sturm über Bremen-Nord. In der Vegesacker Fußgängerzone fliegen trotzdem keine Schilder weg. Da hängen ja kaum noch welche.
+  - Freitagabend, kalt und windig, alle stehen vor der Kneipe. Die Delmenhorster erkennt man an der Steppjacke. Passend zum Touran.
+  - Grau ohne Ende. Ein Münchner im Steintor fragt, wie man das hier aushält. Ging eigentlich ganz gut, bis er kam.
+  - Sonne über Vegesack. Jetzt sieht man erst richtig, wie leer die Fußgängerzone ist. Bei Nebel war das gnädiger.
+  - Regen den ganzen Samstag. In Delmenhorst wird trotzdem das Auto gewaschen. Nicht wegen Dreck, wegen der Nachbarn.
+  - Frost über Nacht. In den WGs in der Neustadt wird jetzt geheizt. Also, es wird darüber diskutiert.
+  - Erster Frost in Schwachhausen. Der Porsche kriegt eine Abdeckhaube, die Kinder eine Mütze. In genau der Reihenfolge.
 - **Themenpool für Seitenhiebe** (zusätzlich zu den Zielen oben; nur wenn's zum Wetter passt):
   - *Freimarkt* (zweite Oktoberhälfte, Bürgerweide) und *Osterwiese* (um Ostern) – nur in der
     Saison erwähnen. *Breminale* (Juli, Osterdeich) – nur im Sommer.
@@ -81,11 +87,12 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   - Die Gegend um den Hauptbahnhof, die manchmal ein bisschen gruselig ist – über den Ort,
     nie auf Kosten von Obdachlosen oder Suchtkranken.
   - Stau auf den Zufahrten nach Bremen (A1, A27, A28, Stephanibrücke …).
-  - Spießer aus Delmenhorst und Schwachhausen (Funktionsjacke, Kombi, Ordnung – *Spießer*, nicht „da ist nix los“).
+  - Spießer aus Delmenhorst (Mittelklasse: Steppjacke, Touran, Fiat Multipla, Ordnung, Nachbarn – *Spießer*, nicht
+    „da ist nix los“, und kein Porsche) und Schwachhausen (Geld: Porsche, Sylt, gepflegter Rasen).
   - Niedersächsische Landbevölkerung (Emsland, Landkreis Diepholz …): da ist abends nichts los.
   - Bremen-Nord/Vegesack: Strukturschwäche, leere Fußgängerzone – über den Ort, nie über arme Leute.
   - Lemwerder (nicht Lemwerden): Werften, die Superjachten für Oligarchen bauen.
-  - Bayern/Münchner: arrogant und überheblich, bei denen ist alles besser (mehr Sonne, Berge, Geld).
+  - Bayern/Münchner: arrogant und überheblich, halten ihr Zuhause für den Nabel der Welt und gucken mit Scheuklappen auf alles andere.
   - Arme Studenten in der Neustadt.
 - **Die Beispiele oben zeigen nur den Ton.** Die Beispiele unter *Hauptstil* und
   *Lebensweisheit* nie übernehmen, auch nicht abgewandelt. Sprüche aus *So klingt es richtig*
