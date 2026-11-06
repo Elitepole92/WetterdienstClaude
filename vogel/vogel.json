@@ -1,19 +1,20 @@
 {
-  "deutsch": "Raubwürger",
-  "latein": "Lanius excubitor",
-  "zuletzt": "2026-11-04",
-  "tafel": "File:A history of the birds of Europe (Pl. 667) (7135319281).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:A_history_of_the_birds_of_Europe_(Pl._667)_(7135319281).jpg",
+  "deutsch": "Stockente",
+  "latein": "Anas platyrhynchos",
+  "zuletzt": "2026-11-03",
+  "tafel": "File:The Indian ducks and their allies (1908) (14565347917).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:The_Indian_ducks_and_their_allies_(1908)_(14565347917).jpg",
   "bewertung": {
-    "farbe": 0.404,
-    "detail": 0.338,
-    "fuellung": 0.585,
-    "inseln": 1,
-    "gesamt": 14.54
+    "detail": 0.284,
+    "farbe": 0.692,
+    "fuellung": 0.422,
+    "gesamt": 19.15,
+    "inseln": 1
   },
-  "stand": "05.11. 19:08 Uhr",
-  "slot": "2026-11-05 19",
+  "stand": "06.11. 06:08 Uhr",
+  "slot": "2026-11-06 06",
   "verlauf": [
+    "Anas platyrhynchos",
     "Lanius excubitor",
     "Phalacrocorax carbo",
     "Tachybaptus ruficollis",
@@ -32,7 +33,6 @@
     "Buteo buteo",
     "Mareca strepera",
     "Mergus serrator",
-    "Aegithalos caudatus",
-    "Anas crecca"
+    "Aegithalos caudatus"
   ]
 }
