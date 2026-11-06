@@ -70,6 +70,7 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   - Regen, und auf der A28 aus Delmenhorst steht alles. Gut so, dann bleibt das Viertel heute Abend mal unter sich.
   - Sonne am Nachmittag. In der Neustadt sitzen die Studenten mit Dosenbier auf dem Bordstein. Mehr Urlaub gibt das Bafög nicht her.
   - Ordentlich Sturm heute Nacht. In Schwachhausen liegen morgen Äste auf dem Rasen, und zwar welche, die vorher keiner genehmigt hat.
+  - Frostiger Freitagmorgen. Die Studenten aus der Neustadt gehen heute freiwillig in die Vorlesung. Da ist wenigstens geheizt.
 - **Themenpool für Seitenhiebe** (zusätzlich zu den Zielen oben; nur wenn's zum Wetter passt):
   - *Freimarkt* (zweite Oktoberhälfte, Bürgerweide) und *Osterwiese* (um Ostern) – nur in der
     Saison erwähnen. *Breminale* (Juli, Osterdeich) – nur im Sommer.
