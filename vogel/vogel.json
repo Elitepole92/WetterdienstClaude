@@ -1,19 +1,20 @@
 {
-  "deutsch": "Stockente",
-  "latein": "Anas platyrhynchos",
+  "deutsch": "Nilgans",
+  "latein": "Alopochen aegyptiaca",
   "zuletzt": "2026-11-03",
-  "tafel": "File:The Indian ducks and their allies (1908) (14565347917).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:The_Indian_ducks_and_their_allies_(1908)_(14565347917).jpg",
+  "tafel": "File:The birds of Europe (1837) (14563957050).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:The_birds_of_Europe_(1837)_(14563957050).jpg",
   "bewertung": {
-    "detail": 0.284,
-    "farbe": 0.692,
-    "fuellung": 0.422,
-    "gesamt": 19.15,
-    "inseln": 1
+    "farbe": 0.571,
+    "detail": 0.247,
+    "fuellung": 0.504,
+    "inseln": 1,
+    "gesamt": 18.27
   },
-  "stand": "06.11. 06:08 Uhr",
-  "slot": "2026-11-06 06",
+  "stand": "06.11. 11:08 Uhr",
+  "slot": "2026-11-06 11",
   "verlauf": [
+    "Alopochen aegyptiaca",
     "Anas platyrhynchos",
     "Lanius excubitor",
     "Phalacrocorax carbo",
@@ -32,7 +33,6 @@
     "Larus argentatus",
     "Buteo buteo",
     "Mareca strepera",
-    "Mergus serrator",
-    "Aegithalos caudatus"
+    "Mergus serrator"
   ]
 }
