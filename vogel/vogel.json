@@ -1,19 +1,20 @@
 {
-  "deutsch": "Kranich",
-  "latein": "Grus grus",
-  "zuletzt": "2026-11-05",
-  "tafel": "File:The edible and game birds of British India, with its dependencies and Ceylon. With woodcuts, lithographs, and coloured illustrations (1889) (14564044279).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:The_edible_and_game_birds_of_British_India,_with_its_dependencies_and_Ceylon._With_woodcuts,_lithographs,_and_coloured_illustrations_(1889)_(14564044279).jpg",
+  "deutsch": "Weißwangengans",
+  "latein": "Branta leucopsis",
+  "zuletzt": "2026-11-04",
+  "tafel": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 291) (6058922287).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Johann_Andreas_Naumann%27s_..._Naturgeschichte_der_V%C3%B6gel_Deutschlands,_nach_einigen_Erfahrungen_entworfen_(Taf._291)_(6058922287).jpg",
   "bewertung": {
-    "farbe": 0.47,
-    "detail": 0.235,
-    "fuellung": 0.989,
+    "farbe": 0.334,
+    "detail": 0.296,
+    "fuellung": 0.851,
     "inseln": 1,
-    "gesamt": 22.25
+    "gesamt": 14.95
   },
-  "stand": "06.11. 15:13 Uhr",
-  "slot": "2026-11-06 15",
+  "stand": "06.11. 19:07 Uhr",
+  "slot": "2026-11-06 19",
   "verlauf": [
+    "Branta leucopsis",
     "Grus grus",
     "Alopochen aegyptiaca",
     "Anas platyrhynchos",
@@ -32,7 +33,6 @@
     "Gallinula chloropus",
     "Mergus merganser",
     "Larus argentatus",
-    "Buteo buteo",
-    "Mareca strepera"
+    "Buteo buteo"
   ]
 }

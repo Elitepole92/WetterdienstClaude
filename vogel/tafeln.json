@@ -364,6 +364,72 @@
     "werk": "Keulemans"
   },
   "Branta canadensis": null,
+  "Branta leucopsis": {
+    "bewertung": {
+      "detail": 0.296,
+      "farbe": 0.334,
+      "fuellung": 0.851,
+      "gesamt": 14.95,
+      "inseln": 1
+    },
+    "datei": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 291) (6058922287).jpg",
+    "jahr": 1820,
+    "kuenstler": "Baldamus, A. C. Eduard; Blasius, J. H.; Naumann, Johann Andreas; Naumann, Johann Friedrich; Sturm, Fr.",
+    "punkte": 5,
+    "seite": "https://commons.wikimedia.org/wiki/File:Johann_Andreas_Naumann%27s_..._Naturgeschichte_der_V%C3%B6gel_Deutschlands,_nach_einigen_Erfahrungen_entworfen_(Taf._291)_(6058922287).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Johann_Andreas_Naumann%27s_..._Naturgeschichte_der_V%C3%B6gel_Deutschlands%2C_nach_einigen_Erfahrungen_entworfen_%28Taf._291%29_%286058922287%29.jpg/1280px-Johann_Andreas_Naumann%27s_..._Naturgeschichte_der_V%C3%B6gel_Deutschlands%2C_nach_einigen_Erfahrungen_entworfen_%28Taf._291%29_%286058922287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:A history of British birds. By the Rev. F.O. Morris (1862) (14770762743).jpg",
+        "detail": 0.292,
+        "farbe": 0.282,
+        "fuellung": 0.339,
+        "gesamt": 9.83,
+        "inseln": 1
+      },
+      {
+        "datei": "File:GouldBirdsEuropeVBernicle Goose.jpg",
+        "detail": 0.262,
+        "farbe": 0.341,
+        "fuellung": 0.499,
+        "gesamt": 13.37,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The birds of Europe (1837) (14727630666).jpg",
+        "detail": 0.241,
+        "farbe": 0.304,
+        "fuellung": 0.297,
+        "gesamt": 10.52,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Branta leucopsis and Branta ruficollis by Naumann.jpg",
+        "detail": 0.226,
+        "farbe": 0.417,
+        "fuellung": 0.357,
+        "gesamt": 12.73,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 291) (6058922287).jpg",
+        "detail": 0.296,
+        "farbe": 0.334,
+        "fuellung": 0.851,
+        "gesamt": 14.95,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The birds of America - from drawings made in the United States and their territories (1840) (14565117769).jpg",
+        "detail": 0.324,
+        "farbe": 0.383,
+        "fuellung": 0.331,
+        "gesamt": 8.77,
+        "inseln": 1
+      }
+    ],
+    "werk": "Naumann"
+  },
   "Bucephala clangula": {
     "bewertung": {
       "detail": 0.238,
