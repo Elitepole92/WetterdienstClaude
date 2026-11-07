@@ -1,6 +1,6 @@
 # WetterdienstClaude
 
-Erzeugt 4× täglich (6, 11, 15, 19 Uhr Europe/Berlin) einen frechen norddeutschen
+Erzeugt 3× täglich (5:45, 11:45, 17:45 Uhr Europe/Berlin) einen frechen norddeutschen
 Wetterspruch für Bremen, Östliche Vorstadt. Ergebnis ist `spruch.json` im Repo-Root;
 das SenseCraft-HMI-Dashboard (XIAO ePaper 13,3") lädt sie per Data-Komponente über
 https://raw.githubusercontent.com/Elitepole92/WetterdienstClaude/main/spruch.json

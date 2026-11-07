@@ -632,6 +632,14 @@ def _verlauf(p, breite, seite):
 
 # ---------------------------------------------------------------- Ablauf
 
+def zeitfenster(jetzt):
+    """Zeitfenster 5, 11 oder 17 Uhr, zu dem dieser Lauf gehört (wie der Wetterlauf)."""
+    for stunde in (17, 11, 5):
+        if jetzt.hour >= stunde:
+            return jetzt.strftime("%Y-%m-%d ") + f"{stunde:02d}"
+    return (jetzt - timedelta(days=1)).strftime("%Y-%m-%d ") + "17"
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--art", help="lateinischer Name erzwingen (zum Testen)")
@@ -695,7 +703,7 @@ def main():
         "tafel_seite": tafel.get("seite"),
         "bewertung": tafel.get("bewertung"),
         "stand": stand,
-        "slot": jetzt.strftime("%Y-%m-%d %H"),  # verhindert Doppelläufe pro Stunde
+        "slot": zeitfenster(jetzt),  # verhindert doppelte Reserve-Läufe je Zeitfenster
         "verlauf": ([art["latein"]] + [v for v in verlauf if v != art["latein"]])[:VERLAUF_LAENGE],
     }
     INFO.write_text(json.dumps(info, ensure_ascii=False, indent=2) + "\n", "utf-8")
