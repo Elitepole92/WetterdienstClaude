@@ -1,19 +1,20 @@
 {
-  "deutsch": "Weißwangengans",
-  "latein": "Branta leucopsis",
+  "deutsch": "Felsentaube",
+  "latein": "Columba livia",
   "zuletzt": "2026-11-04",
-  "tafel": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 291) (6058922287).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Johann_Andreas_Naumann%27s_..._Naturgeschichte_der_V%C3%B6gel_Deutschlands,_nach_einigen_Erfahrungen_entworfen_(Taf._291)_(6058922287).jpg",
+  "tafel": "File:Columba livia by Naumann.jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Columba_livia_by_Naumann.jpg",
   "bewertung": {
-    "farbe": 0.334,
-    "detail": 0.296,
-    "fuellung": 0.851,
+    "farbe": 0.49,
+    "detail": 0.255,
+    "fuellung": 0.737,
     "inseln": 1,
-    "gesamt": 14.95
+    "gesamt": 18.32
   },
-  "stand": "06.11. 19:07 Uhr",
-  "slot": "2026-11-06 19",
+  "stand": "07.11. 06:07 Uhr",
+  "slot": "2026-11-07 06",
   "verlauf": [
+    "Columba livia",
     "Branta leucopsis",
     "Grus grus",
     "Alopochen aegyptiaca",
@@ -32,7 +33,6 @@
     "Garrulus glandarius",
     "Gallinula chloropus",
     "Mergus merganser",
-    "Larus argentatus",
-    "Buteo buteo"
+    "Larus argentatus"
   ]
 }

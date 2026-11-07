@@ -596,6 +596,72 @@
     ],
     "werk": "Thorburn"
   },
+  "Columba livia": {
+    "bewertung": {
+      "detail": 0.255,
+      "farbe": 0.49,
+      "fuellung": 0.737,
+      "gesamt": 18.32,
+      "inseln": 1
+    },
+    "datei": "File:Columba livia by Naumann.jpg",
+    "jahr": 1897,
+    "kuenstler": "see below",
+    "punkte": 7,
+    "seite": "https://commons.wikimedia.org/wiki/File:Columba_livia_by_Naumann.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Columba_livia_by_Naumann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "verglichen": [
+      {
+        "datei": "File:Columba livia 1873.jpg",
+        "detail": 0.341,
+        "farbe": 0.243,
+        "fuellung": 0.415,
+        "gesamt": 10.23,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Rock Dove.jpg",
+        "detail": 0.272,
+        "farbe": 0.438,
+        "fuellung": 0.546,
+        "gesamt": 15.72,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 2 55.jpg",
+        "detail": 0.352,
+        "farbe": 0.222,
+        "fuellung": 0.419,
+        "gesamt": 8.69,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Onze vogels in huis en tuin (12367534115).jpg",
+        "detail": 0.345,
+        "farbe": 0.249,
+        "fuellung": 0.42,
+        "gesamt": 9.34,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (19795741313).jpg",
+        "detail": 0.268,
+        "farbe": 0.524,
+        "fuellung": 0.725,
+        "gesamt": 13.64,
+        "inseln": 3
+      },
+      {
+        "datei": "File:Columba livia by Naumann.jpg",
+        "detail": 0.255,
+        "farbe": 0.49,
+        "fuellung": 0.737,
+        "gesamt": 18.32,
+        "inseln": 1
+      }
+    ],
+    "werk": "Naumann"
+  },
   "Erithacus rubecula": {
     "bewertung": {
       "detail": 0.262,
