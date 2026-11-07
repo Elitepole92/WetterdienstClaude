@@ -852,6 +852,72 @@
     ],
     "werk": "Naumann"
   },
+  "Gallinago gallinago": {
+    "bewertung": {
+      "detail": 0.292,
+      "farbe": 0.655,
+      "fuellung": 0.654,
+      "gesamt": 21.07,
+      "inseln": 1
+    },
+    "datei": "File:British birds (1915) (20228641310).jpg",
+    "jahr": 1915,
+    "kuenstler": "Thorburn, Archibald, 1860-1935",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20228641310).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/British_birds_%281915%29_%2820228641310%29.jpg/1280px-British_birds_%281915%29_%2820228641310%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Gallinago gallinago 1869.jpg",
+        "detail": 0.31,
+        "farbe": 0.33,
+        "fuellung": 0.431,
+        "gesamt": 12.62,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (20111031298).jpg",
+        "detail": 0.304,
+        "farbe": 0.629,
+        "fuellung": 0.364,
+        "gesamt": 16.88,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 1 63.jpg",
+        "detail": 0.316,
+        "farbe": 0.276,
+        "fuellung": 0.419,
+        "gesamt": 10.3,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (20228641310).jpg",
+        "detail": 0.292,
+        "farbe": 0.655,
+        "fuellung": 0.654,
+        "gesamt": 21.07,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The encyclopaedia of sport (1897) (14781745594).jpg",
+        "detail": 0.265,
+        "farbe": 0.488,
+        "fuellung": 0.378,
+        "gesamt": 14.82,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Magnus von Wright - Common Snipe , unfinished - A II 1022-12 - Finnish National Gallery.jpg",
+        "detail": 0.277,
+        "farbe": 0.615,
+        "fuellung": 0.412,
+        "gesamt": 17.09,
+        "inseln": 1
+      }
+    ],
+    "werk": "Thorburn"
+  },
   "Gallinula chloropus": {
     "bewertung": {
       "detail": 0.257,
