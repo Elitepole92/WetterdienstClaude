@@ -1,19 +1,20 @@
 {
-  "deutsch": "Reiherente",
-  "latein": "Aythya fuligula",
-  "zuletzt": "2026-11-06",
-  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (20549983020).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(20549983020).jpg",
+  "deutsch": "Blässgans",
+  "latein": "Anser albifrons",
+  "zuletzt": "2026-11-07",
+  "tafel": "File:Anser albifrons 1921.jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Anser_albifrons_1921.jpg",
   "bewertung": {
-    "farbe": 0.731,
-    "detail": 0.225,
-    "fuellung": 0.829,
+    "farbe": 0.853,
+    "detail": 0.312,
+    "fuellung": 0.607,
     "inseln": 1,
-    "gesamt": 25.69
+    "gesamt": 25.18
   },
-  "stand": "08.11. 05:46 Uhr",
-  "slot": "2026-11-08 05",
+  "stand": "08.11. 11:47 Uhr",
+  "slot": "2026-11-08 11",
   "verlauf": [
+    "Anser albifrons",
     "Aythya fuligula",
     "Buteo buteo",
     "Gallinago gallinago",
@@ -32,7 +33,6 @@
     "Regulus ignicapilla",
     "Bucephala clangula",
     "Accipiter nisus",
-    "Phasianus colchicus",
-    "Garrulus glandarius"
+    "Phasianus colchicus"
   ]
 }
