@@ -80,6 +80,8 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   - Regen den ganzen Samstag. In Delmenhorst wird trotzdem das Auto gewaschen. Nicht wegen Dreck, wegen der Nachbarn.
   - Frost über Nacht. In den WGs in der Neustadt wird jetzt geheizt. Also, es wird darüber diskutiert.
   - Erster Frost in Schwachhausen. Der Porsche kriegt eine Abdeckhaube, die Kinder eine Mütze. In genau der Reihenfolge.
+  - Grau und kalt, aber trocken. Am Osterdeich sind alle spazieren. Wer in Bremen auf Sonne wartet, kommt nie vor die Tür.
+  - Windstill und trocken, ideales Laubbläserwetter. Leider Sonntag. In Schwachhausen stehen sie jetzt am Fenster und warten auf Montag.
 - **Themenpool für Seitenhiebe** (zusätzlich zu den Zielen oben; nur wenn's zum Wetter passt):
   - *Freimarkt* (zweite Oktoberhälfte, Bürgerweide) und *Osterwiese* (um Ostern) – nur in der
     Saison erwähnen. *Breminale* (Juli, Osterdeich) – nur im Sommer.
