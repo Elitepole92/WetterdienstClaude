@@ -1,19 +1,20 @@
 {
-  "deutsch": "Blässgans",
-  "latein": "Anser albifrons",
-  "zuletzt": "2026-11-07",
-  "tafel": "File:Anser albifrons 1921.jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Anser_albifrons_1921.jpg",
+  "deutsch": "Rabenkrähe",
+  "latein": "Corvus corone",
+  "zuletzt": "2026-11-03",
+  "tafel": "File:British birds (1915) (19795669463).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(19795669463).jpg",
   "bewertung": {
-    "farbe": 0.853,
-    "detail": 0.312,
-    "fuellung": 0.607,
+    "farbe": 0.425,
+    "detail": 0.162,
+    "fuellung": 0.723,
     "inseln": 1,
-    "gesamt": 25.18
+    "gesamt": 19.24
   },
-  "stand": "08.11. 11:47 Uhr",
-  "slot": "2026-11-08 11",
+  "stand": "08.11. 17:47 Uhr",
+  "slot": "2026-11-08 17",
   "verlauf": [
+    "Corvus corone",
     "Anser albifrons",
     "Aythya fuligula",
     "Buteo buteo",
@@ -32,7 +33,6 @@
     "Podiceps cristatus",
     "Regulus ignicapilla",
     "Bucephala clangula",
-    "Accipiter nisus",
-    "Phasianus colchicus"
+    "Accipiter nisus"
   ]
 }

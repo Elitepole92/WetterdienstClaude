@@ -778,6 +778,48 @@
     ],
     "werk": "Naumann"
   },
+  "Corvus corone": {
+    "bewertung": {
+      "detail": 0.162,
+      "farbe": 0.425,
+      "fuellung": 0.723,
+      "gesamt": 19.24,
+      "inseln": 1
+    },
+    "datei": "File:British birds (1915) (19795669463).jpg",
+    "jahr": 1915,
+    "kuenstler": "Thorburn, Archibald, 1860-1935",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(19795669463).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/British_birds_%281915%29_%2819795669463%29.jpg/1280px-British_birds_%281915%29_%2819795669463%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:The birds of Europe (1837) (14751684372).jpg",
+        "detail": 0.216,
+        "farbe": 0.349,
+        "fuellung": 0.598,
+        "gesamt": 15.41,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (19795669463).jpg",
+        "detail": 0.162,
+        "farbe": 0.425,
+        "fuellung": 0.723,
+        "gesamt": 19.24,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Corvus cornix (PD).jpg",
+        "detail": 0.286,
+        "farbe": 0.36,
+        "fuellung": 0.775,
+        "gesamt": 14.72,
+        "inseln": 1
+      }
+    ],
+    "werk": "Thorburn"
+  },
   "Erithacus rubecula": {
     "bewertung": {
       "detail": 0.262,
