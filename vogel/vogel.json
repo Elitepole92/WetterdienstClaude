@@ -1,19 +1,20 @@
 {
-  "deutsch": "Mäusebussard",
-  "latein": "Buteo buteo",
-  "zuletzt": "2026-11-04",
-  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (6029164046).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(6029164046).jpg",
+  "deutsch": "Reiherente",
+  "latein": "Aythya fuligula",
+  "zuletzt": "2026-11-06",
+  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (20549983020).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(20549983020).jpg",
   "bewertung": {
-    "detail": 0.309,
-    "farbe": 0.866,
-    "fuellung": 0.876,
-    "gesamt": 27.7,
-    "inseln": 1
+    "farbe": 0.731,
+    "detail": 0.225,
+    "fuellung": 0.829,
+    "inseln": 1,
+    "gesamt": 25.69
   },
-  "stand": "07.11. 17:47 Uhr",
-  "slot": "2026-11-07 17",
+  "stand": "08.11. 05:46 Uhr",
+  "slot": "2026-11-08 05",
   "verlauf": [
+    "Aythya fuligula",
     "Buteo buteo",
     "Gallinago gallinago",
     "Columba livia",
@@ -32,7 +33,6 @@
     "Bucephala clangula",
     "Accipiter nisus",
     "Phasianus colchicus",
-    "Garrulus glandarius",
-    "Gallinula chloropus"
+    "Garrulus glandarius"
   ]
 }

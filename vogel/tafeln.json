@@ -363,6 +363,64 @@
     ],
     "werk": "Keulemans"
   },
+  "Aythya fuligula": {
+    "bewertung": {
+      "detail": 0.225,
+      "farbe": 0.731,
+      "fuellung": 0.829,
+      "gesamt": 25.69,
+      "inseln": 1
+    },
+    "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (20549983020).jpg",
+    "jahr": 1885,
+    "kuenstler": "Keulemans, J. G.; Lilford, Thomas Littleton Powys; Newton, Alfred; Salvin, Osbert; Thorburn, Archibald",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(20549983020).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%2820549983020%29.jpg/1280px-Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%2820549983020%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (20549983020).jpg",
+        "detail": 0.225,
+        "farbe": 0.731,
+        "fuellung": 0.829,
+        "gesamt": 25.69,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The Indian ducks and their allies (1908) (14565158568).jpg",
+        "detail": 0.262,
+        "farbe": 0.752,
+        "fuellung": 0.325,
+        "gesamt": 19.51,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The Indian ducks and their allies (6254043395).jpg",
+        "detail": 0.26,
+        "farbe": 0.752,
+        "fuellung": 0.326,
+        "gesamt": 19.57,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (20228695028).jpg",
+        "detail": 0.238,
+        "farbe": 0.649,
+        "fuellung": 0.737,
+        "gesamt": 19.76,
+        "inseln": 2
+      },
+      {
+        "datei": "File:Magnus von Wright - Tufted Duck - A-2002-631 - Finnish National Gallery.jpg",
+        "detail": 0.268,
+        "farbe": 0.334,
+        "fuellung": 0.537,
+        "gesamt": 13.1,
+        "inseln": 1
+      }
+    ],
+    "werk": "Keulemans"
+  },
   "Branta canadensis": null,
   "Branta leucopsis": {
     "bewertung": {
