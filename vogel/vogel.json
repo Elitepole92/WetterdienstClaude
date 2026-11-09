@@ -1,19 +1,20 @@
 {
-  "deutsch": "Spießente",
-  "latein": "Anas acuta",
+  "deutsch": "Silberreiher",
+  "latein": "Ardea alba",
   "zuletzt": "2026-11-07",
-  "tafel": "File:British birds (1915) (20422865591).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20422865591).jpg",
+  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (20549807560).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(20549807560).jpg",
   "bewertung": {
-    "farbe": 0.551,
-    "detail": 0.272,
-    "fuellung": 0.74,
-    "inseln": 1,
-    "gesamt": 20.33
+    "detail": 0.248,
+    "farbe": 0.796,
+    "fuellung": 0.836,
+    "gesamt": 26.73,
+    "inseln": 1
   },
-  "stand": "09.11. 05:47 Uhr",
-  "slot": "2026-11-09 05",
+  "stand": "09.11. 11:46 Uhr",
+  "slot": "2026-11-09 11",
   "verlauf": [
+    "Ardea alba",
     "Anas acuta",
     "Corvus corone",
     "Anser albifrons",
@@ -32,7 +33,6 @@
     "Fulica atra",
     "Erithacus rubecula",
     "Podiceps cristatus",
-    "Regulus ignicapilla",
-    "Bucephala clangula"
+    "Regulus ignicapilla"
   ]
 }
