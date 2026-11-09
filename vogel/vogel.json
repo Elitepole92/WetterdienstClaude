@@ -1,19 +1,20 @@
 {
-  "deutsch": "Rabenkrähe",
-  "latein": "Corvus corone",
-  "zuletzt": "2026-11-03",
-  "tafel": "File:British birds (1915) (19795669463).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(19795669463).jpg",
+  "deutsch": "Spießente",
+  "latein": "Anas acuta",
+  "zuletzt": "2026-11-07",
+  "tafel": "File:British birds (1915) (20422865591).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20422865591).jpg",
   "bewertung": {
-    "farbe": 0.425,
-    "detail": 0.162,
-    "fuellung": 0.723,
+    "farbe": 0.551,
+    "detail": 0.272,
+    "fuellung": 0.74,
     "inseln": 1,
-    "gesamt": 19.24
+    "gesamt": 20.33
   },
-  "stand": "08.11. 17:47 Uhr",
-  "slot": "2026-11-08 17",
+  "stand": "09.11. 05:47 Uhr",
+  "slot": "2026-11-09 05",
   "verlauf": [
+    "Anas acuta",
     "Corvus corone",
     "Anser albifrons",
     "Aythya fuligula",
@@ -32,7 +33,6 @@
     "Erithacus rubecula",
     "Podiceps cristatus",
     "Regulus ignicapilla",
-    "Bucephala clangula",
-    "Accipiter nisus"
+    "Bucephala clangula"
   ]
 }

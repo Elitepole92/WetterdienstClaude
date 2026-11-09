@@ -165,6 +165,72 @@
     ],
     "werk": "Gould"
   },
+  "Anas acuta": {
+    "bewertung": {
+      "detail": 0.272,
+      "farbe": 0.551,
+      "fuellung": 0.74,
+      "gesamt": 20.33,
+      "inseln": 1
+    },
+    "datei": "File:British birds (1915) (20422865591).jpg",
+    "jahr": 1915,
+    "kuenstler": "Thorburn, Archibald, 1860-1935",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20422865591).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/British_birds_%281915%29_%2820422865591%29.jpg/1280px-British_birds_%281915%29_%2820422865591%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Anas acuta 1876.jpg",
+        "detail": 0.325,
+        "farbe": 0.424,
+        "fuellung": 0.605,
+        "gesamt": 16.36,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The birds of Europe (1837) (14770518503).jpg",
+        "detail": 0.35,
+        "farbe": 0.328,
+        "fuellung": 0.384,
+        "gesamt": 10.41,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 3 60.jpg",
+        "detail": 0.343,
+        "farbe": 0.374,
+        "fuellung": 0.57,
+        "gesamt": 13.68,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (20422865591).jpg",
+        "detail": 0.272,
+        "farbe": 0.551,
+        "fuellung": 0.74,
+        "gesamt": 20.33,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Ferdinand von Wright - Pintail Duck - A-2002-607 - Finnish National Gallery.jpg",
+        "detail": 0.263,
+        "farbe": 0.554,
+        "fuellung": 0.445,
+        "gesamt": 16.48,
+        "inseln": 1
+      },
+      {
+        "datei": "File:オナガガモ、トモエガモ、ハシビロガモ、ウスユキガモ、ミカヅキシマアジ.jpg",
+        "detail": 0.282,
+        "farbe": 0.576,
+        "fuellung": 0.401,
+        "gesamt": 14.59,
+        "inseln": 1
+      }
+    ],
+    "werk": "Thorburn"
+  },
   "Anas crecca": {
     "bewertung": {
       "detail": 0.272,
