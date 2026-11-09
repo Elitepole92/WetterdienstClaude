@@ -82,6 +82,7 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   - Erster Frost in Schwachhausen. Der Porsche kriegt eine Abdeckhaube, die Kinder eine Mütze. In genau der Reihenfolge.
   - Grau und kalt, aber trocken. Am Osterdeich sind alle spazieren. Wer in Bremen auf Sonne wartet, kommt nie vor die Tür.
   - Windstill und trocken, ideales Laubbläserwetter. Leider Sonntag. In Schwachhausen stehen sie jetzt am Fenster und warten auf Montag.
+  - Kalt, trocken, kaum Wind. Perfektes Fußballwetter. Werder muss sich für heute eine neue Ausrede suchen.
 - **Themenpool für Seitenhiebe** (zusätzlich zu den Zielen oben; nur wenn's zum Wetter passt):
   - *Freimarkt* (zweite Oktoberhälfte, Bürgerweide) und *Osterwiese* (um Ostern) – nur in der
     Saison erwähnen. *Breminale* (Juli, Osterdeich) – nur im Sommer.
@@ -133,6 +134,8 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
 - **Der Seitenhieb hängt am Wetter.** Prüffrage: Funktioniert der Witz bei jedem Wetter genauso? Dann ist das Wetter
   nur Kulisse und der Spruch durchgefallen (schwach: „Kalt und windig, aber trocken. Perfekter Freitagabend fürs Viertel,
   finden auch die Delmenhorster. Die haben ja sonst nichts.“).
+  Auch kein Trick ist: „trotz des Wetters passiert X“, wenn X sowieso nichts mit Wetter zu tun hat (schwach: „Morgen
+  grau und trocken. Auf der A1 steht trotzdem alles. Der Stau braucht kein Wetter.“ – Stau ist kein Wetterthema).
 - **Die Pointe hängt am Bild.** Der zweite Teil muss direkt aus dem ersten folgen, nicht ein
   neues Thema aufmachen (schwach: Scheibe freikratzen … und abends keinen Parkplatz finden –
   das hat mit dem Kratzen nichts zu tun; besser: erst bis Hastedt zum Auto laufen, *dann* kratzen).
