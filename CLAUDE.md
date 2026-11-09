@@ -83,6 +83,8 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   - Grau und kalt, aber trocken. Am Osterdeich sind alle spazieren. Wer in Bremen auf Sonne wartet, kommt nie vor die Tür.
   - Windstill und trocken, ideales Laubbläserwetter. Leider Sonntag. In Schwachhausen stehen sie jetzt am Fenster und warten auf Montag.
   - Kalt, trocken, kaum Wind. Perfektes Fußballwetter. Werder muss sich für heute eine neue Ausrede suchen.
+  - Nachmittags reißt's ein bisschen auf. In Lemwerder glänzt die nächste Superjacht in der Werft. Für wen, fragt da lieber keiner.
+  - Morgen kälter, aber noch kein Frost. In Delmenhorst liegt der Eiskratzer trotzdem schon griffbereit im Touran. Seit August.
 - **Themenpool für Seitenhiebe** (zusätzlich zu den Zielen oben; nur wenn's zum Wetter passt):
   - *Freimarkt* (zweite Oktoberhälfte, Bürgerweide) und *Osterwiese* (um Ostern) – nur in der
     Saison erwähnen. *Breminale* (Juli, Osterdeich) – nur im Sommer.
