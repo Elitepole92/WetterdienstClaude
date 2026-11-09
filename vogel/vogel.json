@@ -1,19 +1,20 @@
 {
-  "deutsch": "Silberreiher",
-  "latein": "Ardea alba",
-  "zuletzt": "2026-11-07",
-  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (20549807560).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(20549807560).jpg",
+  "deutsch": "Hausrotschwanz",
+  "latein": "Phoenicurus ochruros",
+  "zuletzt": "2026-11-05",
+  "tafel": "File:GouldBirdsEuropeIIBlack Redstart.jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:GouldBirdsEuropeIIBlack_Redstart.jpg",
   "bewertung": {
-    "detail": 0.248,
-    "farbe": 0.796,
-    "fuellung": 0.836,
-    "gesamt": 26.73,
-    "inseln": 1
+    "farbe": 0.512,
+    "detail": 0.319,
+    "fuellung": 0.826,
+    "inseln": 1,
+    "gesamt": 19.86
   },
-  "stand": "09.11. 11:46 Uhr",
-  "slot": "2026-11-09 11",
+  "stand": "09.11. 17:46 Uhr",
+  "slot": "2026-11-09 17",
   "verlauf": [
+    "Phoenicurus ochruros",
     "Ardea alba",
     "Anas acuta",
     "Corvus corone",
@@ -32,7 +33,6 @@
     "Falco tinnunculus",
     "Fulica atra",
     "Erithacus rubecula",
-    "Podiceps cristatus",
-    "Regulus ignicapilla"
+    "Podiceps cristatus"
   ]
 }

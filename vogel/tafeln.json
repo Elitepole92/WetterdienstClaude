@@ -1771,6 +1771,72 @@
     ],
     "werk": "Gould"
   },
+  "Phoenicurus ochruros": {
+    "bewertung": {
+      "detail": 0.319,
+      "farbe": 0.512,
+      "fuellung": 0.826,
+      "gesamt": 19.86,
+      "inseln": 1
+    },
+    "datei": "File:GouldBirdsEuropeIIBlack Redstart.jpg",
+    "jahr": 1837,
+    "kuenstler": "J and E Gould E Lear",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:GouldBirdsEuropeIIBlack_Redstart.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/GouldBirdsEuropeIIBlack_Redstart.jpg/1280px-GouldBirdsEuropeIIBlack_Redstart.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Phoenicurus ochruros ochruros John Gould. The Birds of Asia.jpg",
+        "detail": 0.194,
+        "farbe": 0.357,
+        "fuellung": 0.577,
+        "gesamt": 16.66,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Phoenicurus ochruros 1873.jpg",
+        "detail": 0.321,
+        "farbe": 0.26,
+        "fuellung": 0.682,
+        "gesamt": 14.07,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A history of British birds - by the Rev. F. O. Morris (1862) (14565791729).jpg",
+        "detail": 0.329,
+        "farbe": 0.271,
+        "fuellung": 0.456,
+        "gesamt": 10.45,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A history of the birds of Europe (Pl. 642) (6989224424).jpg",
+        "detail": 0.299,
+        "farbe": 0.296,
+        "fuellung": 0.617,
+        "gesamt": 10.34,
+        "inseln": 2
+      },
+      {
+        "datei": "File:BirdsAsiaJohnGoIVGoul 0156.jpg",
+        "detail": 0.227,
+        "farbe": 0.415,
+        "fuellung": 0.729,
+        "gesamt": 18.13,
+        "inseln": 1
+      },
+      {
+        "datei": "File:GouldBirdsEuropeIIBlack Redstart.jpg",
+        "detail": 0.319,
+        "farbe": 0.512,
+        "fuellung": 0.826,
+        "gesamt": 19.86,
+        "inseln": 1
+      }
+    ],
+    "werk": "Gould"
+  },
   "Podiceps cristatus": {
     "bewertung": {
       "detail": 0.228,
