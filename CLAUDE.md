@@ -85,6 +85,7 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   - Kalt, trocken, kaum Wind. Perfektes Fußballwetter. Werder muss sich für heute eine neue Ausrede suchen.
   - Nachmittags reißt's ein bisschen auf. In Lemwerder glänzt die nächste Superjacht in der Werft. Für wen, fragt da lieber keiner.
   - Morgen kälter, aber noch kein Frost. In Delmenhorst liegt der Eiskratzer trotzdem schon griffbereit im Touran. Seit August.
+  - Nebel und Frost. Der Münchner im Büro erzählt, daheim würde er jetzt rauf in die Sonne fahren. Keiner hält ihn auf.
 - **Themenpool für Seitenhiebe** (zusätzlich zu den Zielen oben; nur wenn's zum Wetter passt):
   - *Freimarkt* (zweite Oktoberhälfte, Bürgerweide) und *Osterwiese* (um Ostern) – nur in der
     Saison erwähnen. *Breminale* (Juli, Osterdeich) – nur im Sommer.
