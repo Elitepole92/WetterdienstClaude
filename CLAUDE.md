@@ -127,6 +127,8 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
   oder „draußen“. Das macht das Bild konkret.
 - **Das Erwartbare ist keine Pointe.** Dass man bei Wind die Mütze festhält, weiß jeder – das
   überrascht niemanden. Die Wendung muss etwas sagen, womit man nicht gerechnet hat.
+  Auch eine Pointe, die nur Offensichtliches feststellt, knallt nicht (schwach: „Der Münchner sagt, bei ihnen fährt
+  man rauf in die Sonne. Hier gibt's kein rauf.“ – dass Bremen flach ist, weiß jeder). Der Stich muss das Ziel treffen.
 - **Keine schiefen Bilder.** Keine Vermenschlichungen oder Sprüche, die nur nach Weisheit
   klingen, aber nichts bedeuten (schwach: „ein Wind, der keine Fragen stellt“; „Der
   Zugezogene sagt: schönes Wetter. Der Bremer sagt: Mütze.“; „alle in kurzen Hosen, nur die
