@@ -2035,6 +2035,72 @@
     ],
     "werk": "Naumann"
   },
+  "Spatula clypeata": {
+    "bewertung": {
+      "detail": 0.272,
+      "farbe": 0.551,
+      "fuellung": 0.74,
+      "gesamt": 20.33,
+      "inseln": 1
+    },
+    "datei": "File:British birds (1915) (20422865591).jpg",
+    "jahr": 1915,
+    "kuenstler": "Thorburn, Archibald, 1860-1935",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20422865591).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/British_birds_%281915%29_%2820422865591%29.jpg/1280px-British_birds_%281915%29_%2820422865591%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:The birds of Europe (1837) (14563999628).jpg",
+        "detail": 0.286,
+        "farbe": 0.479,
+        "fuellung": 0.365,
+        "gesamt": 14.17,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Anas clypeata 1876.jpg",
+        "detail": 0.306,
+        "farbe": 0.434,
+        "fuellung": 0.397,
+        "gesamt": 13.35,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 3 58.jpg",
+        "detail": 0.327,
+        "farbe": 0.39,
+        "fuellung": 0.394,
+        "gesamt": 12.12,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The Indian ducks and their allies (1908) (14749460494).jpg",
+        "detail": 0.312,
+        "farbe": 0.753,
+        "fuellung": 0.368,
+        "gesamt": 19.28,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The Indian ducks and their allies (6254041927).jpg",
+        "detail": 0.308,
+        "farbe": 0.75,
+        "fuellung": 0.364,
+        "gesamt": 19.25,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (20422865591).jpg",
+        "detail": 0.272,
+        "farbe": 0.551,
+        "fuellung": 0.74,
+        "gesamt": 20.33,
+        "inseln": 1
+      }
+    ],
+    "werk": "Thorburn"
+  },
   "Tachybaptus ruficollis": {
     "bewertung": {
       "detail": 0.228,

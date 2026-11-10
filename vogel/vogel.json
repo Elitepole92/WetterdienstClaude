@@ -1,19 +1,20 @@
 {
-  "deutsch": "Buchfink",
-  "latein": "Fringilla coelebs",
-  "zuletzt": "2026-11-09",
-  "tafel": "File:The birds of Europe (1837) (14749620464).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:The_birds_of_Europe_(1837)_(14749620464).jpg",
+  "deutsch": "Löffelente",
+  "latein": "Spatula clypeata",
+  "zuletzt": "2026-11-07",
+  "tafel": "File:British birds (1915) (20422865591).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20422865591).jpg",
   "bewertung": {
-    "farbe": 0.429,
-    "detail": 0.304,
-    "fuellung": 0.942,
+    "farbe": 0.551,
+    "detail": 0.272,
+    "fuellung": 0.74,
     "inseln": 1,
-    "gesamt": 19.83
+    "gesamt": 20.33
   },
-  "stand": "10.11. 05:48 Uhr",
-  "slot": "2026-11-10 05",
+  "stand": "10.11. 11:55 Uhr",
+  "slot": "2026-11-10 11",
   "verlauf": [
+    "Spatula clypeata",
     "Fringilla coelebs",
     "Phoenicurus ochruros",
     "Ardea alba",
@@ -32,7 +33,6 @@
     "Phalacrocorax carbo",
     "Tachybaptus ruficollis",
     "Falco tinnunculus",
-    "Fulica atra",
-    "Erithacus rubecula"
+    "Fulica atra"
   ]
 }
