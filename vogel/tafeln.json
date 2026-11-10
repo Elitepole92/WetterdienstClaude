@@ -1018,6 +1018,72 @@
     ],
     "werk": "Keulemans"
   },
+  "Fringilla coelebs": {
+    "bewertung": {
+      "detail": 0.304,
+      "farbe": 0.429,
+      "fuellung": 0.942,
+      "gesamt": 19.83,
+      "inseln": 1
+    },
+    "datei": "File:The birds of Europe (1837) (14749620464).jpg",
+    "jahr": 1837,
+    "kuenstler": "John Gould / Elizabeth Gould / Charles Joseph Hullmandel",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:The_birds_of_Europe_(1837)_(14749620464).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/The_birds_of_Europe_%281837%29_%2814749620464%29.jpg/1280px-The_birds_of_Europe_%281837%29_%2814749620464%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Fringilla coelebs 1869.jpg",
+        "detail": 0.232,
+        "farbe": 0.276,
+        "fuellung": 0.438,
+        "gesamt": 12.81,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The birds of Europe (1837) (14749620464).jpg",
+        "detail": 0.304,
+        "farbe": 0.429,
+        "fuellung": 0.942,
+        "gesamt": 19.83,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 1 32.jpg",
+        "detail": 0.257,
+        "farbe": 0.271,
+        "fuellung": 0.433,
+        "gesamt": 8.25,
+        "inseln": 2
+      },
+      {
+        "datei": "File:British birds (1915) (20408015492).jpg",
+        "detail": 0.275,
+        "farbe": 0.546,
+        "fuellung": 0.701,
+        "gesamt": 16.71,
+        "inseln": 2
+      },
+      {
+        "datei": "File:British birds - (20347303332).jpg",
+        "detail": 0.272,
+        "farbe": 0.545,
+        "fuellung": 0.708,
+        "gesamt": 19.82,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Ferdinand von Wright - Chaffinches and Redpolls - A I 63 - Finnish National Gallery.jpg",
+        "detail": 0.223,
+        "farbe": 0.512,
+        "fuellung": 0.449,
+        "gesamt": 10.29,
+        "inseln": 3
+      }
+    ],
+    "werk": "Gould"
+  },
   "Fulica atra": {
     "bewertung": {
       "detail": 0.237,

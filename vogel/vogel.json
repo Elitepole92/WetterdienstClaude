@@ -1,19 +1,20 @@
 {
-  "deutsch": "Hausrotschwanz",
-  "latein": "Phoenicurus ochruros",
-  "zuletzt": "2026-11-05",
-  "tafel": "File:GouldBirdsEuropeIIBlack Redstart.jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:GouldBirdsEuropeIIBlack_Redstart.jpg",
+  "deutsch": "Buchfink",
+  "latein": "Fringilla coelebs",
+  "zuletzt": "2026-11-09",
+  "tafel": "File:The birds of Europe (1837) (14749620464).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:The_birds_of_Europe_(1837)_(14749620464).jpg",
   "bewertung": {
-    "farbe": 0.512,
-    "detail": 0.319,
-    "fuellung": 0.826,
+    "farbe": 0.429,
+    "detail": 0.304,
+    "fuellung": 0.942,
     "inseln": 1,
-    "gesamt": 19.86
+    "gesamt": 19.83
   },
-  "stand": "09.11. 17:46 Uhr",
-  "slot": "2026-11-09 17",
+  "stand": "10.11. 05:48 Uhr",
+  "slot": "2026-11-10 05",
   "verlauf": [
+    "Fringilla coelebs",
     "Phoenicurus ochruros",
     "Ardea alba",
     "Anas acuta",
@@ -32,7 +33,6 @@
     "Tachybaptus ruficollis",
     "Falco tinnunculus",
     "Fulica atra",
-    "Erithacus rubecula",
-    "Podiceps cristatus"
+    "Erithacus rubecula"
   ]
 }
