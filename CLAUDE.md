@@ -1,6 +1,6 @@
 # WetterdienstClaude
 
-Erzeugt 3× täglich (5:45, 11:45, 17:45 Uhr Europe/Berlin) einen frechen norddeutschen
+Erzeugt 2× täglich (3:00 und 15:00 Uhr Europe/Berlin) einen frechen norddeutschen
 Wetterspruch für Bremen, Östliche Vorstadt. Ergebnis ist `spruch.json` im Repo-Root;
 das SenseCraft-HMI-Dashboard (XIAO ePaper 13,3") lädt sie per Data-Komponente über
 https://raw.githubusercontent.com/Elitepole92/WetterdienstClaude/main/spruch.json
@@ -13,7 +13,8 @@ https://raw.githubusercontent.com/Elitepole92/WetterdienstClaude/main/spruch.jso
 3. `python3 scripts/schreibe_spruch.py "<Spruch>" < /tmp/wetter.json`
 4. Direkt auf `main` committen und pushen:
    `git add spruch.json && git commit -m "Spruch <TT.MM. HH:MM>" && git push origin main`
-5. Startschuss fürs Vogelbild (eigenes Projekt in `vogel/`, läuft als GitHub Action):
+5. Startschuss fürs Vogelbild (eigenes Projekt in `vogel/`, läuft als GitHub Action; um 3 Uhr
+   wählt es den Vogel des Tages, um 15 Uhr erneuert es nur den Spruch im Bild):
    `gh api -X POST repos/Elitepole92/WetterdienstClaude/actions/workflows/vogel.yml/dispatches -f ref=main`
    Nur anstoßen, nicht auf das Ergebnis warten und nichts an `vogel/` ändern. Schlägt der
    Befehl fehl, den Fehler kurz melden – der Spruch bleibt trotzdem gültig.
@@ -155,7 +156,8 @@ ableiten. Nie zuerst einen Witz bauen und das Wetter danach dranhängen.
 - **Keine Messwerte**: keine Grad, km/h, Liter, Prozente, Uhrzeiten. Die Zahlen zeigt das
   Display separat. Stattdessen beschreiben: „frisch“, „ordentlich Böen“, „richtig nass“.
 - Muss trotzdem erkennbar zum aktuellen Wetter bzw. den nächsten Stunden passen. Morgens
-  eher auf den Tag, um 19 Uhr auf Abend/Nacht und morgen.
+  eher auf den Tag (der 3-Uhr-Spruch steht den ganzen Vormittag), um 15 Uhr auf
+  Nachmittag, Abend/Nacht und morgen.
 - Mundart-Färbung höchstens sparsam („nich“, „büschen“, „Schietwetter“) und nur, wenn sie
   zum Witz beiträgt – nicht reinstreuen, damit es norddeutsch wirkt. Kein „Digger“.
 - Ein bis drei kurze Sätze, **höchstens ca. 22 Wörter / 135 Zeichen** (mehr passt nicht ins

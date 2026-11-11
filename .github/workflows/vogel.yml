@@ -2,9 +2,10 @@ name: Vogel-Lexikon
 
 on:
   schedule:
-    # Normalerweise stößt der Wetterlauf (5:45, 11:45, 17:45 Berliner Zeit) den Vogel an.
-    # Reserve: alle 15 Minuten prüfen; fehlt der Vogel für ein Zeitfenster noch, wird er
-    # zwischen :55 und der folgenden vollen Stunde nachgeholt (vor dem Display-Refresh).
+    # Normalerweise stößt der Wetterlauf (3:00 und 15:00 Berliner Zeit) das Bild an:
+    # um 3 Uhr mit neuem Vogel des Tages, um 15 Uhr nur mit neuem Spruch.
+    # Reserve: alle 15 Minuten prüfen; fehlt das Bild für ein Zeitfenster noch, wird es
+    # zwischen :10 und :59 der folgenden Stunde nachgeholt.
     - cron: "*/15 * * * *"
   workflow_dispatch:
     inputs:
@@ -30,16 +31,15 @@ jobs:
           hm=$(TZ=Europe/Berlin date '+%H%M')
           tag=$(TZ=Europe/Berlin date '+%Y-%m-%d')
           case "$hm" in
-            055[5-9]|06??) fenster="$tag 05" ;;
-            115[5-9]|12??) fenster="$tag 11" ;;
-            175[5-9]|18??) fenster="$tag 17" ;;
+            031[0-9]|03[2-5]?|04??) fenster="$tag 03" ;;
+            151[0-9]|15[2-5]?|16??) fenster="$tag 15" ;;
             *) fenster="" ;;
           esac
           letzter=$(jq -r '.slot // ""' vogel/vogel.json 2>/dev/null || true)
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "los=true" >> "$GITHUB_OUTPUT"
           elif [ -n "$fenster" ] && [ "$letzter" != "$fenster" ]; then
-            echo "Vogel für $fenster Uhr fehlt – Reserve-Lauf."
+            echo "Bild für $fenster Uhr fehlt – Reserve-Lauf."
             echo "los=true" >> "$GITHUB_OUTPUT"
           else
             echo "Nichts zu tun (Berlin $hm, letzter Vogel: $letzter)."

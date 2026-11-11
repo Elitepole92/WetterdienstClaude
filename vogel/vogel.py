@@ -633,21 +633,40 @@ def _verlauf(p, breite, seite):
 # ---------------------------------------------------------------- Ablauf
 
 def zeitfenster(jetzt):
-    """Zeitfenster 5, 11 oder 17 Uhr, zu dem dieser Lauf gehört (wie der Wetterlauf)."""
-    for stunde in (17, 11, 5):
+    """Zeitfenster 3 oder 15 Uhr, zu dem dieser Lauf gehört (wie der Wetterlauf)."""
+    for stunde in (15, 3):
         if jetzt.hour >= stunde:
             return jetzt.strftime("%Y-%m-%d ") + f"{stunde:02d}"
-    return (jetzt - timedelta(days=1)).strftime("%Y-%m-%d ") + "17"
+    return (jetzt - timedelta(days=1)).strftime("%Y-%m-%d ") + "15"
+
+
+def nur_spruch_erneuern(info, jetzt):
+    """Der Vogel des Tages (Auswahl um 3 Uhr) bleibt; neu gesetzt werden nur Spruch und
+    Wetterzeile aus der aktuellen spruch.json."""
+    tafeln = json.loads(TAFELN.read_text("utf-8"))
+    tafel = tafeln[info["latein"]]
+    platte = bereite_tafel_auf(hole_bild(tafel["url"]))
+    wetter = json.loads(SPRUCH.read_text("utf-8")) if SPRUCH.exists() else None
+    seite(platte, info, wetter).save(HIER / "vogel.png", optimize=True)
+    info.update(stand=jetzt.strftime("%d.%m. %H:%M Uhr"), slot=zeitfenster(jetzt))
+    INFO.write_text(json.dumps(info, ensure_ascii=False, indent=2) + "\n", "utf-8")
+    print(f"Vogel des Tages bleibt ({info['deutsch']}), Spruch erneuert.")
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--art", help="lateinischer Name erzwingen (zum Testen)")
+    ap.add_argument("--neuer-vogel", action="store_true",
+                    help="auch dann einen neuen Vogel wählen, wenn heute schon einer gewählt wurde")
     args = ap.parse_args()
 
     jetzt = datetime.now(TZ)
     stand = jetzt.strftime("%d.%m. %H:%M Uhr")
     info_alt = json.loads(INFO.read_text("utf-8")) if INFO.exists() else {}
+    # Ein Vogel pro Tag: ist heute schon einer gewählt, nur den Spruch im Bild erneuern
+    if (not args.art and not args.neuer_vogel
+            and info_alt.get("vogel_am") == jetzt.date().isoformat()):
+        return nur_spruch_erneuern(info_alt, jetzt)
     verlauf = info_alt.get("verlauf", [])
     tafeln = json.loads(TAFELN.read_text("utf-8")) if TAFELN.exists() else {}
     if tafeln.get("_version") != CACHE_VERSION:
@@ -703,6 +722,7 @@ def main():
         "tafel_seite": tafel.get("seite"),
         "bewertung": tafel.get("bewertung"),
         "stand": stand,
+        "vogel_am": jetzt.date().isoformat(),
         "slot": zeitfenster(jetzt),  # verhindert doppelte Reserve-Läufe je Zeitfenster
         "verlauf": ([art["latein"]] + [v for v in verlauf if v != art["latein"]])[:VERLAUF_LAENGE],
     }
