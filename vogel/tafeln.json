@@ -1398,6 +1398,72 @@
     ],
     "werk": "Gould"
   },
+  "Haliaeetus albicilla": {
+    "bewertung": {
+      "detail": 0.277,
+      "farbe": 0.774,
+      "fuellung": 0.923,
+      "gesamt": 26.91,
+      "inseln": 1
+    },
+    "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (6028610969).jpg",
+    "jahr": 1885,
+    "kuenstler": "Archibald Thorburn",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(6028610969).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%286028610969%29.jpg/1280px-Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%286028610969%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:GouldBirdsEuropeISea Eagle.jpg",
+        "detail": 0.25,
+        "farbe": 0.562,
+        "fuellung": 0.873,
+        "gesamt": 22.47,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Haliaetus Albicilla.tif",
+        "detail": 0.202,
+        "farbe": 0.454,
+        "fuellung": 0.921,
+        "gesamt": 21.62,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A naturalist's sketch book (Plate 4) BHL46157754.jpg",
+        "detail": 0.185,
+        "farbe": 0.519,
+        "fuellung": 0.395,
+        "gesamt": 16.84,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (20229997529).jpg",
+        "detail": 0.258,
+        "farbe": 0.599,
+        "fuellung": 0.726,
+        "gesamt": 18.32,
+        "inseln": 2
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (6028610969).jpg",
+        "detail": 0.277,
+        "farbe": 0.774,
+        "fuellung": 0.923,
+        "gesamt": 26.91,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (6028611263).jpg",
+        "detail": 0.304,
+        "farbe": 0.728,
+        "fuellung": 0.96,
+        "gesamt": 26.03,
+        "inseln": 1
+      }
+    ],
+    "werk": "Thorburn"
+  },
   "Lanius excubitor": {
     "bewertung": {
       "detail": 0.338,

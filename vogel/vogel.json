@@ -1,19 +1,20 @@
 {
-  "deutsch": "Löffelente",
-  "latein": "Spatula clypeata",
-  "zuletzt": "2026-11-07",
-  "tafel": "File:British birds (1915) (20422865591).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20422865591).jpg",
+  "deutsch": "Seeadler",
+  "latein": "Haliaeetus albicilla",
+  "zuletzt": "2026-11-05",
+  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (6028610969).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(6028610969).jpg",
   "bewertung": {
-    "farbe": 0.551,
-    "detail": 0.272,
-    "fuellung": 0.74,
+    "farbe": 0.774,
+    "detail": 0.277,
+    "fuellung": 0.923,
     "inseln": 1,
-    "gesamt": 20.33
+    "gesamt": 26.91
   },
-  "stand": "10.11. 11:55 Uhr",
-  "slot": "2026-11-10 11",
+  "stand": "11.11. 05:46 Uhr",
+  "slot": "2026-11-11 05",
   "verlauf": [
+    "Haliaeetus albicilla",
     "Spatula clypeata",
     "Fringilla coelebs",
     "Phoenicurus ochruros",
@@ -32,7 +33,6 @@
     "Lanius excubitor",
     "Phalacrocorax carbo",
     "Tachybaptus ruficollis",
-    "Falco tinnunculus",
-    "Fulica atra"
+    "Falco tinnunculus"
   ]
 }
