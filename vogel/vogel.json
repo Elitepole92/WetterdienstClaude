@@ -1,20 +1,21 @@
 {
-  "deutsch": "Krickente",
-  "latein": "Anas crecca",
-  "zuletzt": "2026-11-07",
-  "tafel": "File:British birds (1915) (20422865591).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20422865591).jpg",
+  "deutsch": "Eisvogel",
+  "latein": "Alcedo atthis",
+  "zuletzt": "2026-11-06",
+  "tafel": "File:British birds (1915) (19795674093).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(19795674093).jpg",
   "bewertung": {
-    "detail": 0.272,
-    "farbe": 0.551,
-    "fuellung": 0.886,
-    "gesamt": 22.09,
-    "inseln": 1
+    "farbe": 0.608,
+    "detail": 0.279,
+    "fuellung": 0.726,
+    "inseln": 1,
+    "gesamt": 21.18
   },
-  "stand": "11.11. 15:07 Uhr",
-  "vogel_am": "2026-11-11",
-  "slot": "2026-11-11 15",
+  "stand": "12.11. 03:13 Uhr",
+  "vogel_am": "2026-11-12",
+  "slot": "2026-11-12 03",
   "verlauf": [
+    "Alcedo atthis",
     "Anas crecca",
     "Haliaeetus albicilla",
     "Spatula clypeata",
@@ -33,7 +34,6 @@
     "Alopochen aegyptiaca",
     "Anas platyrhynchos",
     "Lanius excubitor",
-    "Phalacrocorax carbo",
-    "Tachybaptus ruficollis"
+    "Phalacrocorax carbo"
   ]
 }

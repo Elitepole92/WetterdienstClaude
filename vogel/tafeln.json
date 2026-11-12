@@ -131,6 +131,64 @@
     ],
     "werk": "Keulemans"
   },
+  "Alcedo atthis": {
+    "bewertung": {
+      "detail": 0.279,
+      "farbe": 0.608,
+      "fuellung": 0.726,
+      "gesamt": 21.18,
+      "inseln": 1
+    },
+    "datei": "File:British birds (1915) (19795674093).jpg",
+    "jahr": 1915,
+    "kuenstler": "Thorburn, Archibald, 1860-1935",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(19795674093).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/British_birds_%281915%29_%2819795674093%29.jpg/1280px-British_birds_%281915%29_%2819795674093%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:GouldBirdsEuropeIIKingfisher.jpg",
+        "detail": 0.265,
+        "farbe": 0.416,
+        "fuellung": 0.533,
+        "gesamt": 15.25,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A naturalist's sketch book (Plate 16) BHL46157807.jpg",
+        "detail": 0.285,
+        "farbe": 0.658,
+        "fuellung": 0.643,
+        "gesamt": 21.1,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (19795674093).jpg",
+        "detail": 0.279,
+        "farbe": 0.608,
+        "fuellung": 0.726,
+        "gesamt": 21.18,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Les Métamorphoses du jour p. XLIV.jpg",
+        "detail": 0.324,
+        "farbe": 0.341,
+        "fuellung": 0.335,
+        "gesamt": 7.98,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Skandinaviens fugle (Plate XIII) (7582281376).jpg",
+        "detail": 0.3,
+        "farbe": 0.592,
+        "fuellung": 0.899,
+        "gesamt": 8.14,
+        "inseln": 5
+      }
+    ],
+    "werk": "Thorburn"
+  },
   "Alopochen aegyptiaca": {
     "bewertung": {
       "detail": 0.247,
