@@ -1,20 +1,21 @@
 {
-  "deutsch": "Eisvogel",
-  "latein": "Alcedo atthis",
-  "zuletzt": "2026-11-06",
-  "tafel": "File:British birds (1915) (19795674093).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(19795674093).jpg",
+  "deutsch": "Ringeltaube",
+  "latein": "Columba palumbus",
+  "zuletzt": "2026-11-11",
+  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (19902583990).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(19902583990).jpg",
   "bewertung": {
-    "farbe": 0.608,
-    "detail": 0.279,
-    "fuellung": 0.726,
+    "farbe": 0.636,
+    "detail": 0.264,
+    "fuellung": 0.751,
     "inseln": 1,
-    "gesamt": 21.18
+    "gesamt": 22.28
   },
-  "stand": "12.11. 15:16 Uhr",
-  "vogel_am": "2026-11-12",
-  "slot": "2026-11-12 15",
+  "stand": "13.11. 03:13 Uhr",
+  "vogel_am": "2026-11-13",
+  "slot": "2026-11-13 03",
   "verlauf": [
+    "Columba palumbus",
     "Alcedo atthis",
     "Anas crecca",
     "Haliaeetus albicilla",
@@ -33,7 +34,6 @@
     "Grus grus",
     "Alopochen aegyptiaca",
     "Anas platyrhynchos",
-    "Lanius excubitor",
-    "Phalacrocorax carbo"
+    "Lanius excubitor"
   ]
 }

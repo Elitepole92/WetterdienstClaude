@@ -902,6 +902,72 @@
     ],
     "werk": "Naumann"
   },
+  "Columba palumbus": {
+    "bewertung": {
+      "detail": 0.264,
+      "farbe": 0.636,
+      "fuellung": 0.751,
+      "gesamt": 22.28,
+      "inseln": 1
+    },
+    "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (19902583990).jpg",
+    "jahr": 1885,
+    "kuenstler": "Keulemans, J. G.; Lilford, Thomas Littleton Powys; Newton, Alfred; Salvin, Osbert; Thorburn, Archibald",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(19902583990).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%2819902583990%29.jpg/1280px-Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%2819902583990%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Columba palumbus 1869.jpg",
+        "detail": 0.336,
+        "farbe": 0.397,
+        "fuellung": 0.461,
+        "gesamt": 13.94,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Wood pigeon.jpg",
+        "detail": 0.29,
+        "farbe": 0.492,
+        "fuellung": 0.778,
+        "gesamt": 19.33,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (19902583990).jpg",
+        "detail": 0.264,
+        "farbe": 0.636,
+        "fuellung": 0.751,
+        "gesamt": 22.28,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 1 48.jpg",
+        "detail": 0.363,
+        "farbe": 0.352,
+        "fuellung": 0.448,
+        "gesamt": 11.47,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Onze vogels in huis en tuin (1869) (14565038138).jpg",
+        "detail": 0.351,
+        "farbe": 0.263,
+        "fuellung": 0.328,
+        "gesamt": 8.44,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (19795741313).jpg",
+        "detail": 0.268,
+        "farbe": 0.524,
+        "fuellung": 0.725,
+        "gesamt": 13.64,
+        "inseln": 3
+      }
+    ],
+    "werk": "Keulemans"
+  },
   "Corvus corone": {
     "bewertung": {
       "detail": 0.162,
