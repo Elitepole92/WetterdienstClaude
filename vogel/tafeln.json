@@ -1010,6 +1010,72 @@
     ],
     "werk": "Thorburn"
   },
+  "Cyanistes caeruleus": {
+    "bewertung": {
+      "detail": 0.249,
+      "farbe": 0.635,
+      "fuellung": 0.729,
+      "gesamt": 22.21,
+      "inseln": 1
+    },
+    "datei": "File:British birds (1915) (20407999692).jpg",
+    "jahr": 1915,
+    "kuenstler": "Thorburn, Archibald, 1860-1935",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20407999692).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/British_birds_%281915%29_%2820407999692%29.jpg/1280px-British_birds_%281915%29_%2820407999692%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Cyanistes caeruleus 1869.jpg",
+        "detail": 0.319,
+        "farbe": 0.38,
+        "fuellung": 0.781,
+        "gesamt": 17.69,
+        "inseln": 1
+      },
+      {
+        "datei": "File:GouldBirdsEuropeIIIBlue Tit.jpg",
+        "detail": 0.298,
+        "farbe": 0.534,
+        "fuellung": 0.92,
+        "gesamt": 21.76,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A history of the birds of Europe (Pl. 660) (7135316049).jpg",
+        "detail": 0.332,
+        "farbe": 0.325,
+        "fuellung": 0.886,
+        "gesamt": 16.65,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 1 14.jpg",
+        "detail": 0.33,
+        "farbe": 0.356,
+        "fuellung": 0.774,
+        "gesamt": 15.96,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A naturalist's sketch book (Plate 20) BHL46157827.jpg",
+        "detail": 0.169,
+        "farbe": 0.404,
+        "fuellung": 0.695,
+        "gesamt": 18.37,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (20407999692).jpg",
+        "detail": 0.249,
+        "farbe": 0.635,
+        "fuellung": 0.729,
+        "gesamt": 22.21,
+        "inseln": 1
+      }
+    ],
+    "werk": "Thorburn"
+  },
   "Erithacus rubecula": {
     "bewertung": {
       "detail": 0.262,

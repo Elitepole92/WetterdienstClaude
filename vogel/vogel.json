@@ -1,20 +1,21 @@
 {
-  "deutsch": "Ringeltaube",
-  "latein": "Columba palumbus",
-  "zuletzt": "2026-11-11",
-  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (19902583990).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(19902583990).jpg",
+  "deutsch": "Blaumeise",
+  "latein": "Cyanistes caeruleus",
+  "zuletzt": "2026-11-08",
+  "tafel": "File:British birds (1915) (20407999692).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20407999692).jpg",
   "bewertung": {
-    "farbe": 0.636,
-    "detail": 0.264,
-    "fuellung": 0.751,
+    "farbe": 0.635,
+    "detail": 0.249,
+    "fuellung": 0.729,
     "inseln": 1,
-    "gesamt": 22.28
+    "gesamt": 22.21
   },
-  "stand": "13.11. 16:16 Uhr",
-  "vogel_am": "2026-11-13",
-  "slot": "2026-11-13 15",
+  "stand": "14.11. 03:13 Uhr",
+  "vogel_am": "2026-11-14",
+  "slot": "2026-11-14 03",
   "verlauf": [
+    "Cyanistes caeruleus",
     "Columba palumbus",
     "Alcedo atthis",
     "Anas crecca",
@@ -33,7 +34,6 @@
     "Branta leucopsis",
     "Grus grus",
     "Alopochen aegyptiaca",
-    "Anas platyrhynchos",
-    "Lanius excubitor"
+    "Anas platyrhynchos"
   ]
 }
