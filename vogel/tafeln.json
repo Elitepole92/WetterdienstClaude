@@ -545,6 +545,64 @@
     ],
     "werk": "Keulemans"
   },
+  "Astur gentilis": {
+    "bewertung": {
+      "detail": 0.313,
+      "farbe": 0.861,
+      "fuellung": 0.439,
+      "gesamt": 22.31,
+      "inseln": 1
+    },
+    "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (6029169094).jpg",
+    "jahr": 1885,
+    "kuenstler": "Archibald Thorburn",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(6029169094).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%286029169094%29.jpg/1280px-Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%286029169094%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:GouldBirdsEuropeIGoshawk.jpg",
+        "detail": 0.294,
+        "farbe": 0.41,
+        "fuellung": 0.991,
+        "gesamt": 20.18,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A naturalist's sketch book (Plate 12) BHL46157731.jpg",
+        "detail": 0.133,
+        "farbe": 0.564,
+        "fuellung": 0.482,
+        "gesamt": 19.57,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (20390418306).jpg",
+        "detail": 0.281,
+        "farbe": 0.55,
+        "fuellung": 0.8,
+        "gesamt": 17.88,
+        "inseln": 2
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (6028616567).jpg",
+        "detail": 0.301,
+        "farbe": 0.859,
+        "fuellung": 0.397,
+        "gesamt": 21.93,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (6029169094).jpg",
+        "detail": 0.313,
+        "farbe": 0.861,
+        "fuellung": 0.439,
+        "gesamt": 22.31,
+        "inseln": 1
+      }
+    ],
+    "werk": "Thorburn"
+  },
   "Aythya fuligula": {
     "bewertung": {
       "detail": 0.225,
