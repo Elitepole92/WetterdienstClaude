@@ -1,20 +1,21 @@
 {
-  "deutsch": "Schwanzmeise",
-  "latein": "Aegithalos caudatus",
-  "zuletzt": "2026-11-14",
-  "tafel": "File:A chapter on birds (Pl. 11) (9092013269).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:A_chapter_on_birds_(Pl._11)_(9092013269).jpg",
+  "deutsch": "Eichelhäher",
+  "latein": "Garrulus glandarius",
+  "zuletzt": "2026-11-16",
+  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (8291309788).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(8291309788).jpg",
   "bewertung": {
-    "detail": 0.305,
-    "farbe": 0.79,
-    "fuellung": 0.909,
-    "gesamt": 26.62,
+    "detail": 0.319,
+    "farbe": 0.776,
+    "fuellung": 0.467,
+    "gesamt": 20.84,
     "inseln": 1
   },
-  "stand": "17.11. 15:16 Uhr",
-  "vogel_am": "2026-11-17",
-  "slot": "2026-11-17 15",
+  "stand": "18.11. 03:12 Uhr",
+  "vogel_am": "2026-11-18",
+  "slot": "2026-11-18 03",
   "verlauf": [
+    "Garrulus glandarius",
     "Aegithalos caudatus",
     "Gallinula chloropus",
     "Astur gentilis",
@@ -33,7 +34,6 @@
     "Aythya fuligula",
     "Buteo buteo",
     "Gallinago gallinago",
-    "Columba livia",
-    "Branta leucopsis"
+    "Columba livia"
   ]
 }
