@@ -1,20 +1,21 @@
 {
-  "deutsch": "Eichelhäher",
-  "latein": "Garrulus glandarius",
-  "zuletzt": "2026-11-16",
-  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (8291309788).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(8291309788).jpg",
+  "deutsch": "Grünspecht",
+  "latein": "Picus viridis",
+  "zuletzt": "2026-11-13",
+  "tafel": "File:The birds of Europe (1837) (14729003216).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:The_birds_of_Europe_(1837)_(14729003216).jpg",
   "bewertung": {
-    "detail": 0.319,
-    "farbe": 0.776,
-    "fuellung": 0.467,
-    "gesamt": 20.84,
-    "inseln": 1
+    "farbe": 0.499,
+    "detail": 0.287,
+    "fuellung": 0.975,
+    "inseln": 1,
+    "gesamt": 21.87
   },
-  "stand": "18.11. 15:17 Uhr",
-  "vogel_am": "2026-11-18",
-  "slot": "2026-11-18 15",
+  "stand": "19.11. 03:13 Uhr",
+  "vogel_am": "2026-11-19",
+  "slot": "2026-11-19 03",
   "verlauf": [
+    "Picus viridis",
     "Garrulus glandarius",
     "Aegithalos caudatus",
     "Gallinula chloropus",
@@ -33,7 +34,6 @@
     "Anser albifrons",
     "Aythya fuligula",
     "Buteo buteo",
-    "Gallinago gallinago",
-    "Columba livia"
+    "Gallinago gallinago"
   ]
 }

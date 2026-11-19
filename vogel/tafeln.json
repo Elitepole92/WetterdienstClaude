@@ -2217,6 +2217,72 @@
     ],
     "werk": "Gould"
   },
+  "Picus viridis": {
+    "bewertung": {
+      "detail": 0.287,
+      "farbe": 0.499,
+      "fuellung": 0.975,
+      "gesamt": 21.87,
+      "inseln": 1
+    },
+    "datei": "File:The birds of Europe (1837) (14729003216).jpg",
+    "jahr": 1837,
+    "kuenstler": "Internet Archive Book Images",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:The_birds_of_Europe_(1837)_(14729003216).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/The_birds_of_Europe_%281837%29_%2814729003216%29.jpg/1280px-The_birds_of_Europe_%281837%29_%2814729003216%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Picus viridis 1876.jpg",
+        "detail": 0.344,
+        "farbe": 0.471,
+        "fuellung": 0.742,
+        "gesamt": 18.66,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The birds of Europe (1837) (14729003216).jpg",
+        "detail": 0.287,
+        "farbe": 0.499,
+        "fuellung": 0.975,
+        "gesamt": 21.87,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A history of the birds of Europe (Pl. 690) (6989244622).jpg",
+        "detail": 0.322,
+        "farbe": 0.424,
+        "fuellung": 0.658,
+        "gesamt": 16.05,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (8290241883).jpg",
+        "detail": 0.328,
+        "farbe": 0.504,
+        "fuellung": 0.926,
+        "gesamt": 20.78,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 3 17.jpg",
+        "detail": 0.365,
+        "farbe": 0.531,
+        "fuellung": 0.737,
+        "gesamt": 18.48,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (19795674093).jpg",
+        "detail": 0.279,
+        "farbe": 0.608,
+        "fuellung": 0.726,
+        "gesamt": 21.18,
+        "inseln": 1
+      }
+    ],
+    "werk": "Gould"
+  },
   "Podiceps cristatus": {
     "bewertung": {
       "detail": 0.228,
