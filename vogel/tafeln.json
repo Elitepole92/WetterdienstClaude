@@ -2523,6 +2523,72 @@
     ],
     "werk": "Thorburn"
   },
+  "Turdus iliacus": {
+    "bewertung": {
+      "detail": 0.176,
+      "farbe": 0.432,
+      "fuellung": 0.665,
+      "gesamt": 18.48,
+      "inseln": 1
+    },
+    "datei": "File:A naturalist's sketch book (Plate 22) BHL46157839.jpg",
+    "jahr": 1919,
+    "kuenstler": "Thorburn, Archibald",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:A_naturalist%27s_sketch_book_(Plate_22)_BHL46157839.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/A_naturalist%27s_sketch_book_%28Plate_22%29_BHL46157839.jpg/1280px-A_naturalist%27s_sketch_book_%28Plate_22%29_BHL46157839.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Turdus iliacus 1876.jpg",
+        "detail": 0.31,
+        "farbe": 0.459,
+        "fuellung": 0.483,
+        "gesamt": 15.83,
+        "inseln": 1
+      },
+      {
+        "datei": "File:GouldBirdsEuropeIISongthrushRedwing.jpg",
+        "detail": 0.31,
+        "farbe": 0.397,
+        "fuellung": 0.629,
+        "gesamt": 15.35,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Image from page 11 of \"Onze vogels in huis en tuin\" (1869) (14564053827).jpg",
+        "detail": 0.32,
+        "farbe": 0.346,
+        "fuellung": 0.711,
+        "gesamt": 15.14,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 3 28.jpg",
+        "detail": 0.339,
+        "farbe": 0.443,
+        "fuellung": 0.488,
+        "gesamt": 14.11,
+        "inseln": 1
+      },
+      {
+        "datei": "File:TurdusHybridKeulemans.jpg",
+        "detail": 0.359,
+        "farbe": 0.472,
+        "fuellung": 0.468,
+        "gesamt": 14.17,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A naturalist's sketch book (Plate 22) BHL46157839.jpg",
+        "detail": 0.176,
+        "farbe": 0.432,
+        "fuellung": 0.665,
+        "gesamt": 18.48,
+        "inseln": 1
+      }
+    ],
+    "werk": "Thorburn"
+  },
   "Turdus merula": {
     "bewertung": {
       "detail": 0.256,
