@@ -1,20 +1,21 @@
 {
-  "deutsch": "Rotdrossel",
-  "latein": "Turdus iliacus",
+  "deutsch": "Blässhuhn",
+  "latein": "Fulica atra",
   "zuletzt": "2026-11-14",
-  "tafel": "File:A naturalist's sketch book (Plate 22) BHL46157839.jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:A_naturalist%27s_sketch_book_(Plate_22)_BHL46157839.jpg",
+  "tafel": "File:Fulica atra by Naumann.jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Fulica_atra_by_Naumann.jpg",
   "bewertung": {
-    "farbe": 0.432,
-    "detail": 0.176,
-    "fuellung": 0.665,
-    "inseln": 1,
-    "gesamt": 18.48
+    "detail": 0.237,
+    "farbe": 0.693,
+    "fuellung": 0.936,
+    "gesamt": 25.03,
+    "inseln": 1
   },
-  "stand": "20.11. 15:15 Uhr",
-  "vogel_am": "2026-11-20",
-  "slot": "2026-11-20 15",
+  "stand": "21.11. 03:13 Uhr",
+  "vogel_am": "2026-11-21",
+  "slot": "2026-11-21 03",
   "verlauf": [
+    "Fulica atra",
     "Turdus iliacus",
     "Picus viridis",
     "Garrulus glandarius",
@@ -33,7 +34,6 @@
     "Anas acuta",
     "Corvus corone",
     "Anser albifrons",
-    "Aythya fuligula",
-    "Buteo buteo"
+    "Aythya fuligula"
   ]
 }
