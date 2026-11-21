@@ -4,7 +4,8 @@ Vom Nutzer als gut bewertete Sprüche. Zwei Verwendungen:
 - **Ton-Vorlage** – zeigt, wie es klingen soll.
 - **Reserve** – passt einer genau zum aktuellen Wetter und lief in den letzten zwei Wochen
   nicht (`git log --since='14 days ago' -p -- spruch.json`), darf er wörtlich wiederkommen.
-  Lieber ein bewährter Spruch als ein neuer, der nicht zündet.
+  Aber nur als Ausnahme (höchstens etwa einmal pro Woche): Normalerweise wird ein neuer,
+  hochwertiger Spruch geschrieben. Die Reserve ist Notnagel, nicht Standard.
 
 Neue gute Sprüche einfach unten anhängen.
 
