@@ -1,20 +1,21 @@
 {
-  "deutsch": "Blässhuhn",
-  "latein": "Fulica atra",
-  "zuletzt": "2026-11-14",
-  "tafel": "File:Fulica atra by Naumann.jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Fulica_atra_by_Naumann.jpg",
+  "deutsch": "Mäusebussard",
+  "latein": "Buteo buteo",
+  "zuletzt": "2026-11-20",
+  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (6029164046).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(6029164046).jpg",
   "bewertung": {
-    "detail": 0.237,
-    "farbe": 0.693,
-    "fuellung": 0.936,
-    "gesamt": 25.03,
+    "detail": 0.309,
+    "farbe": 0.866,
+    "fuellung": 0.876,
+    "gesamt": 27.7,
     "inseln": 1
   },
-  "stand": "21.11. 15:13 Uhr",
-  "vogel_am": "2026-11-21",
-  "slot": "2026-11-21 15",
+  "stand": "22.11. 03:13 Uhr",
+  "vogel_am": "2026-11-22",
+  "slot": "2026-11-22 03",
   "verlauf": [
+    "Buteo buteo",
     "Fulica atra",
     "Turdus iliacus",
     "Picus viridis",
@@ -33,7 +34,6 @@
     "Ardea alba",
     "Anas acuta",
     "Corvus corone",
-    "Anser albifrons",
-    "Aythya fuligula"
+    "Anser albifrons"
   ]
 }
