@@ -1,20 +1,21 @@
 {
-  "deutsch": "Amsel",
-  "latein": "Turdus merula",
-  "zuletzt": "2026-11-22",
-  "tafel": "File:GouldBirdsEuropeIIBlackbird.jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:GouldBirdsEuropeIIBlackbird.jpg",
+  "deutsch": "Flussuferläufer",
+  "latein": "Actitis hypoleucos",
+  "zuletzt": "2026-11-21",
+  "tafel": "File:Naumann (IX. 1) (5632199255).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Naumann_(IX._1)_(5632199255).jpg",
   "bewertung": {
-    "detail": 0.256,
-    "farbe": 0.453,
-    "fuellung": 0.888,
-    "gesamt": 20.36,
-    "inseln": 1
+    "farbe": 0.689,
+    "detail": 0.316,
+    "fuellung": 0.882,
+    "inseln": 1,
+    "gesamt": 22.11
   },
-  "stand": "23.11. 15:19 Uhr",
-  "vogel_am": "2026-11-23",
-  "slot": "2026-11-23 15",
+  "stand": "24.11. 03:13 Uhr",
+  "vogel_am": "2026-11-24",
+  "slot": "2026-11-24 03",
   "verlauf": [
+    "Actitis hypoleucos",
     "Turdus merula",
     "Buteo buteo",
     "Fulica atra",
@@ -33,7 +34,6 @@
     "Fringilla coelebs",
     "Phoenicurus ochruros",
     "Ardea alba",
-    "Anas acuta",
-    "Corvus corone"
+    "Anas acuta"
   ]
 }

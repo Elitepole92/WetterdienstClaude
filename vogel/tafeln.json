@@ -65,6 +65,56 @@
     ],
     "werk": "Keulemans"
   },
+  "Actitis hypoleucos": {
+    "bewertung": {
+      "detail": 0.316,
+      "farbe": 0.689,
+      "fuellung": 0.882,
+      "gesamt": 22.11,
+      "inseln": 1
+    },
+    "datei": "File:Naumann (IX. 1) (5632199255).jpg",
+    "jahr": 1902,
+    "kuenstler": "Hennicke, Carl Richard; Naumann, Johann Andreas; Naumann, Johann Andreas; Naumann, Johann Friedrich",
+    "punkte": 5,
+    "seite": "https://commons.wikimedia.org/wiki/File:Naumann_(IX._1)_(5632199255).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Naumann_%28IX._1%29_%285632199255%29.jpg/1280px-Naumann_%28IX._1%29_%285632199255%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (20272924246).jpg",
+        "detail": 0.284,
+        "farbe": 0.713,
+        "fuellung": 0.416,
+        "gesamt": 19.5,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (19795747563).jpg",
+        "detail": 0.241,
+        "farbe": 0.61,
+        "fuellung": 0.704,
+        "gesamt": 21.52,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 194) (6058888693).jpg",
+        "detail": 0.367,
+        "farbe": 0.282,
+        "fuellung": 0.956,
+        "gesamt": 14.09,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Naumann (IX. 1) (5632199255).jpg",
+        "detail": 0.316,
+        "farbe": 0.689,
+        "fuellung": 0.882,
+        "gesamt": 22.11,
+        "inseln": 1
+      }
+    ],
+    "werk": "Naumann"
+  },
   "Aegithalos caudatus": {
     "bewertung": {
       "detail": 0.305,
