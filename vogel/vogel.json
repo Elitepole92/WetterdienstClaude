@@ -1,20 +1,21 @@
 {
-  "deutsch": "Rabenkrähe",
-  "latein": "Corvus corone",
-  "zuletzt": "2026-11-22",
-  "tafel": "File:British birds (1915) (19795669463).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(19795669463).jpg",
+  "deutsch": "Saatkrähe",
+  "latein": "Corvus frugilegus",
+  "zuletzt": "2026-11-24",
+  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (8291308364).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(8291308364).jpg",
   "bewertung": {
-    "detail": 0.162,
-    "farbe": 0.425,
-    "fuellung": 0.723,
-    "gesamt": 19.24,
-    "inseln": 1
+    "farbe": 0.597,
+    "detail": 0.255,
+    "fuellung": 0.798,
+    "inseln": 1,
+    "gesamt": 22.18
   },
-  "stand": "25.11. 15:14 Uhr",
-  "vogel_am": "2026-11-25",
-  "slot": "2026-11-25 15",
+  "stand": "26.11. 03:13 Uhr",
+  "vogel_am": "2026-11-26",
+  "slot": "2026-11-26 03",
   "verlauf": [
+    "Corvus frugilegus",
     "Corvus corone",
     "Actitis hypoleucos",
     "Turdus merula",
@@ -33,7 +34,6 @@
     "Haliaeetus albicilla",
     "Spatula clypeata",
     "Fringilla coelebs",
-    "Phoenicurus ochruros",
-    "Ardea alba"
+    "Phoenicurus ochruros"
   ]
 }

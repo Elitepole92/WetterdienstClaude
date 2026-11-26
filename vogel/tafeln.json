@@ -1118,6 +1118,56 @@
     ],
     "werk": "Thorburn"
   },
+  "Corvus frugilegus": {
+    "bewertung": {
+      "detail": 0.255,
+      "farbe": 0.597,
+      "fuellung": 0.798,
+      "gesamt": 22.18,
+      "inseln": 1
+    },
+    "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (8291308364).jpg",
+    "jahr": 1885,
+    "kuenstler": "Keulemans, J. G.; Lilford, Thomas Littleton Powys; Newton, Alfred; Salvin, Osbert; Thorburn, Archibald",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(8291308364).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_%288291308364%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "verglichen": [
+      {
+        "datei": "File:The birds of Europe (1837) (14748841311).jpg",
+        "detail": 0.247,
+        "farbe": 0.193,
+        "fuellung": 0.81,
+        "gesamt": 14.37,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (8291308364).jpg",
+        "detail": 0.255,
+        "farbe": 0.597,
+        "fuellung": 0.798,
+        "gesamt": 22.18,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (19795669463).jpg",
+        "detail": 0.162,
+        "farbe": 0.425,
+        "fuellung": 0.723,
+        "gesamt": 19.24,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 55) (6058844221).jpg",
+        "detail": 0.21,
+        "farbe": 0.309,
+        "fuellung": 0.847,
+        "gesamt": 15.7,
+        "inseln": 1
+      }
+    ],
+    "werk": "Keulemans"
+  },
   "Cyanistes caeruleus": {
     "bewertung": {
       "detail": 0.249,
