@@ -595,6 +595,64 @@
     ],
     "werk": "Keulemans"
   },
+  "Ardea cinerea": {
+    "bewertung": {
+      "detail": 0.252,
+      "farbe": 0.684,
+      "fuellung": 0.647,
+      "gesamt": 22.18,
+      "inseln": 1
+    },
+    "datei": "File:British birds (1915) (20390434076).jpg",
+    "jahr": 1915,
+    "kuenstler": "Thorburn, Archibald, 1860-1935",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20390434076).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/British_birds_%281915%29_%2820390434076%29.jpg/1280px-British_birds_%281915%29_%2820390434076%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:The edible and game birds of British India, with its dependencies and Ceylon. With woodcuts, lithographs, and coloured illustrations (1889) (14748359894).jpg",
+        "detail": 0.291,
+        "farbe": 0.403,
+        "fuellung": 0.569,
+        "gesamt": 15.02,
+        "inseln": 1
+      },
+      {
+        "datei": "File:British birds (1915) (20390434076).jpg",
+        "detail": 0.252,
+        "farbe": 0.684,
+        "fuellung": 0.647,
+        "gesamt": 22.18,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Birds in their haunts, by the late C. A. Johns (1909) (14752401995).jpg",
+        "detail": 0.238,
+        "farbe": 0.528,
+        "fuellung": 0.915,
+        "gesamt": 12.96,
+        "inseln": 4
+      },
+      {
+        "datei": "File:Johann Andreas Naumann's ... Naturgeschichte der Vögel Deutschlands, nach einigen Erfahrungen entworfen (Taf. 220) (6059445100).jpg",
+        "detail": 0.352,
+        "farbe": 0.24,
+        "fuellung": 0.933,
+        "gesamt": 13.21,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Cassell's natural history (Figure(s)) (7050791197).jpg",
+        "detail": 0.295,
+        "farbe": 0.647,
+        "fuellung": 0.864,
+        "gesamt": 20.9,
+        "inseln": 1
+      }
+    ],
+    "werk": "Thorburn"
+  },
   "Astur gentilis": {
     "bewertung": {
       "detail": 0.313,

@@ -1,20 +1,21 @@
 {
-  "deutsch": "Saatkrähe",
-  "latein": "Corvus frugilegus",
-  "zuletzt": "2026-11-24",
-  "tafel": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (8291308364).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:Coloured_figures_of_the_birds_of_the_British_Islands_-_issued_by_Lord_Lilford_(8291308364).jpg",
+  "deutsch": "Graureiher",
+  "latein": "Ardea cinerea",
+  "zuletzt": "2026-11-26",
+  "tafel": "File:British birds (1915) (20390434076).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20390434076).jpg",
   "bewertung": {
-    "farbe": 0.597,
-    "detail": 0.255,
-    "fuellung": 0.798,
+    "farbe": 0.684,
+    "detail": 0.252,
+    "fuellung": 0.647,
     "inseln": 1,
     "gesamt": 22.18
   },
-  "stand": "26.11. 15:13 Uhr",
-  "vogel_am": "2026-11-26",
-  "slot": "2026-11-26 15",
+  "stand": "27.11. 03:13 Uhr",
+  "vogel_am": "2026-11-27",
+  "slot": "2026-11-27 03",
   "verlauf": [
+    "Ardea cinerea",
     "Corvus frugilegus",
     "Corvus corone",
     "Actitis hypoleucos",
@@ -33,7 +34,6 @@
     "Anas crecca",
     "Haliaeetus albicilla",
     "Spatula clypeata",
-    "Fringilla coelebs",
-    "Phoenicurus ochruros"
+    "Fringilla coelebs"
   ]
 }
