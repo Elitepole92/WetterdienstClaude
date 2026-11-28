@@ -1,20 +1,21 @@
 {
-  "deutsch": "Graureiher",
-  "latein": "Ardea cinerea",
-  "zuletzt": "2026-11-26",
-  "tafel": "File:British birds (1915) (20390434076).jpg",
-  "tafel_seite": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20390434076).jpg",
+  "deutsch": "Kohlmeise",
+  "latein": "Parus major",
+  "zuletzt": "2026-11-21",
+  "tafel": "File:The birds of Europe (1837) (14771793513).jpg",
+  "tafel_seite": "https://commons.wikimedia.org/wiki/File:The_birds_of_Europe_(1837)_(14771793513).jpg",
   "bewertung": {
-    "farbe": 0.684,
-    "detail": 0.252,
-    "fuellung": 0.647,
+    "farbe": 0.51,
+    "detail": 0.268,
+    "fuellung": 0.711,
     "inseln": 1,
-    "gesamt": 22.18
+    "gesamt": 19.21
   },
-  "stand": "27.11. 15:13 Uhr",
-  "vogel_am": "2026-11-27",
-  "slot": "2026-11-27 15",
+  "stand": "28.11. 03:13 Uhr",
+  "vogel_am": "2026-11-28",
+  "slot": "2026-11-28 03",
   "verlauf": [
+    "Parus major",
     "Ardea cinerea",
     "Corvus frugilegus",
     "Corvus corone",
@@ -33,7 +34,6 @@
     "Alcedo atthis",
     "Anas crecca",
     "Haliaeetus albicilla",
-    "Spatula clypeata",
-    "Fringilla coelebs"
+    "Spatula clypeata"
   ]
 }

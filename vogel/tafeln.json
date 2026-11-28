@@ -2177,6 +2177,72 @@
     ],
     "werk": "Keulemans"
   },
+  "Parus major": {
+    "bewertung": {
+      "detail": 0.268,
+      "farbe": 0.51,
+      "fuellung": 0.711,
+      "gesamt": 19.21,
+      "inseln": 1
+    },
+    "datei": "File:The birds of Europe (1837) (14771793513).jpg",
+    "jahr": 1837,
+    "kuenstler": "Internet Archive Book Images",
+    "punkte": 9,
+    "seite": "https://commons.wikimedia.org/wiki/File:The_birds_of_Europe_(1837)_(14771793513).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/The_birds_of_Europe_%281837%29_%2814771793513%29.jpg/1280px-The_birds_of_Europe_%281837%29_%2814771793513%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "verglichen": [
+      {
+        "datei": "File:Parus major 1869.jpg",
+        "detail": 0.3,
+        "farbe": 0.289,
+        "fuellung": 0.698,
+        "gesamt": 15.15,
+        "inseln": 1
+      },
+      {
+        "datei": "File:The birds of Europe (1837) (14771793513).jpg",
+        "detail": 0.268,
+        "farbe": 0.51,
+        "fuellung": 0.711,
+        "gesamt": 19.21,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A history of the birds of Europe (Pl. 656) (7135314451).jpg",
+        "detail": 0.31,
+        "farbe": 0.286,
+        "fuellung": 0.738,
+        "gesamt": 14.43,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Coloured figures of the birds of the British Islands - issued by Lord Lilford (8291316278).jpg",
+        "detail": 0.296,
+        "farbe": 0.636,
+        "fuellung": 0.43,
+        "gesamt": 17.93,
+        "inseln": 1
+      },
+      {
+        "datei": "File:Keulemans Onze vogels 1 12.jpg",
+        "detail": 0.306,
+        "farbe": 0.284,
+        "fuellung": 0.753,
+        "gesamt": 14.64,
+        "inseln": 1
+      },
+      {
+        "datei": "File:A naturalist's sketch book (Plate 20) BHL46157827.jpg",
+        "detail": 0.169,
+        "farbe": 0.404,
+        "fuellung": 0.695,
+        "gesamt": 18.37,
+        "inseln": 1
+      }
+    ],
+    "werk": "Gould"
+  },
   "Phalacrocorax carbo": {
     "bewertung": {
       "detail": 0.226,
